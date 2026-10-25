@@ -1,0 +1,28 @@
+% emoji: 👻
+% category: Jazz
+% mood: happy, dance, spooky
+% level: 2
+% tags: boogie-woogie, blues, piano, swing, band, original, halloween
+% voices: 👻 Boo · Right hand ; 🐈 Cat · Boogie bass
+% swing: 66
+% drums: on
+% gchord: zczc
+% drum: d2ddd2dd 36 42 38 36 42 38 100 70 90 100 70 90
+% about: Boogie-woogie! The left hand walks up and down the same 8-note pattern while the right hand plays the blues. It's a 12-bar blues, just like Purple Bat's.
+X:1
+T:Boo's Boogie-Woogie
+C:Little Maestro original
+M:4/4
+L:1/8
+Q:1/4=132
+K:C
+V:1 clef=treble
+%%MIDI program 0
+|:"C7"c2 _B c- c2 z2|"C7"_e =e c G- G4|"C7"c2 _B c- c2 z2|"C7"_e =e c _B- _B4|
+"F7"f2 _e f- f2 z2|"F7"_a =a f c- c4|"C7"c2 _B c- c2 z2|"C7"_e =e c G- G4|
+"G7"g2 f g- g2 z2|"F7"f2 _e f- f2 z2|"C7"_e =e c _B c G _E C|1 "G7"D F G B d4:|2 "C7"[C_EGc]8|]
+V:2 clef=bass
+%%MIDI program 0
+|:C,E,G,A, _B,A,G,E,|C,E,G,A, _B,A,G,E,|C,E,G,A, _B,A,G,E,|C,E,G,A, _B,A,G,E,|
+F,A,CD _EDCA,|F,A,CD _EDCA,|C,E,G,A, _B,A,G,E,|C,E,G,A, _B,A,G,E,|
+G,B,DE FEDB,|F,A,CD _EDCA,|C,E,G,A, _B,A,G,E,|1 G,B,DE FEDB,:|2 C,8|]

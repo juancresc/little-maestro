@@ -1,0 +1,27 @@
+% emoji: 🎺
+% category: Jazz
+% mood: happy, dance
+% level: 1
+% tags: dixieland, new orleans, march, band, sing-along
+% voices: 🧟 Mummy · Trumpet ; 🦇 Bat · Clarinet
+% gchord: fcfc
+% chordprog: 105
+% bassprog: 58
+% drums: on
+% drum: dddd 36 38 36 38 110 85 110 85
+% about: A New Orleans parade tune! The trumpet plays the tune, the clarinet sings along underneath, a banjo strums and a tuba goes oom-pah.
+X:1
+T:When the Saints Go Marching In
+C:Traditional (New Orleans)
+M:4/4
+L:1/4
+Q:1/4=150
+K:C
+V:1 clef=treble
+%%MIDI program 56
+CEF|"C"G4-|G CEF|"C"G4-|G CEF|"C"G2 E2|"C"C2 E2|"G7"D4-|D EED|"C"C3 C|"C7"E2 G2|"F"G2 F2-|"F"F2 EF|"C"G2 E2|"G7"C2 D2|"C"C4-|C CEF|
+"C"G4-|G CEF|"C"G4-|G CEF|"C"G2 E2|"C"C2 E2|"G7"D4-|D EED|"C"C3 C|"C7"E2 G2|"F"G2 F2-|"F"F2 EF|"C"G2 E2|"G7"C2 D2|"C"C4-|C3 z|]
+V:2 clef=treble
+%%MIDI program 71
+G,CD|E4-|E G,CD|E4-|E G,CD|E2 C2|G,2 C2|B,4-|B, CCB,|G,3 G,|C2 E2|C2 A,2-|A,2 CD|E2 C2|G,2 B,2|G,4-|G, G,CD|
+E4-|E G,CD|E4-|E G,CD|E2 C2|G,2 C2|B,4-|B, CCB,|G,3 G,|C2 E2|C2 A,2-|A,2 CD|E2 C2|G,2 B,2|G,4-|G,3 z|]

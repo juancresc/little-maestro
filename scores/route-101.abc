@@ -1,0 +1,183 @@
+% emoji: 🌿
+% category: Video Game
+% mood: happy, adventure
+% level: 2
+% tags: pokemon, game boy advance, gba, 8-bit, ruby & sapphire, midi
+% about: The very first path out of town, where your first wild Pokémon is hiding in the grass. From Pokémon Ruby & Sapphire (Game Boy Advance).
+% source-file: Fan MIDI from VGMusic.com (PkmRS_103.mid), converted to ABC.
+X:1
+T:Route 101
+C:Go Ichinose, Junichi Masuda & Morikazu Aoki
+M: 4/4
+L: 1/8
+Q:1/4=113
+K:G
+V:1 clef=bass
+%%MIDI program 32
+zD,, z2 D,/2D,,z2z/2| \
+D,,/2D,,/2E,, E,,/2E,,/2E, E,,/2E,,/2E,, z2| \
+z/2E,,/2A,, z2 z/2E,,/2A,, z2| \
+D,,/2D,,/2A,, zA,, z/2D,,/2A,, zE,|
+A,,/2A,,/2D,, z2 D,/2D,,z2z/2| \
+D,,/2D,,/2E,, E,,/2E,,/2E, E,,/2E,,/2E,, z2| \
+z/2E,,/2A,, z2 z/2E,,/2A,, z2| \
+D,,/2D,,/2A,, zA,, z/2D,,/2A,, zE,|
+A,,/2A,,/2G,, zG,, D,G,, zG,,| \
+G,,/2G,,<F,,A,,/2D, D,,/2E,,/2F,, A,,D,| \
+F,,E,, zE,, D,E,, zD,| \
+E,,/2E,,/2A,, A,,/2A,,/2E,, E,,/2A,,/2E,/2^D,/2 z/2=D,/2^C,/2z/2|
+A,,/2z/2G,, zG,, D,G,, zG,,| \
+G,,/2G,,<F,,A,,/2D, D,,/2E,,/2F,, A,,D,| \
+F,,=F,, F,,/2F,,/2D, z2 ^A,,D,| \
+^A,,=A,, A,,/2A,,/2E, z2 A,,A,,|
+zD,, z2 D,/2D,,z2z/2| \
+D,,/2D,,/2E,, E,,/2E,,/2E, E,,/2E,,/2E,, z2| \
+z/2E,,/2A,, z2 z/2E,,/2A,, z2| \
+D,,/2D,,/2A,, zA,, z/2D,,/2A,, zE,|
+A,,/2A,,/2D,, z2 D,/2D,,z2z/2| \
+D,,/2D,,/2E,, E,,/2E,,/2E, E,,/2E,,/2E,, z2| \
+z/2E,,/2A,, z2 z/2E,,/2A,, z2| \
+D,,/2D,,/2A,, zA,, z/2D,,/2A,, zE,|
+A,,/2A,,/2G,, zG,, D,G,, zG,,| \
+G,,/2G,,<F,,A,,/2D, D,,/2E,,/2F,, A,,D,| \
+F,,E,, zE,, D,E,, zD,| \
+E,,/2E,,/2A,, A,,/2A,,/2E,, E,,/2A,,/2E,/2^D,/2 z/2=D,/2^C,/2z/2|
+A,,/2z/2G,, zG,, D,G,, zG,,| \
+G,,/2G,,<F,,A,,/2D, D,,/2E,,/2F,, A,,D,| \
+F,,=F,, F,,/2F,,/2D, z2 ^A,,D,| \
+^A,,=A,, A,,/2A,,/2E, z2 A,,A,,|
+V:2 clef=treble
+%%MIDI program 73
+a/2b/2a/2z/2 a/2z/2g/2z/2 f/2z3/2 f/2z/2g/2z/2| \
+a/2z/2g/2z3/2f/2z3/2e/2z3/2b/2z/2| \
+za6z| \
+f/2g/2a/2g/2 a/2g/2a/2z/2 g/2f/2e/2z2z/2|
+a/2b/2a/2z/2 a/2z/2g/2z/2 f/2z3/2 f/2z/2g/2z/2| \
+a/2z/2g/2z3/2f/2z3/2e/2z3/2b/2z/2| \
+za6z| \
+f/2g/2a/2g/2 a/2g/2a/2z/2 g/2f/2e/2z2z/2|
+^c'/2d'/2b/2z/2 b/2z/2b/2z/2 b/2c'/2d'2d-| \
+da/2z/2 a/2z/2a/2z/2 a/2b/2a3| \
+zg/2z3/2^c/2z/2 e/2f/2g2b-| \
+ba/2z/2 a/2z/2a/2z/2 a/2b/2a3|
+zb/2z/2 b/2z/2b/2z/2 b/2^c'/2d'2g-| \
+gf'/2z/2 g'/2z/2f'/2z/2 f'/2e'/2d'3| \
+zd'3 c'^a2=f| \
+d'^c'6z|
+a/2b/2a/2z/2 a/2z/2g/2z/2 f/2z3/2 f/2z/2g/2z/2| \
+a/2z/2g/2z3/2f/2z3/2e/2z3/2b/2z/2| \
+za6z| \
+f/2g/2a/2g/2 a/2g/2a/2z/2 g/2f/2e/2z2z/2|
+a/2b/2a/2z/2 a/2z/2g/2z/2 f/2z3/2 f/2z/2g/2z/2| \
+a/2z/2g/2z3/2f/2z3/2e/2z3/2b/2z/2| \
+za6z| \
+f/2g/2a/2g/2 a/2g/2a/2z/2 g/2f/2e/2z2z/2|
+^c'/2d'/2b/2z/2 b/2z/2b/2z/2 b/2c'/2d'2d-| \
+da/2z/2 a/2z/2a/2z/2 a/2b/2a3| \
+zg/2z3/2^c/2z/2 e/2f/2g2b-| \
+ba/2z/2 a/2z/2a/2z/2 a/2b/2a3|
+zb/2z/2 b/2z/2b/2z/2 b/2^c'/2d'2g-| \
+gf'/2z/2 g'/2z/2f'/2z/2 f'/2e'/2d'3| \
+zd'3 c'^a2=f| \
+d'^c'6
+V:3 clef=treble
+%%MIDI program 80
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z2 D/2B,/2z D/2B,/2G,/2B,/2 D/2G/2D/2G/2| \
+B/2g/2z D/2A,/2z D/2A,/2F,/2D/2 F/2A/2F/2A/2| \
+d/2f/2G/2G,/2 B,/2D/2G/2G,/2 B,/2D/2e/2G/2 E/2B,/2G/2B,/2| \
+G,/2E,/2A,/2D/2 E/2A/2E/2d/2 e/2a/2e/2^d/2 z/2=d/2^c/2z/2|
+A/2z3/2 D/2B,/2z D/2B,/2G,/2B,/2 D/2G/2D/2G/2| \
+B/2g/2z D/2A,/2z D/2A,/2F,/2D/2 F/2A/2F/2A/2| \
+d/2f/2z6z| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z2 D/2B,/2z D/2B,/2G,/2B,/2 D/2G/2D/2G/2| \
+B/2g/2z D/2A,/2z D/2A,/2F,/2D/2 F/2A/2F/2A/2| \
+d/2f/2G/2G,/2 B,/2D/2G/2G,/2 B,/2D/2e/2G/2 E/2B,/2G/2B,/2| \
+G,/2E,/2A,/2D/2 E/2A/2E/2d/2 e/2a/2e/2^d/2 z/2=d/2^c/2z/2|
+A/2z3/2 D/2B,/2z D/2B,/2G,/2B,/2 D/2G/2D/2G/2| \
+B/2g/2z D/2A,/2z D/2A,/2F,/2D/2 F/2A/2F/2A/2| \
+d/2f/2
+V:4 clef=bass
+%%MIDI program 38
+zD,, z2 D,/2D,,z2z/2| \
+D,,/2D,,/2E,, E,,/2E,,/2E, E,,/2E,,/2E,, z2| \
+z/2E,,/2A,, z2 z/2E,,/2A,, z2| \
+D,,/2D,,/2A,, zA,, z/2D,,/2A,, zE,|
+A,,/2A,,/2D,, z2 D,/2D,,z2z/2| \
+D,,/2D,,/2E,, E,,/2E,,/2E, E,,/2E,,/2E,, z2| \
+z/2E,,/2A,, z2 z/2E,,/2A,, z2| \
+D,,/2D,,/2A,, zA,, z/2D,,/2A,, zE,|
+A,,/2A,,/2G,, zG,, D,G,, zG,,| \
+G,,/2G,,<F,,A,,/2D, D,,/2E,,/2F,, A,,D,| \
+F,,E,, zE,, D,E,, zD,| \
+E,,/2E,,/2A,, A,,/2A,,/2E,, E,,/2A,,/2E,/2^D,/2 z/2=D,/2^C,/2z/2|
+A,,/2z/2G,, zG,, D,G,, zG,,| \
+G,,/2G,,<F,,A,,/2D, D,,/2E,,/2F,, A,,D,| \
+F,,=F,, F,,/2F,,/2D, z2 ^A,,D,| \
+^A,,=A,, A,,/2A,,/2E, z2 A,,A,,|
+zD,, z2 D,/2D,,z2z/2| \
+D,,/2D,,/2E,, E,,/2E,,/2E, E,,/2E,,/2E,, z2| \
+z/2E,,/2A,, z2 z/2E,,/2A,, z2| \
+D,,/2D,,/2A,, zA,, z/2D,,/2A,, zE,|
+A,,/2A,,/2D,, z2 D,/2D,,z2z/2| \
+D,,/2D,,/2E,, E,,/2E,,/2E, E,,/2E,,/2E,, z2| \
+z/2E,,/2A,, z2 z/2E,,/2A,, z2| \
+D,,/2D,,/2A,, zA,, z/2D,,/2A,, zE,|
+A,,/2A,,/2G,, zG,, D,G,, zG,,| \
+G,,/2G,,<F,,A,,/2D, D,,/2E,,/2F,, A,,D,| \
+F,,E,, zE,, D,E,, zD,| \
+E,,/2E,,/2A,, A,,/2A,,/2E,, E,,/2A,,/2E,/2^D,/2 z/2=D,/2^C,/2z/2|
+A,,/2z/2G,, zG,, D,G,, zG,,| \
+G,,/2G,,<F,,A,,/2D, D,,/2E,,/2F,, A,,D,| \
+F,,=F,, F,,/2F,,/2D, z2 ^A,,D,| \
+^A,,=A,, A,,/2A,,/2E, z2 A,,A,,|
+V:5 clef=perc
+%%MIDI channel 10
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+zF,,/2F,,/2 F,,/2F,,/2F,,/2F,,/2 F,,/2F,,/2F,,/2F,,/2 F,,/2F,,/2F,,/2F,,/2| \
+F,,/2F,,/2F,,/2F,,/2 F,,/2F,,/2F,,/2F,,/2 F,,/2F,,/2F,,/2F,,/2 F,,/2F,,/2F,,/2F,,/2| \
+F,,/2F,,/2F,,/2F,,/2 F,,/2F,,/2F,,/2F,,/2 F,,/2F,,/2F,,/2F,,/2 F,,/2F,,/2F,,/2F,,/2| \
+F,,/2F,,/2F,,/2z/2 ^G,,/2z/2G,,/2z/2 G,,/2z/2F,,/2z3/2F,,/2F,,/2|
+F,,/2F,,/2F,,/2F,,/2 F,,/2F,,/2F,,/2F,,/2 F,,/2F,,/2F,,/2F,,/2 F,,/2F,,/2F,,/2F,,/2| \
+F,,/2F,,/2F,,/2F,,/2 F,,/2F,,/2F,,/2F,,/2 F,,/2F,,/2F,,/2F,,/2 F,,/2F,,/2F,,/2F,,/2| \
+F,,/2F,,/2F,,/2z2z/2 F,,/2F,,/2F,,/2F,,/2 F,,/2^G,,/2F,,/2F,,/2| \
+F,,/2F,,/2F,,/2z2z/2 F,,/2F,,/2F,,/2z2z/2|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+zF,,/2F,,/2 F,,/2F,,/2F,,/2F,,/2 F,,/2F,,/2F,,/2F,,/2 F,,/2F,,/2F,,/2F,,/2| \
+F,,/2F,,/2F,,/2F,,/2 F,,/2F,,/2F,,/2F,,/2 F,,/2F,,/2F,,/2F,,/2 F,,/2F,,/2F,,/2F,,/2| \
+F,,/2F,,/2F,,/2F,,/2 F,,/2F,,/2F,,/2F,,/2 F,,/2F,,/2F,,/2F,,/2 F,,/2F,,/2F,,/2F,,/2| \
+F,,/2F,,/2F,,/2z/2 ^G,,/2z/2G,,/2z/2 G,,/2z/2F,,/2z3/2F,,/2F,,/2|
+F,,/2F,,/2F,,/2F,,/2 F,,/2F,,/2F,,/2F,,/2 F,,/2F,,/2F,,/2F,,/2 F,,/2F,,/2F,,/2F,,/2| \
+F,,/2F,,/2F,,/2F,,/2 F,,/2F,,/2F,,/2F,,/2 F,,/2F,,/2F,,/2F,,/2 F,,/2F,,/2F,,/2F,,/2| \
+F,,/2F,,/2F,,/2z2z/2 F,,/2F,,/2F,,/2F,,/2 F,,/2^G,,/2F,,/2F,,/2| \
+F,,/2F,,/2F,,/2z2z/2 F,,/2F,,/2F,,/2

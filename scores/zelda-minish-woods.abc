@@ -1,0 +1,107 @@
+% emoji: 🍄
+% category: Video Game
+% mood: happy, adventure
+% level: 2
+% tags: zelda, minish cap, game boy advance, gba, nintendo, forest, midi
+% about: A forest where tiny Minish people live. Link can shrink to their size! From The Legend of Zelda: The Minish Cap (Game Boy Advance).
+% source-file: Fan MIDI by B1itz Lunar from VGMusic.com (B1L_minishcap_minishwoods.mid), converted to ABC.
+X:1
+T:Zelda: Minish Woods
+C:Mitsuhiko Takano
+M: 4/4
+L: 1/8
+Q:1/4=63
+K:Bb
+V:1 clef=treble
+z8| \
+z
+%%MIDI program 71
+E/2D/2 E/2EFD/2E/2D/2 E/2ED/2-| \
+DE/2D/2 E/2EFD/2E/2F/2 B/2AF/2-| \
+F/2z/2E/2D/2 E/2EFD/2E/2D/2 C/2ED/2-|
+DE/2D/2 E/2BFD/2E/2D/2 E/2D3/2-| \
+D/2z6z3/2| \
+z8| \
+z8|
+z8| \
+z3/2E/2 D/2E/2E FD/2E/2 D/2E/2E| \
+D3/2E/2 D/2E/2E FD/2E/2 F/2B/2A| \
+Fz/2E/2 D/2E/2E FD/2E/2 D/2C/2E|
+D3/2E/2 D/2E/2B FD/2E/2 D/2E/2D-|D
+V:2 clef=treble
+z8| \
+z3/2
+%%MIDI program 71
+E/2 D/2E/2E FD/2E/2 D/2E/2E| \
+D3/2E/2 D/2E/2E FD/2E/2 F/2B/2A| \
+Fz/2E/2 D/2E/2E FD/2E/2 D/2C/2E|
+D3/2E/2 D/2E/2B FD/2E/2 D/2E/2D-| \
+Dz6z| \
+z8| \
+z8|
+z8| \
+z2 E/2D/2E/2EFD/2 E/2D/2E/2E/2-| \
+E/2D3/2 E/2D/2E/2EFD/2 E/2F/2B/2A/2-| \
+A/2Fz/2 E/2D/2E/2EFD/2 E/2D/2C/2E/2-|
+E/2D3/2 E/2D/2E/2BFD/2 E/2D/2E/2D/2-|D3/2
+V:3 clef=treble
+%%MIDI program 60
+z8| \
+z[GE]/2[FD]/2 [GE]/2[GE][FD]3/2[GE]/2[FD]/2 [GE]/2[GE][F-D-]/2| \
+[FD][GE]/2[FD]/2 [GE]/2[GE][FD]3/2[GE]/2[FD]/2 [GE]/2[F-D-]3/2| \
+[FD][GE]/2[FD]/2 [GE]/2[GE][FD]3/2[GE]/2[FD]/2 [GE]/2[GE][F-D-]/2|
+[FD][GE]/2[FD]/2 [GE]/2[GE][FD]3/2[GE]/2[FD]/2 [GE]/2[F-D-]3/2| \
+[FD][GE]3/2[GE]3/2 z[F_D]3/2[FD]3/2| \
+z[=EC]3/2[EC]3/2 z3/2[EC]/2 [EC]/2[EC][EC]/2| \
+[=EC]/2[EC]/2z/2[G_E]/2 [GE]/2[GE][GE]/2 [GE]/2[GE]/2z/2[GE]/2 [GE]/2[FD][FD]/2|
+[FD]/2[FD]/2z/2[GE]/2 [GE]/2[GE][GE]/2 [GE]/2[GE]/2z/2[GE]/2 [GE]/2[FD][FD]/2| \
+[FD]/2[FD]/2[GE]/2[FD]/2 [GE]/2[GE][FD]3/2[GE]/2[FD]/2 [GE]/2[GE][F-D-]/2| \
+[FD][GE]/2[FD]/2 [GE]/2[GE][FD]3/2[GE]/2[FD]/2 [GE]/2[F-D-]3/2| \
+[FD][GE]/2[FD]/2 [GE]/2[GE][FD]3/2[GE]/2[FD]/2 [GE]/2[GE][F-D-]/2|
+[FD][GE]/2[FD]/2 [GE]/2[GE][FD]3/2[GE]/2[FD]/2 [GE]/2[F-D-]3/2| \
+[FD][GE]3/2[GE]3/2 z[F_D]3/2[FD]3/2| \
+z[=EC]3/2[EC]3/2 z3/2[EC]/2 [EC]/2[EC][EC]/2| \
+[=EC]/2[EC]/2z/2[G_E]/2 [GE]/2[GE][GE]/2 [GE]/2[GE]/2z/2[GE]/2 [GE]/2[FD][FD]/2|
+[FD]/2[FD]/2z/2[GE]/2 [GE]/2[GE][GE]/2 [GE]/2[GE]/2z/2[GE]/2 [GE]/2[FD][FD]/2| \
+[FD]/2[FD]/2
+V:4 clef=treble
+z
+%%MIDI program 48
+[E-F,-]6[E-F,-]| \
+[EF,][GEF,,-]/2[FDF,,-]/2 [GEF,,-]/2[GEF,,-][FDF,,]3/2[GEF,,-]/2[FDF,,-]/2 [GEF,,-]/2[GEF,,-][F-D-F,,-]/2| \
+[FDF,,][GEF,,-]/2[FDF,,-]/2 [GEF,,-]/2[GEF,,-][FDF,,]3/2[GEF,,-]/2[FDF,,-]/2 [GEF,,-]/2[F-D-F,,-]3/2| \
+[FDF,,][GEF,,-]/2[FDF,,-]/2 [GEF,,-]/2[GEF,,-][FDF,,]3/2[GEF,,-]/2[FDF,,-]/2 [GEF,,-]/2[GEF,,-][F-D-F,,-]/2|
+[FDF,,][GEF,,-]/2[FDF,,-]/2 [GEF,,-]/2[GEF,,-][FDF,,]3/2[GEF,,-]/2[FDF,,-]/2 [GEF,,-]/2[F-D-F,,-]3/2| \
+[FDF,,][dGEE,,-]3/2[BG-E-E,,-][GFEE,,-]/2 [GE,,-]/2[BE,,]/2[cF_DD,,-]3/2[BFDD,,-]3/2| \
+[F_D,,][G-=ECC,,-]3/2[G-ECC,,-]3/2 [G-C,,][G-C,,-]/2[GECC,,-]/2 [ECC,,-]/2[c'ECC,,-][ECC,,-]/2| \
+[=ECC,,-]/2[ECC,,]/2[F,-F,,-]/2[G_EF,-F,,-]/2 [GEF,-F,,-]/2[GEF,-F,,-][GEF,-F,,-]/2 [GEF,-F,,-]/2[GEF,F,,]/2[F,-F,,-]/2[GEF,-F,,-]/2 [GEF,-F,,-]/2[FDF,-F,,-][FDF,-F,,-]/2|
+[FDF,-F,,-]/2[FDF,F,,]/2[F,-F,,-]/2[GEF,-F,,-]/2 [GEF,-F,,-]/2[GEF,-F,,-][GEF,-F,,-]/2 [GEF,-F,,-]/2[GEF,F,,]/2[F,-F,,-]/2[GEF,-F,,-]/2 [GEF,-F,,-]/2[FDF,-F,,-][FDF,-F,,-]/2| \
+[FDF,-F,,-]/2[FDF,F,,]/2[GEF,,-]/2[FDF,,-]/2 [GEF,,-]/2[GEF,,-][FDF,,]3/2[GEF,,-]/2[FDF,,-]/2 [GEF,,-]/2[GEF,,-][F-D-F,,-]/2| \
+[FDF,,][GEF,,-]/2[FDF,,-]/2 [GEF,,-]/2[GEF,,-][FDF,,]3/2[GEF,,-]/2[FDF,,-]/2 [GEF,,-]/2[F-D-F,,-]3/2| \
+[FDF,,][GEF,,-]/2[FDF,,-]/2 [GEF,,-]/2[GEF,,-][FDF,,]3/2[GEF,,-]/2[FDF,,-]/2 [GEF,,-]/2[GEF,,-][F-D-F,,-]/2|
+[FDF,,][GEF,,-]/2[FDF,,-]/2 [GEF,,-]/2[GEF,,-][FDF,,]3/2[GEF,,-]/2[FDF,,-]/2 [GEF,,-]/2[F-D-F,,-]3/2| \
+[FDF,,][dGEE,,-]3/2[BG-E-E,,-][GFEE,,-]/2 [GE,,-]/2[BE,,]/2[cF_DD,,-]3/2[BFDD,,-]3/2| \
+[F_D,,][G-=ECC,,-]3/2[G-ECC,,-]3/2 [G-C,,][G-C,,-]/2[GECC,,-]/2 [ECC,,-]/2[c'ECC,,-][ECC,,-]/2| \
+[=ECC,,-]/2[ECC,,]/2[F,-F,,-]/2[G_EF,-F,,-]/2 [GEF,-F,,-]/2[GEF,-F,,-][GEF,-F,,-]/2 [GEF,-F,,-]/2[GEF,F,,]/2[F,-F,,-]/2[GEF,-F,,-]/2 [GEF,-F,,-]/2[FDF,-F,,-][FDF,-F,,-]/2|
+[FDF,-F,,-]/2[FDF,F,,]/2[F,-F,,-]/2[GEF,-F,,-]/2 [GEF,-F,,-]/2[GEF,-F,,-][GEF,-F,,-]/2 [GEF,-F,,-]/2[GEF,F,,]/2[F,-F,,-]/2[GEF,-F,,-]/2 [GEF,-F,,-]/2[FDF,-F,,-][FDF,-F,,-]/2| \
+[FDF,-F,,-]/2[FDF,F,,]/2
+V:5 clef=perc
+%%MIDI channel 10
+zD,,/2>D,,/2 [D,,D,,]/2D,,/2[D,,D,,]/2D,,/2 [_G,D,,D,,]/2D,,/2[D,,D,,]/2D,,/2 [D,,D,,]/2 (3D,,/2D,,/2D,,/2[D,,D,,]/2| \
+[_G,D,,D,,]/2z/2[=B,D,,B,,,]/2D,,/2 [D,,D,,]/2D,,/2[D,,D,,]/2D,,/2 [D,,D,,]/2D,,/2[D,,D,,]/2D,,/2 [D,,D,,]/2 (3D,,/2D,,/2D,,/2[D,,D,,]/2| \
+[_G,D,,D,,]/2D,,/2[D,,D,,]/2D,,/2 [D,,D,,]/2D,,/2[D,,D,,]/2D,,/2 [D,,D,,]/2D,,/2[D,,D,,]/2D,,/2 [D,,D,,]/2 (3D,,/2D,,/2D,,/2[D,,D,,]/2| \
+[_G,D,,D,,]/2z/2[D,,=B,,,]/2D,,/2 [D,,D,,]/2D,,/2[D,,D,,]/2D,,/2 [D,,D,,]/2D,,/2[D,,D,,]/2D,,/2 [D,,D,,]/2 (3D,,/2D,,/2D,,/2[D,,D,,]/2|
+[_G,D,,D,,]/2D,,/2[D,,D,,]/2D,,/2 [D,,D,,]/2D,,/2[D,,D,,]/2D,,/2 [D,,D,,]/2 (3D,,/2D,,/2D,,/2[D,,D,,D,,]/2 [D,,D,,]/2 (3D,,/2D,,/2D,,/2[D,,D,,]/2| \
+[_G,D,,D,,]/2D,,/2[=B,D,,D,,B,,,]/2D,,/2 [D,,D,,]/2D,,/2[D,,D,,]/2D,,/2 [D,,D,,]/2D,,/2[D,,D,,]/2D,,/2 [D,,D,,]/2 (3D,,/2D,,/2D,,/2[D,,D,,]/2| \
+[_G,D,,D,,]/2D,,/2[D,,D,,]/2D,,/2 [D,,D,,]/2D,,/2[D,,D,,]/2D,,/2 [D,,D,,]/2D,,/2[D,,D,,]/2D,,/2 [D,,D,,]/2 (3D,,/2D,,/2D,,/2[D,,D,,]/2| \
+[_G,D,,D,,]/2z/2[D,,=B,,,]/2D,,/2 [D,,D,,]/2D,,/2[D,,D,,]/2D,,/2 [D,,D,,]/2D,,/2[D,,D,,]/2D,,/2 [D,,D,,]/2 (3D,,/2D,,/2D,,/2[D,,D,,]/2|
+[_G,D,,D,,]/2D,,/2[D,,D,,]/2D,,/2 [D,,D,,]/2D,,/2[D,,D,,]/2D,,/2 [D,,D,,]/2 (3D,,/2D,,/2D,,/2[D,,D,,D,,]/2 [D,,D,,]/2 (3D,,/2D,,/2D,,/2[D,,D,,]/2| \
+[_G,D,,D,,]/2z/2[=B,D,,B,,,]/2D,,/2 [D,,D,,]/2D,,/2[D,,D,,]/2D,,/2 [D,,D,,]/2D,,/2[D,,D,,]/2D,,/2 [D,,D,,]/2 (3D,,/2D,,/2D,,/2[D,,D,,]/2| \
+[_G,D,,D,,]/2D,,/2[D,,D,,]/2D,,/2 [D,,D,,]/2D,,/2[D,,D,,]/2D,,/2 [D,,D,,]/2D,,/2[D,,D,,]/2D,,/2 [D,,D,,]/2 (3D,,/2D,,/2D,,/2[D,,D,,]/2| \
+[_G,D,,D,,]/2z/2[D,,=B,,,]/2D,,/2 [D,,D,,]/2D,,/2[D,,D,,]/2D,,/2 [D,,D,,]/2D,,/2[D,,D,,]/2D,,/2 [D,,D,,]/2 (3D,,/2D,,/2D,,/2[D,,D,,]/2|
+[_G,D,,D,,]/2D,,/2[D,,D,,]/2D,,/2 [D,,D,,]/2D,,/2[D,,D,,]/2D,,/2 [D,,D,,]/2 (3D,,/2D,,/2D,,/2[D,,D,,D,,]/2 [D,,D,,]/2 (3D,,/2D,,/2D,,/2[D,,D,,]/2| \
+[_G,D,,D,,]/2D,,/2[=B,D,,D,,B,,,]/2D,,/2 [D,,D,,]/2D,,/2[D,,D,,]/2D,,/2 [D,,D,,]/2D,,/2[D,,D,,]/2D,,/2 [D,,D,,]/2 (3D,,/2D,,/2D,,/2[D,,D,,]/2| \
+[_G,D,,D,,]/2D,,/2[D,,D,,]/2D,,/2 [D,,D,,]/2D,,/2[D,,D,,]/2D,,/2 [D,,D,,]/2D,,/2[D,,D,,]/2D,,/2 [D,,D,,]/2 (3D,,/2D,,/2D,,/2[D,,D,,]/2| \
+[_G,D,,D,,]/2z/2[D,,=B,,,]/2D,,/2 [D,,D,,]/2D,,/2[D,,D,,]/2D,,/2 [D,,D,,]/2D,,/2[D,,D,,]/2D,,/2 [D,,D,,]/2 (3D,,/2D,,/2D,,/2[D,,D,,]/2|
+[_G,D,,D,,]/2D,,/2[D,,D,,]/2D,,/2 [D,,D,,]/2D,,/2[D,,D,,]/2D,,/2 [D,,D,,]/2 (3D,,/2D,,/2D,,/2[D,,D,,D,,]/2 [D,,D,,]/2 (3D,,/2D,,/2D,,/2[D,,D,,]/2| \
+[_G,D,,D,,]/2z/2

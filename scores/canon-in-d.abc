@@ -1,0 +1,22 @@
+% emoji: 💒
+% category: Classical
+% mood: calm
+% level: 2
+% tags: pachelbel, baroque, strings, wedding
+% voices: Melody ; Ground bass
+% about: The bass plays the same 8 notes over and over while the melody floats on top. Can you hear the pattern?
+X:1
+T:Canon in D
+C:Johann Pachelbel
+M:4/4
+L:1/8
+Q:1/4=66
+K:D
+V:1 clef=treble
+%%MIDI program 40
+z8|z8|z8|z8|f4 e4|d4 c4|B4 A4|B4 c4|
+d4 c4|B4 A4|G4 F4|G4 E4|[df]4 [ce]4|[Bd]4 [Ac]4|[GB]4 [FA]4|[GB]4 [Ac]4|[FAd]8|]
+V:2 clef=bass
+%%MIDI program 42
+D,4 A,,4|B,,4 F,,4|G,,4 D,4|G,,4 A,,4|D,4 A,,4|B,,4 F,,4|G,,4 D,4|G,,4 A,,4|
+D,4 A,,4|B,,4 F,,4|G,,4 D,4|G,,4 A,,4|D,4 A,,4|B,,4 F,,4|G,,4 D,4|G,,4 A,,4|D,8|]

@@ -1,0 +1,18 @@
+% emoji: 🌊
+% category: Classical
+% mood: calm
+% level: 3
+% tags: bach, well-tempered clavier, piano, arpeggios, baroque
+% instrument: 0
+% about: Every bar is the same rippling pattern — only the notes change. Like waves on a lake.
+X:1
+T:Prelude in C
+T:(opening)
+C:J. S. Bach — Well-Tempered Clavier I
+M:4/4
+L:1/16
+Q:1/4=66
+K:C
+"C"CEGc eGce CEGc eGce|"Dm7"CDAd fAdf CDAd fAdf|"G7"B,DGd fGdf B,DGd fGdf|"C"CEGc eGce CEGc eGce|
+"Am"CEAe aAea CEAe aAea|"D7"CD^FA d^FAd CD^FA d^FAd|"G"B,DGd gGdg B,DGd gGdg|"Cmaj7"B,CEG cEGc B,CEG cEGc|
+"Am7"A,CEG cEGc A,CEG cEGc|"D7"D,A,D^F cD^Fc D,A,D^F cD^Fc|"G"G,B,DG BDGB G,B,DG BDGB|"C"[C,EGce]16|]

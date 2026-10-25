@@ -1,0 +1,61 @@
+% emoji: 🎭
+% category: Brazilian
+% mood: happy, dance, exciting
+% level: 2
+% tags: brazil, samba, samba-reggae, axé, batucada, carnaval, percussion, band, original
+% voices: 🧟 Mummy · Trumpet ; 👻 Boo · Choir ; 👹 Stitchy · Batucada
+% gchord: fczcfczc
+% chordprog: 24
+% bassprog: 33
+% about: Carnaval! A batucada drum band plays samba-reggae, like in Salvador da Bahia: big surdo drums go BOOM, the caixa snaps, the agogô bells ring, the cuíca laughs and the apito whistle calls everyone to dance.
+X:1
+T:Carnaval do Morcego
+C:Little Maestro original (samba-reggae)
+M:4/4
+L:1/16
+Q:1/4=104
+%%percmap C, 41 x
+%%percmap E, 43 x
+%%percmap c 38 x
+%%percmap e 67 triangle
+%%percmap d 68 triangle
+%%percmap f 65 x
+%%percmap g 79 triangle
+%%percmap b 78 triangle
+%%percmap B 72 x
+%%percmap A 71 x
+%%percmap G 70 x
+K:G
+V:1 clef=treble
+%%MIDI program 56
+z16|z16|"G"G2 B2 d4 e2 d2 B4|"G"d2 d2 e2 g6 z4|
+V:2 clef=treble
+%%MIDI program 52
+z16|z16|z16|z12 [GB]4|
+V:3 clef=perc
+%%MIDI channel 10
+B4 z2 A A B4 z4|E, z3 C, z3 E, z E, z C, z C, z|[E,c] z G c [C,G] z c G [E,c] z G c [C,G] z c G|[E,c] z G c [C,G] z c G [E,c] z G c [C,G] z c G|
+[V:1] "F"=f2 e2 d2 c2 d2 c2 A4|"G"G4 z4 [Bd]2 z2 [Bd]4|"G"G2 B2 d4 e2 d2 B4|"G"d2 d2 e2 g2 a4 g4|
+[V:2] z16|z16|z16|z12 [GB]4|
+[V:3] [E,c] z G c [C,G] z c G [E,c] z G c [C,G] z c G|[E,c] z G c [C,G] z c G [E,c] z G c [C,G] z c G|[E,c] z G c [C,G] z c G [E,c] z G c [C,G] z c G|[E,c] z G c [C,G] z c G [E,c] z G c [C,G] z c G|
+[V:1] "F"=f2 e2 d2 c2 A2 c2 d4|"G"B4 A4 G8|"G"g4 g4 a4 b4|"G"g8 z8|
+[V:2] z16|z8 [Bd]4 [Bd]4|z16|z8 [Bd]4 [Bd]4|
+[V:3] [E,c] z G c [C,G] z c G [E,c] z G c [C,G] z c G|[E,c] z c z [C,c] z c z [E,f] f f f [C,c] c [C,c] c|[E,ce] z G [cd] [C,G] g [ce] G [E,c] z [Ge] [cd] [C,G] b c [Gf]|[E,ce] z G [cd] [C,G] g [ce] G [E,c] z [Ge] [cd] [C,G] b c [Gf]|
+[V:1] "C"e4 e4 =f4 g4|"C"e8 z8|"F"d4 d4 e4 =f4|"G"g4 a4 b4 a4|
+[V:2] z16|z8 [Gc]4 [Gc]4|z16|z16|
+[V:3] [E,ce] z G [cd] [C,G] g [ce] G [E,c] z [Ge] [cd] [C,G] b c [Gf]|[E,ce] z G [cd] [C,G] g [ce] G [E,c] z [Ge] [cd] [C,G] b c [Gf]|[E,ce] z G [cd] [C,G] g [ce] G [E,c] z [Ge] [cd] [C,G] b c [Gf]|[E,ce] z G [cd] [C,G] g [ce] G [E,c] z [Ge] [cd] [C,G] b c [Gf]|
+[V:1] "C"g4 =f4 "D"e4 d4|"G"G8 z8|"G"G2 B2 d4 e2 d2 B4|"G"d2 d2 e2 g6 z4|
+[V:2] z16|z8 [GBd]8|z16|z12 [GB]4|
+[V:3] [E,ce] z G [cd] [C,G] g [ce] G [E,c] z [Ge] [cd] [C,G] b c [Gf]|[E,c] z c z [C,c] z c z [E,f] f f f [C,c] c [C,c] c|[E,c] z G c [C,G] z c G [E,c] z G c [C,G] z c G|[E,c] z G c [C,G] z c G [E,c] z G c [C,G] z c G|
+[V:1] "F"=f2 e2 d2 c2 d2 c2 A4|"G"G4 z4 [Bd]2 z2 [Bd]4|"G"G2 B2 d4 e2 d2 B4|"G"d2 d2 e2 g2 a4 g4|
+[V:2] z16|z16|z16|z12 [GB]4|
+[V:3] [E,c] z G c [C,G] z c G [E,c] z G c [C,G] z c G|[E,c] z G c [C,G] z c G [E,c] z G c [C,G] z c G|[E,c] z G c [C,G] z c G [E,c] z G c [C,G] z c G|[E,c] z G c [C,G] z c G [E,c] z G c [C,G] z c G|
+[V:1] "F"=f2 e2 d2 c2 A2 c2 d4|"G"B4 A4 G8|"G"g4 g4 a4 b4|"G"g8 z8|
+[V:2] z16|z8 [Bd]4 [Bd]4|z16|z8 [Bd]4 [Bd]4|
+[V:3] [E,c] z G c [C,G] z c G [E,c] z G c [C,G] z c G|[E,c] z c z [C,c] z c z [E,f] f f f [C,c] c [C,c] c|[E,ce] z G [cd] [C,G] g [ce] G [E,c] z [Ge] [cd] [C,G] b c [Gf]|[E,ce] z G [cd] [C,G] g [ce] G [E,c] z [Ge] [cd] [C,G] b c [Gf]|
+[V:1] "C"e4 e4 =f4 g4|"C"e8 z8|"F"d4 d4 e4 =f4|"G"g4 a4 b4 a4|
+[V:2] z16|z8 [Gc]4 [Gc]4|z16|z16|
+[V:3] [E,ce] z G [cd] [C,G] g [ce] G [E,c] z [Ge] [cd] [C,G] b c [Gf]|[E,ce] z G [cd] [C,G] g [ce] G [E,c] z [Ge] [cd] [C,G] b c [Gf]|[E,ce] z G [cd] [C,G] g [ce] G [E,c] z [Ge] [cd] [C,G] b c [Gf]|[E,ce] z G [cd] [C,G] g [ce] G [E,c] z [Ge] [cd] [C,G] b c [Gf]|
+[V:1] "C"g4 =f4 "D"e4 d4|"G"[GBd]8 z8|]
+[V:2] z16|[GBd]8 z8|]
+[V:3] [E,ce] z G [cd] [C,G] g [ce] G [E,c] z [Ge] [cd] [C,G] b c [Gf]|[E,cB] z3 C, z3 [E,c] z7|]

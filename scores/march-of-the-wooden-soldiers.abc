@@ -1,0 +1,112 @@
+% emoji: 💂
+% category: Classical
+% mood: happy
+% level: 1
+% tags: tchaikovsky, piano, march, toys, album for the young, mutopia
+% about: Tchaikovsky, who wrote The Nutcracker, also wrote a book of piano pieces for children. In this one, toy soldiers march across the floor.
+% source-file: Public-domain MIDI from the Mutopia Project (mutopiaproject.org) (05MarchOfTheWoodenSoldiers.mid), converted to ABC.
+X:1
+T:March of the Wooden Soldiers
+C:Pyotr Ilyich Tchaikovsky
+M: 2/4
+L: 1/16
+Q:1/4=140
+K:D
+V:1 clef=treble
+[dA]2 z2 d2 z2| \
+B3^A B2 zc| \
+[dA]2 z2 d2 z2| \
+B3^A B2 zc|
+[dA]2 z2 [ec]2 z2| \
+f2 z2 [fd]2 z2| \
+[ge]2 z[fd] [ec]2 z[dB]| \
+[ec]2 z6|
+[dA]2 z2 d2 z2| \
+B3^A B2 zc| \
+[dA]2 z2 d2 z2| \
+B3^A B2 zc|
+[dA]2 z2 [ec]2 z2| \
+f2 z2 [fd]2 z2| \
+[ec]2 z[dB] [cA]2 z[B^G]| \
+A2 z6|
+[AE]2 z2 A2 z2| \
+^A3=A ^A2 z^G| \
+A2 z2 A2 z2| \
+^A3=A ^A2 z^G|
+A2 z2 B2 z2| \
+[c^G]2 z2 [cA]2 z2| \
+[dB]2 zc B2 zA| \
+^G2 z6|
+[AE]2 z2 A2 z2| \
+^A3=A ^A2 z^G| \
+A2 z2 A2 z2| \
+^A3=A ^A2 z^G|
+A2 z2 B2 z2| \
+[c^G]2 z2 [cA]2 z2| \
+[dB]2 zc B2 zc| \
+A2 z6|
+[dA]2 z2 d2 z2| \
+B3^A B2 zc| \
+[dA]2 z2 d2 z2| \
+B3^A B2 zc|
+[dA]2 z2 [ec]2 z2| \
+f2 z2 [fd]2 z2| \
+[ge]2 z[fd] [ec]2 z[dB]| \
+[ec]2 z6|
+[dA]2 z2 d2 z2| \
+B3^A B2 zc| \
+d2 z2 d2 z2| \
+B3^A B2 zc|
+[dA]2 z2 [ec]2 z2| \
+f2 z2 [fd]2 z2| \
+e2 z^d e2 zf| \
+d2
+V:2 clef=treble
+[FD]2 z6| \
+[GD]3F G2 zE| \
+[FD]2 z6| \
+[GD]3F G2 zE|
+[FD]2 z2 A2 z2| \
+d2 z6| \
+[AD]2 z6| \
+A2 AA A2 A2|
+[FD]2 z6| \
+[GD]3F G2 zE| \
+[FD]2 z6| \
+[GD]3F G2 zE|
+[FD]2 z2 A2 z2| \
+d2 z2 D2 z2| \
+E8| \
+A,2 A,A, A,2 A,2|
+[CA,]2 z6| \
+[=FDA,]8| \
+[ECA,]2 z6| \
+[=FDA,]8|
+[ECA,]2 z2 [^GE]2 z2| \
+[=FC]2 z2 ^F2 z2| \
+[FB,]2 z6| \
+E2 zD C2 zB,|
+[CA,]2 z6| \
+[=FDA,]8| \
+[ECA,]2 z6| \
+[=FDA,]8|
+[ECA,]2 z2 [^GE]2 z2| \
+[=FC]2 z2 ^F2 z2| \
+[FB,]2 z2 [^GE]2 z2| \
+A,2 zA, B,2 zC|
+[FD]2 z6| \
+[GD]3F G2 zE| \
+[FD]2 z6| \
+[GD]3F G2 zE|
+[FD]2 z2 A2 z2| \
+d2 z6| \
+[AD]2 z6| \
+A2 AA A2 A2|
+[FD]2 z6| \
+[GD]3F G2 zE| \
+[FD]2 z6| \
+[GD]3F G2 zE|
+[FD]2 z2 A2 z2| \
+d2 z2 B2 z2| \
+[BG]2 z2 [cA]2 z2| \
+D2

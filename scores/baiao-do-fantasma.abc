@@ -1,0 +1,37 @@
+% emoji: 🪗
+% category: Brazilian
+% mood: happy, dance
+% level: 2
+% tags: brazil, baião, forró, accordion, triangle, zabumba, nordeste, original
+% voices: 👻 Boo · Accordion ; 👹 Stitchy · Zabumba & triangle
+% gchord: fzzfzzcz
+% chordprog: 24
+% bassprog: 32
+% about: Baião comes from the north-east of Brazil. Three friends make the sound: the accordion (sanfona), the big zabumba drum and the little triangle going "ting-ting-TING".
+X:1
+T:Baião do Fantasma
+C:Little Maestro original (baião)
+M:2/4
+L:1/16
+Q:1/4=104
+%%percmap C, 36 x
+%%percmap c 37 x
+%%percmap a 81 triangle
+%%percmap g 80 triangle
+K:D
+V:1 clef=treble
+%%MIDI program 21
+"D"A2 d2 f2 a2|"D"g2 f2 e2 d2|"C"=c2 e2 g4|"D"f2 e2 d4|
+V:2 clef=perc
+%%MIDI channel 10
+[C,g] g a [C,g] g g [ca] g|[C,g] g a [C,g] g g [ca] g|[C,g] g a [C,g] g g [ca] g|[C,g] g a [C,g] g g [ca] g|
+[V:1] "D"A2 d2 f2 a2|"G"b2 a2 g2 b2|"A7"a2 g2 e2 c2|"D"d8|
+[V:2] [C,g] g a [C,g] g g [ca] g|[C,g] g a [C,g] g g [ca] g|[C,g] g a [C,g] g g [ca] g|[C,g] g a [C,g] g g [ca] g|
+[V:1] "D7"d2 ^g2 a2 f2|"D7"=c2 a2 f2 d2|"G"B2 d2 g2 b2|"G"a2 g2 e2 d2|
+[V:2] [C,g] g a [C,g] g g [ca] g|[C,g] g a [C,g] g g [ca] g|[C,g] g a [C,g] g g [ca] g|[C,g] g a [C,g] g g [ca] g|
+[V:1] "A7"e2 a2 c2 e2|"A7"g2 f2 e2 c2|"D"d2 f2 a2 f2|"D"d4 z4|
+[V:2] [C,g] g a [C,g] g g [ca] g|[C,g] g a [C,g] g g [ca] g|[C,g] g a [C,g] g g [ca] g|[C,g] g a [C,g] g g [ca] g|
+[V:1] "D"A2 d2 f2 a2|"D"g2 f2 e2 d2|"C"=c2 e2 g4|"D"f2 e2 d4|
+[V:2] [C,g] g a [C,g] g g [ca] g|[C,g] g a [C,g] g g [ca] g|[C,g] g a [C,g] g g [ca] g|[C,g] g a [C,g] g g [ca] g|
+[V:1] "D"A2 d2 f2 a2|"G"b2 a2 g2 b2|"A7"a2 g2 e2 c2|"D"[DFAd]4 z4|]
+[V:2] [C,g] g a [C,g] g g [ca] g|[C,g] g a [C,g] g g [ca] g|[C,g] g a [C,g] g g [ca] g|[C,a]4 z4|]

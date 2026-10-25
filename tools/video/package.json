@@ -1,0 +1,11 @@
+{
+  "name": "little-maestro-video",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "export": "node export.mjs"
+  },
+  "dependencies": {
+    "playwright": "1.64.1"
+  }
+}

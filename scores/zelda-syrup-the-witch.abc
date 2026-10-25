@@ -1,0 +1,82 @@
+% emoji: 🧙
+% category: Video Game
+% mood: spooky, happy
+% level: 2
+% tags: zelda, minish cap, game boy advance, gba, nintendo, witch, halloween, midi
+% about: Syrup the witch stirs her bubbling potions in her little shop. A perfect song for the spooky band! From The Legend of Zelda: The Minish Cap (Game Boy Advance).
+% source-file: Fan MIDI by Tyler Prevost from VGMusic.com (Minish_Cap_-_Syrup_the_Witch.mid), converted to ABC.
+X:1
+T:Zelda: Syrup the Witch
+C:Mitsuhiko Takano
+M: 4/4
+L: 1/8
+Q:1/4=176
+K:Bb
+V:1 clef=treble
+%%MIDI program 56
+g3d =Bz Gz| \
+_A4 ec AE| \
+D2 d=B Gz Dz| \
+F2 EF D4|
+_Dz =Dz [ed]z [d_d]z| \
+[_dc]z [=d_d]z [c=B]z [dc]z| \
+[=B_B]z [c=B]z [_BA]z [=B_B]z| \
+[A_A]/2z/2[B=A]/2z/2 [_AG]/2z/2[=A_A]/2z4z/2|
+g3d =Bz Gz| \
+_A4 ec AE| \
+D2 d=B Gz Dz| \
+F2 EF D4|
+_Dz =Dz [ed]z [d_d]z| \
+[_dc]z [=d_d]z [c=B]z [dc]z| \
+[=B_B]z [c=B]z [_BA]z [=B_B]z| \
+[A_A]/2z/2[B=A]/2z/2 [_AG]/2z/2[=A_A]/2
+V:2 clef=bass
+%%MIDI program 80
+G,,/2z/2G,,/2z/2 _D,/2z/2D,/2z/2 B,/2z/2B,/2z/2 D,/2z/2D,/2z/2| \
+D,,/2z/2D,,/2z/2 C,/2z/2C,/2z/2 A,/2z/2A,/2z/2 C,/2z/2C,/2z/2| \
+G,,/2z/2G,,/2z/2 _D,/2z/2D,/2z/2 B,/2z/2B,/2z/2 D,/2z/2D,/2z/2| \
+D,,/2z/2D,,/2z/2 C,/2z/2C,/2z/2 A,/2z/2A,/2z/2 C,/2z/2C,/2z/2|
+z8| \
+z8| \
+z8| \
+z8|
+G,,/2z/2G,,/2z/2 _D,/2z/2D,/2z/2 B,/2z/2B,/2z/2 D,/2z/2D,/2z/2| \
+D,,/2z/2D,,/2z/2 C,/2z/2C,/2z/2 A,/2z/2A,/2z/2 C,/2z/2C,/2z/2| \
+G,,/2z/2G,,/2z/2 _D,/2z/2D,/2z/2 B,/2z/2B,/2z/2 D,/2z/2D,/2z/2| \
+D,,/2z/2D,,/2z/2 C,/2z/2C,/2z/2 A,/2z/2A,/2z/2 C,/2z/2C,/2
+V:3 clef=treble
+%%MIDI program 12
+g''3d'' =b'z g'z| \
+_a'4 e''c'' a'e'| \
+d'2 d''=b' g'z d'z| \
+f'2 e'f' d'4|
+_d'z =d'z e''z d''z| \
+_d''z =d''z c''z _d''z| \
+=b'z c''z _b'z =b'z| \
+a'/2z/2b'/2z/2 _a'/2z/2=a'/2z4z/2|
+g''3d'' =b'z g'z| \
+_a'4 e''c'' a'e'| \
+d'2 d''=b' g'z d'z| \
+f'2 e'f' d'4|
+_d'z =d'z e''z d''z| \
+_d''z =d''z c''z _d''z| \
+=b'z c''z _b'z =b'z| \
+a'/2z/2b'/2z/2 _a'/2z/2=a'/2
+V:4 clef=perc
+%%MIDI channel 10
+bb bb [b_G,]b bb| \
+bb bb [b_G,]b bb| \
+bb bb [b_G,]b bb| \
+bb bb [b_G,]b bb|
+bb bb [b_G,]b bb| \
+bb bb [b_G,]b bb| \
+bb bb [b_G,]b bb| \
+bb bb [b_G,]b bb|
+bb bb [b_G,]b bb| \
+bb bb [b_G,]b bb| \
+bb bb [b_G,]b bb| \
+bb bb [b_G,]b bb|
+bb bb [b_G,]b bb| \
+bb bb [b_G,]b bb| \
+bb bb [b_G,]b bb| \
+bb bb [b_G,]b bb|

@@ -1,0 +1,31 @@
+% emoji: 🔔
+% category: Kids Songs
+% mood: happy
+% level: 1
+% tags: round, canon, french, sing-along, bells
+% voices: First singer ; Second singer
+% about: A round! The second voice starts the same song two bars later — and it still fits together.
+X:1
+T:Frère Jacques
+T:(round for two)
+C:Traditional (France)
+M:4/4
+L:1/8
+Q:1/4=110
+K:C
+V:1 clef=treble
+%%MIDI program 12
+C2D2E2C2|C2D2E2C2|E2F2G4|E2F2G4|
+w:Frè-re Jac-ques, Frè-re Jac-ques, dor-mez-vous? dor-mez-vous?
+V:2 clef=bass
+%%MIDI program 13
+z8|z8|C,2D,2E,2C,2|C,2D,2E,2C,2|
+[V:1] GAGF E2C2|GAGF E2C2|C2G,2C4|C2G,2C4|
+w:Son-nez les ma-ti-nes, son-nez les ma-ti-nes, din, dan, don! din, dan, don!
+[V:2] E,2F,2G,4|E,2F,2G,4|G,A,G,F, E,2C,2|G,A,G,F, E,2C,2|
+[V:1] C2D2E2C2|C2D2E2C2|E2F2G4|E2F2G4|
+[V:2] C,2G,,2C,4|C,2G,,2C,4|C,2D,2E,2C,2|C,2D,2E,2C,2|
+[V:1] GAGF E2C2|GAGF E2C2|C2G,2C4|C2G,2C4|
+[V:2] E,2F,2G,4|E,2F,2G,4|G,A,G,F, E,2C,2|G,A,G,F, E,2C,2|
+[V:1] z8|z8|]
+[V:2] C,2G,,2C,4|C,2G,,2C,4|]

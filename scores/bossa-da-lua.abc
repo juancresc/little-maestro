@@ -1,0 +1,32 @@
+% emoji: 🌙
+% category: Brazilian
+% mood: calm, cool
+% level: 2
+% tags: brazil, bossa nova, guitar, flute, jazz, rio, original
+% voices: 🐈 Cat · Flute ; 👹 Stitchy · Shaker & rim
+% gchord: fzczfczc
+% chordprog: 24
+% bassprog: 32
+% about: Bossa nova was born in Rio de Janeiro around 1958. It is soft and swaying, like waves on the beach. Listen to the guitar's gentle off-beat chords and the shaker going "tch-tch-tch".
+X:1
+T:Bossa da Lua
+C:Little Maestro original (bossa nova)
+M:4/4
+L:1/8
+Q:1/4=120
+%%percmap C, 36 x
+%%percmap c 37 x
+%%percmap G 70 x
+K:C
+V:1 clef=treble
+%%MIDI program 73
+"Cmaj7"e2 d e- e2 z2|"A7"^c d e g- g4|"Dm7"f2 e f- f2 z2|"G7"d e f a- a4|
+V:2 clef=perc
+%%MIDI channel 10
+!p![C,cG] G G [cG] [C,G] G [cG] G|[C,G] G [cG] G [C,G] [cG] G G|[C,cG] G G [cG] [C,G] G [cG] G|[C,G] G [cG] G [C,G] [cG] G G|
+[V:1] "Em7"g2 f g- g2 e2|"A7"^c2 e2 g2 e2|"Dm7"f e d c- c2 A2|"G7"B4 z4|
+[V:2] [C,cG] G G [cG] [C,G] G [cG] G|[C,G] G [cG] G [C,G] [cG] G G|[C,cG] G G [cG] [C,G] G [cG] G|[C,G] G [cG] G [C,G] [cG] G G|
+[V:1] "Cmaj7"e2 d e- e2 g2|"Fmaj7"a2 g a- a2 c'2|"Em7"b2 a g- g2 e2|"A7"g e ^c e- e4|
+[V:2] [C,cG] G G [cG] [C,G] G [cG] G|[C,G] G [cG] G [C,G] [cG] G G|[C,cG] G G [cG] [C,G] G [cG] G|[C,G] G [cG] G [C,G] [cG] G G|
+[V:1] "Dm7"f2 a2 c'2 a2|"G7"g f d B- B4|"Dm7"d2 f2 "G7"g2 B2|"Cmaj7"c8|]
+[V:2] [C,cG] G G [cG] [C,G] G [cG] G|[C,G] G [cG] G [C,G] [cG] G G|[C,cG] G G [cG] [C,G] G [cG] G|[C,G] G [cG] G [C,G] [cG] G G|]

@@ -1,0 +1,25 @@
+services:
+  maestro:
+    build: ./app
+    ports:
+      - "8080:8000"
+    volumes:
+      # Drop any .abc file in ./scores and it shows up in the library.
+      - ./scores:/data/scores
+      # Put your own band art here (bat.png, candy.png, monster.png, pumpkin.png, mummy.png).
+      - ./app/static/characters:/app/static/characters
+    restart: unless-stopped
+
+  # The YouTube video job (tools/video). Not started with the app: run it when you want videos,
+  #   docker compose run --rm video --list | --all | <song-id …>
+  video:
+    build: ./tools/video
+    profiles: ["tools"]
+    depends_on: [maestro]
+    environment:
+      MAESTRO_URL: http://maestro:8000
+      OUT_DIR: /videos
+    volumes:
+      - ./videos:/videos
+    shm_size: 1gb
+    mem_limit: 1500m

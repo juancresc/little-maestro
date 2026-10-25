@@ -1,0 +1,686 @@
+:root {
+  --bg: #fbf6ee;
+  --panel: #ffffff;
+  --panel-2: #f4ecfb;
+  --ink: #2b2235;
+  --muted: #6d6478;
+  --line: #e7dcef;
+  --purple: #8b5cf6;
+  --purple-soft: #ede4ff;
+  --orange: #f97316;
+  --green: #65a30d;
+  --yellow: #facc15;
+  --paper: #fffdf8;
+  --shadow: 0 2px 0 rgba(43, 34, 53, .08), 0 8px 24px rgba(43, 34, 53, .06);
+  --radius: 18px;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #17121f; --panel: #221b2e; --panel-2: #2c2240; --ink: #f3ecff; --muted: #b3a7c4;
+    --line: #3a2f4d; --purple-soft: #3a2b5c; --shadow: 0 2px 0 rgba(0,0,0,.3), 0 8px 24px rgba(0,0,0,.25);
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #17121f; --panel: #221b2e; --panel-2: #2c2240; --ink: #f3ecff; --muted: #b3a7c4;
+  --line: #3a2f4d; --purple-soft: #3a2b5c; --shadow: 0 2px 0 rgba(0,0,0,.3), 0 8px 24px rgba(0,0,0,.25);
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font: 16px/1.45 Nunito, system-ui, sans-serif;
+}
+h1, h2, h3, .member-name, .play { font-family: Fredoka, Nunito, sans-serif; }
+button, select, input, textarea { font: inherit; color: inherit; }
+a { color: var(--purple); }
+
+/* Header */
+.top {
+  display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap;
+  padding: 14px 24px; border-bottom: 2px dashed var(--line);
+}
+.brand { display: flex; align-items: center; gap: 12px; }
+.logo { font-size: 40px; display: inline-block; animation: flap 2.4s ease-in-out infinite; }
+@keyframes flap { 50% { transform: translateY(-4px) rotate(-6deg); } }
+.brand h1 { margin: 0; font-size: 28px; line-height: 1; color: var(--purple); }
+.brand p { margin: 2px 0 0; color: var(--muted); font-size: 14px; }
+.top-actions { display: flex; align-items: center; gap: 12px; }
+
+.btn {
+  border: 2px solid var(--ink); border-radius: 999px; padding: 8px 16px; cursor: pointer;
+  background: var(--panel); font-weight: 800; box-shadow: 0 3px 0 var(--ink); transition: transform .08s;
+}
+.btn:active { transform: translateY(2px); box-shadow: 0 1px 0 var(--ink); }
+.btn:disabled { opacity: .45; cursor: not-allowed; }
+.btn.primary { background: var(--purple); color: #fff; }
+.btn.ghost { box-shadow: none; border-color: var(--line); }
+.switch { display: inline-flex; align-items: center; gap: 6px; cursor: pointer; font-weight: 700; font-size: 14px; }
+.switch input { accent-color: var(--purple); width: 18px; height: 18px; }
+
+/* Layout */
+.layout { display: grid; grid-template-columns: 340px minmax(0, 1fr); gap: 20px; padding: 20px 24px 40px; }
+@media (max-width: 900px) {
+  .layout { grid-template-columns: 1fr; padding: 16px; }
+  .top { padding: 12px 16px; }
+}
+
+/* Library */
+.library {
+  background: var(--panel); border-radius: var(--radius); box-shadow: var(--shadow); padding: 16px;
+  align-self: start; position: sticky; top: 16px; max-height: calc(100vh - 32px); overflow: auto;
+}
+@media (max-width: 900px) { .library { position: static; max-height: none; } }
+#search {
+  width: 100%; padding: 10px 14px; border-radius: 12px; border: 2px solid var(--line); background: var(--bg);
+}
+#search:focus { outline: none; border-color: var(--purple); }
+.facet h3 { margin: 14px 0 6px; font-size: 13px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip {
+  border: 2px solid var(--line); background: transparent; border-radius: 999px; padding: 3px 10px;
+  font-size: 13px; font-weight: 700; cursor: pointer;
+}
+.chip small { color: var(--muted); font-weight: 600; }
+.chip.on { background: var(--purple); border-color: var(--purple); color: #fff; }
+.chip.on small { color: #efe7ff; }
+.band-only { margin-top: 14px; }
+.count { color: var(--muted); font-size: 13px; margin: 12px 0 6px; }
+.cards { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.card {
+  width: 100%; display: flex; gap: 12px; align-items: center; text-align: left; cursor: pointer;
+  border: 2px solid transparent; background: var(--bg); border-radius: 14px; padding: 10px;
+}
+.card:hover { border-color: var(--line); }
+.card.current { border-color: var(--purple); background: var(--purple-soft); }
+.card-emoji { font-size: 30px; width: 40px; text-align: center; flex: none; }
+.card-body { display: grid; min-width: 0; }
+.card-body strong { font-size: 15px; line-height: 1.2; }
+.card-sub { color: var(--muted); font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.card-tags { display: flex; gap: 4px; align-items: center; margin-top: 4px; flex-wrap: wrap; }
+.pill { font-size: 11px; font-weight: 800; padding: 1px 8px; border-radius: 999px; background: var(--panel-2); color: var(--purple); }
+.pill.band { color: var(--orange); }
+.stars { font-size: 10px; }
+.empty { color: var(--muted); padding: 20px 4px; text-align: center; }
+
+/* Player */
+.player { display: grid; gap: 16px; min-width: 0; }
+.now {
+  display: flex; gap: 18px; align-items: center; background: var(--panel); border-radius: var(--radius);
+  box-shadow: var(--shadow); padding: 18px 22px;
+}
+.now-emoji { font-size: 56px; line-height: 1; }
+.now-meta { display: flex; gap: 8px; align-items: center; font-size: 12px; }
+.now h2 { margin: 4px 0 0; font-size: 26px; line-height: 1.15; }
+.composer { margin: 2px 0 0; color: var(--muted); font-weight: 700; }
+.about { margin: 6px 0 0; max-width: 70ch; }
+
+.transport { display: flex; gap: 14px; align-items: center; flex-wrap: wrap; }
+.play {
+  width: 72px; height: 72px; border-radius: 50%; border: 3px solid var(--ink); cursor: pointer; flex: none;
+  background: var(--orange); color: #fff; font-size: 28px; box-shadow: 0 4px 0 var(--ink);
+}
+.play:active { transform: translateY(3px); box-shadow: 0 1px 0 var(--ink); }
+.play:disabled { opacity: .5; cursor: not-allowed; }
+.play.loading { animation: pulse .8s ease-in-out infinite; }
+@keyframes pulse { 50% { transform: scale(.92); } }
+.audio { flex: 1; min-width: 240px; }
+.audio .abcjs-inline-audio {
+  background: var(--panel); color: var(--ink); border-radius: 14px; height: 52px; padding: 0 12px; box-shadow: var(--shadow);
+}
+.audio .abcjs-inline-audio .abcjs-btn { background: transparent; border-color: transparent; }
+.audio .abcjs-inline-audio .abcjs-btn g, .audio .abcjs-inline-audio .abcjs-btn path { fill: var(--ink); }
+.audio .abcjs-inline-audio .abcjs-btn:hover g, .audio .abcjs-inline-audio .abcjs-btn:hover path { fill: var(--purple); }
+.audio .abcjs-inline-audio .abcjs-midi-loop.abcjs-pushed { border: 2px solid var(--purple); border-radius: 8px; }
+.audio .abcjs-inline-audio .abcjs-midi-progress-background { background: var(--line); height: 12px; border-radius: 6px; border: none; }
+.audio .abcjs-inline-audio .abcjs-midi-progress-indicator { background: var(--purple); height: 18px; width: 18px; border-radius: 50%; margin-top: -3px; }
+.audio .abcjs-inline-audio .abcjs-midi-clock, .audio .abcjs-inline-audio .abcjs-tempo-wrapper { color: var(--muted); font-size: 13px; }
+.audio .abcjs-inline-audio .abcjs-midi-tempo { background: var(--bg); color: var(--ink); border: 1px solid var(--line); border-radius: 6px; }
+.volume { display: inline-flex; align-items: center; gap: 6px; font-size: 20px; }
+.volume input { width: 110px; accent-color: var(--purple); }
+.btn.jazz { background: var(--yellow); color: #2b2235; }
+.btn.jazz[aria-pressed="true"] { background: var(--purple); color: #fff; }
+
+/* Band stage */
+.stage {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px;
+  background: var(--panel); border-radius: var(--radius); box-shadow: var(--shadow); padding: 16px;
+  background-image: radial-gradient(circle at 50% 120%, var(--purple-soft), transparent 60%);
+}
+.member { display: grid; justify-items: center; text-align: center; gap: 4px; padding: 6px; border-radius: 14px; }
+.char { width: 104px; height: 112px; transform-origin: 50% 100%; }
+.char svg, .char img { width: 100%; height: 100%; object-fit: contain; }
+.char.has-img svg { display: none; }
+.member.muted .char { filter: grayscale(1); opacity: .45; }
+.member.resting .char { filter: grayscale(.6); opacity: .5; }
+.member-name { font-weight: 600; font-size: 17px; }
+.drum-kit { font-size: 13px; font-weight: 700; padding: 6px 0; }
+.member-role { font-size: 12px; color: var(--muted); min-height: 1.4em; }
+.member select {
+  width: 100%; max-width: 170px; padding: 5px 8px; border-radius: 10px; border: 2px solid var(--line);
+  background: var(--bg); font-size: 13px; font-weight: 700;
+}
+.mute {
+  border: none; background: var(--panel-2); border-radius: 999px; padding: 3px 12px; font-size: 12px;
+  font-weight: 800; cursor: pointer;
+}
+.member.muted .mute { background: transparent; color: var(--muted); text-decoration: line-through; }
+
+/* Sheet music (always white paper, also in dark mode) */
+.paper-wrap {
+  background: var(--paper); border-radius: var(--radius); box-shadow: var(--shadow);
+  padding: 10px; border: 2px solid var(--line);
+}
+.paper { color: #2b2235; }
+.paper .abcjs-note, .paper .abcjs-rest { cursor: pointer; }
+.paper .hl { fill: var(--orange); color: var(--orange); }
+.paper .abcjs-cursor { stroke: var(--purple); stroke-width: 3; stroke-linecap: round; opacity: .55; }
+body:not(.is-playing) .paper .abcjs-cursor { opacity: 0; }
+
+/* Keyboard */
+.keys-wrap { background: var(--panel); border-radius: var(--radius); box-shadow: var(--shadow); padding: 12px 16px 16px; }
+.note-name { font: 600 26px Fredoka, sans-serif; text-align: center; min-height: 36px; transition: color .1s; }
+.keys { display: flex; position: relative; height: 120px; user-select: none; touch-action: manipulation; overflow-x: auto; }
+.key { border: 2px solid var(--ink); cursor: pointer; padding: 0; position: relative; }
+.key.white {
+  flex: 1 0 26px; background: #fff; border-radius: 0 0 8px 8px; margin-right: -2px; display: flex;
+  align-items: flex-end; justify-content: center; padding-bottom: 6px; font-size: 10px; font-weight: 800; color: #6d6478;
+}
+.key.black {
+  flex: 0 0 18px; height: 62%; background: #2b2235; margin: 0 -9px; z-index: 2; border-radius: 0 0 6px 6px;
+}
+.key.on { background: var(--c); box-shadow: inset 0 -6px 0 rgba(0,0,0,.18); }
+.key.on span { color: #fff; }
+
+/* Composer */
+dialog {
+  border: none; border-radius: var(--radius); padding: 20px; width: min(1000px, calc(100vw - 32px));
+  background: var(--panel); color: var(--ink); box-shadow: 0 20px 60px rgba(0,0,0,.3);
+}
+dialog::backdrop { background: rgba(23, 18, 31, .55); }
+.compose-head { display: flex; justify-content: space-between; align-items: center; }
+.compose-head h2 { margin: 0; }
+.hint { color: var(--muted); font-size: 14px; }
+.hint code { background: var(--panel-2); padding: 0 4px; border-radius: 4px; }
+.compose-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+@media (max-width: 760px) { .compose-grid { grid-template-columns: 1fr; } }
+#compose-abc {
+  min-height: 300px; font: 14px/1.5 ui-monospace, Menlo, monospace; padding: 12px; border-radius: 12px;
+  border: 2px solid var(--line); background: var(--bg); resize: vertical;
+}
+.paper.small { background: var(--paper); border-radius: 12px; padding: 8px; min-height: 300px; border: 2px solid var(--line); }
+.compose-actions { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; margin-top: 12px; }
+.compose-actions input { padding: 6px 10px; border-radius: 10px; border: 2px solid var(--line); background: var(--bg); }
+.grow { flex: 1; color: var(--muted); font-size: 13px; }
+
+/* ===================== Tabs ===================== */
+.tabs { display: flex; gap: 4px; background: var(--panel); padding: 4px; border-radius: 999px; box-shadow: var(--shadow); }
+.tab {
+  border: none; background: transparent; border-radius: 999px; padding: 8px 18px; cursor: pointer;
+  font: 600 16px Fredoka, sans-serif; color: var(--muted);
+}
+.tab[aria-selected="true"] { background: var(--purple); color: #fff; }
+.view[hidden] { display: none !important; }
+body.mode-show { overflow: hidden; }
+body.mode-show .top { display: none; }
+.keys-head { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+.keys-head .note-name { flex: 1; text-align: left; }
+.music-time { font-weight: 800; color: var(--muted); font-variant-numeric: tabular-nums; }
+
+/* ===================== Music tab: band mixer ===================== */
+.member-role { font-size: 12px; color: var(--muted); }
+.member-actions { display: flex; gap: 6px; }
+.mini {
+  border: none; background: var(--panel-2); border-radius: 999px; padding: 4px 10px; font-size: 12px;
+  font-weight: 800; cursor: pointer;
+}
+.member.muted .mute { background: transparent; color: var(--muted); text-decoration: line-through; }
+.member .char { width: 110px; height: 121px; }
+.member.on { background: var(--purple-soft); }
+.invites { display: flex; flex-wrap: wrap; gap: 8px; }
+.invites:empty { display: none; }
+.invite {
+  border: 2px dashed var(--line); background: transparent; border-radius: 14px; padding: 8px 14px;
+  cursor: pointer; font-weight: 800;
+}
+.invite:hover { border-color: var(--purple); }
+.invite small { color: var(--muted); font-weight: 600; }
+
+/* More music */
+.more { margin-top: 20px; border-top: 2px dashed var(--line); padding-top: 4px; }
+.more h3 { font-size: 15px; margin: 12px 0 8px; }
+.import { display: flex; gap: 6px; }
+.import input { flex: 1; min-width: 0; padding: 8px 10px; border-radius: 10px; border: 2px solid var(--line); background: var(--bg); }
+.import .btn { padding: 6px 12px; font-size: 14px; }
+.import-status { font-size: 12px; color: var(--muted); margin: 6px 0 10px; }
+.links { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.links li { display: grid; font-size: 13px; }
+.links a { font-weight: 800; text-decoration: none; }
+.links a:hover { text-decoration: underline; }
+.links span { color: var(--muted); font-size: 12px; }
+
+/* Picker */
+#picker { width: min(860px, calc(100vw - 32px)); }
+.pick-h { margin: 14px 0 8px; font-size: 14px; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; }
+.pick-chars { display: grid; grid-template-columns: repeat(auto-fill, minmax(104px, 1fr)); gap: 8px; }
+.pick-char {
+  border: 3px solid transparent; background: var(--bg); border-radius: 16px; padding: 6px; cursor: pointer;
+  display: grid; justify-items: center; font-weight: 800; font-size: 13px;
+}
+.pick-char .char { width: 88px; height: 97px; }
+.pick-char.on { border-color: var(--purple); background: var(--purple-soft); }
+.pick-insts { display: flex; flex-wrap: wrap; gap: 6px; }
+.pick-insts[hidden], .pick-h[hidden], #pick-home[hidden] { display: none; }
+
+/* ===================== Show: full-screen theater ===================== */
+#view-show { position: fixed; inset: 0; }
+.theater {
+  position: relative; width: 100%; height: 100%; overflow: hidden; background: #fffdf8;
+  background-image:
+    radial-gradient(ellipse at 50% 0%, rgba(255, 236, 170, .55), transparent 55%),
+    radial-gradient(circle at 15% 85%, rgba(185, 163, 227, .25), transparent 40%),
+    radial-gradient(circle at 85% 80%, rgba(249, 115, 22, .14), transparent 40%);
+  /* conductor's baton cursor */
+  cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='36' viewBox='0 0 36 36'%3E%3Cpath d='M4 32 L26 10' stroke='%232b2235' stroke-width='5' stroke-linecap='round'/%3E%3Cpath d='M4 32 L26 10' stroke='%23fff' stroke-width='2.5' stroke-linecap='round'/%3E%3Cpath d='M29 1 l2 5 5 2 -5 2 -2 5 -2 -5 -5 -2 5 -2z' fill='%23facc15' stroke='%232b2235' stroke-width='1.2'/%3E%3C/svg%3E") 30 4, pointer;
+}
+.theater:fullscreen { width: 100vw; height: 100vh; }
+.show-band {
+  position: absolute; inset: 6% 2% 9%; display: flex; justify-content: center; align-items: flex-end;
+  gap: clamp(0px, 1vw, 20px);
+}
+.show-member { position: relative; display: grid; justify-items: center; color: #2b2235; }
+.show-member .char {
+  width: min(calc(94vw / var(--n, 4) - 12px), 62vh * .909, 520px);
+  aspect-ratio: 200 / 220; height: auto;
+}
+.show-name { font: clamp(16px, 2.6vw, 34px)/1 'Patrick Hand', Fredoka, cursive; margin-top: 2px; }
+.show-time {
+  position: absolute; left: 50%; bottom: 2.5%; transform: translateX(-50%);
+  font: clamp(18px, 2.4vw, 28px) 'Patrick Hand', cursive; color: #2b2235; font-variant-numeric: tabular-nums;
+  background: rgba(255, 255, 255, .75); padding: 2px 16px; border-radius: 999px; border: 2px solid #2b2235;
+}
+
+/* hand-drawn "boiling" outlines */
+.theater[data-boil="0"] .show-member .char svg { filter: url(#boil-0); }
+.theater[data-boil="1"] .show-member .char svg { filter: url(#boil-1); }
+.theater[data-boil="2"] .show-member .char svg { filter: url(#boil-2); }
+
+/* drifting decoration notes */
+.deco span {
+  position: absolute; font: clamp(28px, 4vw, 54px) 'Patrick Hand', serif; color: #2b2235; opacity: .55;
+  animation: drift 7s ease-in-out infinite;
+}
+.deco span:nth-child(1) { left: 7%; top: 8%; }
+.deco span:nth-child(2) { left: 26%; top: 4%; animation-delay: -2s; }
+.deco span:nth-child(3) { left: 46%; top: 10%; animation-delay: -4s; }
+.deco span:nth-child(4) { left: 66%; top: 3%; animation-delay: -1s; }
+.deco span:nth-child(5) { left: 84%; top: 9%; animation-delay: -3s; }
+.deco span:nth-child(6) { left: 93%; top: 34%; animation-delay: -5s; }
+@keyframes drift { 50% { transform: translateY(-14px) rotate(8deg); } }
+body.is-playing .deco span { animation-duration: calc(var(--beat, .5s) * 4); }
+
+/* notes that float out of whoever is playing */
+.fx { position: absolute; left: 50%; top: 18%; width: 0; height: 0; z-index: 3; pointer-events: none; }
+.fnote {
+  position: absolute; left: -14px; top: 0; font: clamp(28px, 3.4vw, 48px)/1 'Patrick Hand', serif; font-weight: 700;
+  text-shadow: 0 2px 0 #fff; animation: float-up 1.8s ease-out forwards;
+}
+.fnote.big { font-size: clamp(36px, 4.4vw, 64px); animation-duration: 1.2s; }
+@keyframes float-up {
+  0% { transform: translate(0, 10px) scale(.4); opacity: 0; }
+  15% { opacity: .45; }
+  100% { transform: translate(var(--x), -24vh) rotate(var(--r)) scale(1.1); opacity: 0; }
+}
+
+/* baton sparkles */
+.sparkles { position: absolute; inset: 0; pointer-events: none; z-index: 6; }
+.sparkle {
+  position: absolute; font-size: 18px; transform: translate(-50%, -50%);
+  animation: sparkle .7s ease-out forwards; text-shadow: 0 0 6px rgba(255, 255, 255, .9);
+}
+@keyframes sparkle { to { transform: translate(-50%, 10px) scale(.2) rotate(90deg); opacity: 0; } }
+
+/* hover = little wiggle, click = big jump */
+.show-member:not(.on):hover .c-rig { animation: wiggle .5s ease-in-out; }
+@keyframes wiggle { 30% { transform: rotate(-4deg); } 70% { transform: rotate(4deg); } }
+.show-member.jump .char { animation: jump .6s cubic-bezier(.3, 1.6, .5, 1); }
+@keyframes jump { 0% { transform: scale(1, 1); } 25% { transform: translateY(-14%) scale(.94, 1.08); } 60% { transform: translateY(0) scale(1.06, .94); } 100% { transform: none; } }
+
+/* The curtain: down = song card; up (= .open) while the band plays. */
+.curtain {
+  position: absolute; inset: 0; z-index: 10; display: grid; place-items: center; cursor: default;
+  background:
+    repeating-linear-gradient(90deg, rgba(0, 0, 0, .22) 0 6px, transparent 6px 36px, rgba(255, 255, 255, .08) 36px 42px, transparent 42px 72px),
+    linear-gradient(#b3122e, #7d0b1f);
+  box-shadow: inset 0 -18px 0 #e8b33a, inset 0 -22px 0 #2b2235;
+  transition: transform 1.3s cubic-bezier(.65, 0, .35, 1);
+}
+.theater.open .curtain { transform: translateY(-100%); }
+.valance { /* the scalloped top that stays */
+  position: absolute; top: 0; left: 0; right: 0; height: 46px; z-index: 11; pointer-events: none;
+  background:
+    radial-gradient(circle at 30px -6px, #9b0f27 30px, transparent 31px) 0 0 / 60px 46px repeat-x;
+  filter: drop-shadow(0 3px 0 #e8b33a);
+}
+.curtain-card {
+  background: #fffdf8; color: #2b2235; border: 4px solid #2b2235; border-radius: 28px; box-shadow: 0 8px 0 #2b2235;
+  padding: 26px 36px; text-align: center; width: min(560px, calc(100vw - 40px)); display: grid; gap: 6px; justify-items: center;
+}
+.marquee { font: 22px 'Patrick Hand', cursive; color: #8b5cf6; }
+.curtain-emoji { font-size: 64px; line-height: 1; }
+.curtain-card h2 { margin: 0; font-size: clamp(24px, 4vw, 36px); line-height: 1.1; }
+.curtain-composer { margin: 0; color: #6d6478; font-weight: 700; }
+.curtain-nav { display: flex; align-items: center; gap: 18px; margin: 10px 0 2px; }
+.curtain-nav .round { background: #fff; color: #2b2235; border-color: #2b2235; box-shadow: 0 3px 0 #2b2235; }
+.round {
+  width: 48px; height: 48px; border-radius: 50%; border: 2px solid var(--ink); background: var(--panel);
+  font-size: 18px; cursor: pointer; box-shadow: 0 3px 0 var(--ink);
+}
+.round:active { transform: translateY(2px); box-shadow: 0 1px 0 var(--ink); }
+.curtain-play {
+  width: 96px; height: 96px; border-radius: 50%; border: 4px solid #2b2235; background: #f97316; color: #fff;
+  font-size: 40px; cursor: pointer; box-shadow: 0 6px 0 #2b2235; animation: pulse-glow 1.8s ease-in-out infinite;
+}
+.curtain-play:disabled { opacity: .5; animation: none; }
+.curtain-play.loading { animation: pulse .8s ease-in-out infinite; }
+@keyframes pulse-glow { 50% { box-shadow: 0 6px 0 #2b2235, 0 0 0 12px rgba(249, 115, 22, .2); } }
+.curtain-info { margin: 4px 0 0; font-weight: 800; color: #6d6478; }
+.curtain-extras { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; align-items: center; margin-top: 8px; }
+.curtain-extras .chip { color: #2b2235; border-color: #e7dcef; background: #fff; }
+.curtain-extras .chip[aria-pressed="true"] { background: #8b5cf6; color: #fff; border-color: #8b5cf6; }
+.curtain-extras .volume input { width: 90px; }
+.theater.bravo .marquee::after { content: ' 👏 Bravo!'; }
+
+/* A black cat hiding on the stage, behind the curtain: it only pops up during a curtain
+   break, just visible through the see-through curtain (timing in app.js). */
+.peek-cat {
+  position: absolute; left: var(--at, 10%); bottom: 0; width: clamp(90px, 11vw, 150px); aspect-ratio: 6 / 5;
+  z-index: 6; pointer-events: none; transform: translateY(105%);
+  transition: transform .7s cubic-bezier(.5, 0, .4, 1);
+}
+.peek-cat svg { display: block; width: 100%; height: 100%; overflow: visible; }
+.theater.intermission .peek-cat.peek { transform: translateY(8%); transition-timing-function: cubic-bezier(.3, 1.4, .5, 1); }
+.theater.open .peek-cat { transition: none; } /* never caught out when the curtain rises */
+.peek-cat .cat-eyes { transform-box: fill-box; transform-origin: center; animation: blink 3.2s infinite; }
+.peek-cat .cat-ear-r { transform-box: fill-box; transform-origin: 0% 100%; animation: ear-twitch 2.7s infinite; }
+@keyframes ear-twitch { 0%, 84%, 100% { transform: none; } 88% { transform: rotate(14deg); } 92% { transform: rotate(-4deg); } }
+.peek-cat .cat-tail { animation: tail-flick 1.8s ease-in-out infinite; transform-origin: 104px 100px; }
+@keyframes tail-flick { 50% { transform: rotate(12deg); } }
+
+
+/* ===================== Character animation ===================== */
+/* Parts are positioned in the SVG's 200x220 coordinate space. */
+.char svg { width: 100%; height: 100%; overflow: visible; }
+.char .c-rig { animation: idle-sway 3.4s ease-in-out infinite; animation-delay: calc(var(--delay, 0s) * -1); transition: transform .07s; }
+@keyframes idle-sway { 50% { transform: rotate(1.6deg) translateY(-1px); } }
+.char .c-eyes { transform-box: fill-box; transform-origin: center; animation: blink 4.6s infinite; animation-delay: calc(var(--delay, 0s) * -2); transition: translate .15s; }
+@keyframes blink { 0%, 93%, 100% { transform: scaleY(1); } 95% { transform: scaleY(.1); } }
+.c-o { opacity: 0; }
+.c-face { transition: fill .2s; }
+.char-ghost .c-rig { animation-name: ghost-float; }
+@keyframes ghost-float { 50% { transform: translateY(-8px) rotate(-1.5deg); } }
+
+/* .on = playing right now: the body bobs to the beat */
+.on .char .c-rig { animation: none; }
+.on .char .c-body { animation: bob var(--beat, .5s) ease-in-out infinite; }
+@keyframes bob { 50% { transform: translateY(-5px) scaleY(1.03); } }
+/* .hit = this exact note: a quick squash */
+.hit .char .c-rig { transform: translateY(3px) scale(1.025, .965); }
+
+/* body extras */
+.char-bat .c-wing-l { animation: wing-l 2.6s ease-in-out infinite; }
+.char-bat .c-wing-r { animation: wing-r 2.6s ease-in-out infinite; }
+@keyframes wing-l { 50% { transform: rotate(6deg); } }
+@keyframes wing-r { 50% { transform: rotate(-6deg); } }
+.on .char-bat .c-wing-l { animation: wing-l-fast var(--beat, .5s) ease-in-out infinite; }
+.on .char-bat .c-wing-r { animation: wing-r-fast var(--beat, .5s) ease-in-out infinite; }
+@keyframes wing-l-fast { 50% { transform: rotate(18deg); } }
+@keyframes wing-r-fast { 50% { transform: rotate(-18deg); } }
+.char-bat .c-cheeks { transform-box: fill-box; transform-origin: center; transition: transform .08s; }
+.hit .char-bat .c-cheeks { transform: scale(1.5); }
+.char-mummy .c-tail, .char-cat .c-tail { animation: tail 2.2s ease-in-out infinite; }
+@keyframes tail { 50% { transform: rotate(10deg); } }
+.on .char-mummy .c-tail, .on .char-cat .c-tail { animation-duration: var(--beat, .5s); }
+.on .char-pumpkin .c-head { animation: nod var(--beat, .5s) ease-in-out infinite; }
+@keyframes nod { 50% { transform: rotate(-6deg) translateY(-3px); } }
+.on .char-pumpkin .c-face { fill: #ffcf4a; filter: drop-shadow(0 0 4px #ffb703); }
+.on .char-candy .c-body { animation: candy-sway calc(var(--beat, .5s) * 2) ease-in-out infinite; }
+@keyframes candy-sway { 25% { transform: rotate(-4deg) translateY(-3px); } 75% { transform: rotate(4deg) translateY(-3px); } }
+
+/* --- instruments, driven by the notes (--pos = how high, --pos-l = low hand, .alt flips each note) --- */
+.p-slide-l, .p-slide-r, .p-fret, .p-strum, .p-pluck, .p-bow, .p-press, .p-inst,
+.p-stick-l, .p-stick-r, .p-cymbal, .p-kick { transition: transform .1s ease-out; }
+/* piano & xylophone: hands travel to the note */
+.p-slide-l { transform: translateX(calc((var(--pos-l, .35) - .5) * 64px)); }
+.p-slide-r { transform: translateX(calc((var(--pos, .6) - .5) * 64px)); }
+.hit .prop-piano .p-press { transform: translateY(4px); }
+.hit .prop-xylophone .p-press { transform: translateY(5px); } /* strike straight down, onto the bar */
+/* guitar: strum hand goes up / down */
+.prop-guitar .p-strum { transform: translateY(-7px); }
+.alt .prop-guitar .p-strum { transform: translateY(8px); }
+/* bass: rocks to the beat */
+.on .prop-bass .p-inst { animation: rock calc(var(--beat, .5s) * 2) ease-in-out infinite; }
+@keyframes rock { 25% { transform: rotate(3deg); } 75% { transform: rotate(-3deg); } }
+/* violin: bow changes direction every note and tilts to the string being played */
+.prop-violin .p-bow { transform: translateX(16px) translateY(-3px) rotate(var(--bow-tilt, 0deg)); transition-duration: .22s; }
+.alt .prop-violin .p-bow { transform: translateX(-20px) translateY(3px) rotate(var(--bow-tilt, 0deg)); }
+/* strings: the fretting hand goes to the real position on the neck (--fret 0 = nut … 1 = an octave up) */
+.prop-violin .p-fret { transform: translate(calc(var(--fret, .2) * 26px), calc(var(--fret, .2) * 37px)); }
+.prop-guitar .p-fret { transform: translate(calc((var(--fret, .2) - .3) * 30px), calc((var(--fret, .2) - .3) * 48px)); }
+.prop-bass .p-fret { transform: translateY(calc((var(--fret, .2) - .25) * 70px)); }
+.prop-bass .p-pluck { transform: translateX(calc((var(--string, 2) - 3) * 2.5px)); }
+.hit .prop-bass .p-pluck { transform: translateX(calc((var(--string, 2) - 3) * 2.5px + 9px)); }
+/* an open string needs no finger: the hand lifts off the neck */
+.open-string .p-fret { translate: -6px -4px; }
+.p-fret { transition: transform .1s ease-out, translate .1s ease-out; }
+.p-string { transition: stroke .08s; }
+.p-string.lit { stroke: var(--lit) !important; stroke-width: 2.4px; }
+/* brass: the real valve combination for each note */
+.p-valve { transition: transform .06s ease-out; }
+.p-valve.down { transform: translateY(4px); }
+/* woodwinds: fingers cover the real tone holes */
+.p-hole { transition: fill .06s; }
+.p-hole.closed { fill: #2b2235 !important; }
+.hit .prop-sax .p-press, .hit .prop-clarinet .p-press, .hit .prop-flute .p-press { transform: none; }
+.prop-sax .p-press.down, .prop-clarinet .p-press.down, .prop-flute .p-press.down { transform: translateY(3px); }
+/* winds & brass: the instrument lifts for high notes, fingers press each note */
+.prop-trumpet .p-inst, .prop-sax .p-inst, .prop-clarinet .p-inst, .prop-flute .p-inst, .prop-tuba .p-inst, .prop-mic .p-inst {
+  transform: rotate(calc((var(--pos, .5) - .5) * -16deg));
+}
+.hit .p-press { transform: translateY(3px); }
+.hit .prop-trumpet .p-inst { transform: rotate(calc((var(--pos, .5) - .5) * -16deg)) scale(1.04); }
+/* singing: mouth opens */
+.on .prop-mic .c-o { opacity: 1; }
+.on .prop-mic .c-smile { opacity: 0; }
+.hit .prop-mic .c-o { transform-box: fill-box; transform-origin: center; transform: scale(1.3); }
+/* drums: the pattern says what to hit — left stick on the drum, right stick on the cymbal, foot on the kick.
+   Without a pattern the sticks just alternate. */
+.p-stick-l { transform: rotate(-26deg); }
+.p-stick-r { transform: rotate(24deg); }
+.hit:not(.alt):not(.hit-snare):not(.hit-cym):not(.kick) .p-stick-l, .hit-snare .p-stick-l { transform: rotate(8deg); }
+.hit.alt:not(.hit-snare):not(.hit-cym):not(.kick) .p-stick-r, .hit-cym .p-stick-r { transform: rotate(-8deg); }
+.hit.alt:not(.hit-snare):not(.hit-cym):not(.kick) .p-cymbal, .hit-cym .p-cymbal { transform: rotate(-10deg); }
+.kick .p-kick { transform: scale(1.08); }
+
+/* sitting out */
+.muted .char { filter: grayscale(.85); opacity: .45; }
+.show-member.muted .char svg { filter: none !important; }
+
+@media (prefers-reduced-motion: reduce) {
+  .char *, .deco span, .fnote, .logo, .sparkle, .curtain-play, .peek-cat * { animation: none !important; }
+  .theater .char svg { filter: none !important; }
+}
+
+/* Music tab → theater */
+.to-theater {
+  margin-left: auto; flex: none; display: grid; justify-items: center; gap: 2px; cursor: pointer;
+  border: 3px solid #2b2235; border-radius: 18px; padding: 10px 16px; font-size: 34px; line-height: 1;
+  color: #fff; box-shadow: 0 4px 0 #2b2235;
+  background: repeating-linear-gradient(90deg, rgba(0,0,0,.2) 0 5px, transparent 5px 18px), linear-gradient(#b3122e, #7d0b1f);
+}
+.to-theater span { font: 600 13px Fredoka, sans-serif; }
+.to-theater:hover { transform: translateY(-2px); }
+.to-theater:active { transform: translateY(2px); box-shadow: 0 1px 0 #2b2235; }
+@media (max-width: 600px) { .now { flex-wrap: wrap; } .to-theater { margin-left: 0; width: 100%; } }
+
+/* ===================== A real stage ===================== */
+.theater { background: #1a1024; }
+.backdrop { /* back wall: deep velvet with a soft pattern */
+  position: absolute; inset: 0 0 26% 0;
+  background:
+    radial-gradient(ellipse at 50% 30%, rgba(255, 214, 140, .18), transparent 60%),
+    repeating-linear-gradient(90deg, rgba(0, 0, 0, .18) 0 3px, transparent 3px 46px),
+    linear-gradient(#2d1a3e, #432657 70%, #4d2b5e);
+}
+.floor { /* wooden boards in perspective */
+  position: absolute; left: -20%; right: -20%; bottom: 0; height: 30%; transform-origin: 50% 100%;
+  transform: perspective(500px) rotateX(38deg);
+  background:
+    linear-gradient(rgba(0, 0, 0, .35), transparent 30%),
+    repeating-linear-gradient(90deg, #b9773f 0 70px, #8c5428 70px 73px, #c3824a 73px 140px, #8c5428 140px 143px);
+  box-shadow: inset 0 6px 0 #6b3d1c;
+}
+.drape { /* side curtains, tied back */
+  position: absolute; top: 0; bottom: 18%; width: 11%; z-index: 4; pointer-events: none;
+  background:
+    repeating-linear-gradient(90deg, rgba(0, 0, 0, .28) 0 5px, transparent 5px 22px, rgba(255, 255, 255, .07) 22px 26px, transparent 26px 40px),
+    linear-gradient(#b3122e, #7d0b1f);
+  filter: drop-shadow(0 0 12px rgba(0, 0, 0, .5));
+}
+.drape-l { left: 0; border-bottom-right-radius: 100% 45%; }
+.drape-r { right: 0; border-bottom-left-radius: 100% 45%; }
+.drape::after { /* golden rope tie-back with a tassel */
+  content: ''; position: absolute; top: 56%; width: 70%; height: 46px;
+  background:
+    radial-gradient(circle at 50% 9px, #f3c74f 0 7px, #b8860b 7px 9px, transparent 10px),
+    linear-gradient(#e8b33a, #c8901d) 50% 16px / 10px 22px no-repeat,
+    linear-gradient(90deg, transparent 0 20%, #b8860b 20% 80%, transparent 80%) 50% 36px / 22px 10px no-repeat;
+  -webkit-mask: none;
+}
+.drape::before { /* the rope across the curtain */
+  content: ''; position: absolute; top: calc(56% + 4px); width: 70%; height: 8px; border-radius: 4px;
+  background: repeating-linear-gradient(60deg, #f3c74f 0 5px, #c8901d 5px 9px);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, .35);
+}
+.drape-l::after, .drape-l::before { right: 4%; }
+.drape-r::after, .drape-r::before { left: 4%; }
+.spots i { /* spotlight beams from above */
+  position: absolute; top: -10%; width: 34%; height: 110%; transform-origin: 50% 0;
+  background: linear-gradient(rgba(255, 244, 200, .26), rgba(255, 244, 200, .04) 80%, transparent);
+  clip-path: polygon(44% 0, 56% 0, 100% 100%, 0 100%);
+  mix-blend-mode: screen; transition: opacity .8s;
+}
+.spots i:nth-child(1) { left: 6%; transform: rotate(-14deg); }
+.spots i:nth-child(2) { left: 33%; }
+.spots i:nth-child(3) { right: 6%; transform: rotate(14deg); }
+body.is-playing .spots i:nth-child(1) { animation: sweep-l 6s ease-in-out infinite; }
+body.is-playing .spots i:nth-child(3) { animation: sweep-r 6s ease-in-out infinite; }
+@keyframes sweep-l { 50% { transform: rotate(-4deg); } }
+@keyframes sweep-r { 50% { transform: rotate(4deg); } }
+.footlights {
+  position: absolute; left: 6%; right: 6%; bottom: 0; height: 10px; z-index: 5; pointer-events: none;
+  background: radial-gradient(circle, #fff3c4 0 3px, rgba(255, 210, 120, .5) 4px, transparent 9px) 0 0 / 60px 10px repeat-x;
+  filter: drop-shadow(0 -6px 10px rgba(255, 210, 120, .6));
+}
+.show-band { inset: 6% 8% 6%; z-index: 3; gap: 0; }
+.show-member::before { /* pool of light under each player */
+  content: ''; position: absolute; left: 6%; right: 6%; bottom: -3%; height: 14%; border-radius: 50%;
+  background: radial-gradient(ellipse, rgba(255, 236, 180, .55), transparent 70%);
+}
+.show-member .char { position: relative; width: min(calc(84vw / var(--n, 4)), 72vh * .909, 560px); }
+.deco span { color: #f5d77a; opacity: .45; }
+.fnote { text-shadow: 0 0 8px rgba(0, 0, 0, .2); }
+
+/* time: small and see-through */
+.show-time {
+  bottom: 14px; background: none; border: none; padding: 0; z-index: 6;
+  font: 15px Nunito, sans-serif; font-weight: 700; color: rgba(255, 255, 255, .45);
+}
+/* tiny buttons bottom-right */
+/* stage buttons: chunky gold, like the curtain tie-backs */
+.stage-ctl { position: absolute; right: 16px; bottom: 14px; z-index: 12; display: flex; gap: 10px; }
+.stage-ctl button {
+  display: inline-flex; align-items: center; gap: 6px; height: 46px; min-width: 46px; padding: 0 14px;
+  justify-content: center; border-radius: 999px; border: 3px solid #2b2235; cursor: pointer;
+  font: 600 16px/1 Fredoka, sans-serif; color: #2b2235; font-size: 20px;
+  background: linear-gradient(#f3c74f, #e0a82a); box-shadow: 0 4px 0 #2b2235, 0 6px 14px rgba(0, 0, 0, .35);
+  transition: transform .12s, box-shadow .12s, filter .12s;
+}
+.stage-ctl button span { font-size: 16px; }
+.stage-ctl button:hover { transform: translateY(-2px); filter: brightness(1.08); box-shadow: 0 6px 0 #2b2235, 0 8px 18px rgba(0, 0, 0, .4); }
+.stage-ctl button:active { transform: translateY(3px); box-shadow: 0 1px 0 #2b2235, 0 2px 6px rgba(0, 0, 0, .3); }
+.stage-ctl #stage-fs { padding: 0; }
+@media (max-width: 700px) {
+  .stage-ctl { right: 10px; bottom: 10px; gap: 8px; }
+  .stage-ctl button { height: 40px; min-width: 40px; padding: 0; font-size: 17px; }
+  .stage-ctl button span { display: none; }
+}
+
+/* a paused character: frozen, grey, snoozing */
+.show-member.muted *, .show-member.muted *::before { animation-play-state: paused !important; }
+.show-member.muted .char { filter: grayscale(.9) brightness(.8); opacity: .5; }
+.show-member.muted::after {
+  content: 'z z z'; position: absolute; top: 2%; right: 12%; font: 26px 'Patrick Hand', cursive; color: #c4b5fd;
+  animation: snooze 2.4s ease-in-out infinite !important; animation-play-state: running !important;
+}
+@keyframes snooze { 50% { transform: translate(6px, -8px); opacity: .5; } }
+
+/* fading out before the curtain falls */
+.theater > :not(.curtain):not(.valance) { transition: opacity .8s, filter .8s; }
+.theater.fading > :not(.curtain):not(.valance) { opacity: .35; filter: saturate(.4); }
+
+.curtain-extras .autoplay-btn[aria-pressed="true"] { background: #e8f9d0; border-color: #84cc16; }
+.btn.autoplay-btn[aria-pressed="true"] { border-color: #84cc16; }
+
+/* Band layout: columns/rows set by layoutBand() — one row on wide screens, 2–3 per row on phones */
+.show-band { flex-wrap: wrap; align-content: flex-end; row-gap: 2vh; }
+.show-member .char {
+  width: min(calc(84vw / var(--cols, 4)), calc(66vh / var(--rows, 1) * .909), 560px);
+}
+@media (orientation: portrait) {
+  .show-band { inset: 9% 2% 15%; align-content: center; }
+  .show-member .char { width: min(calc(94vw / var(--cols, 2)), calc(70vh / var(--rows, 1) * .909)); }
+  .floor { height: 22%; }
+  .drape { width: 7%; bottom: 12%; }
+  .drape::before, .drape::after { display: none; }
+  .backdrop { inset: 0 0 18% 0; }
+}
+
+/* Safari: no SVG wobble filter and no blend modes (both are very slow there) */
+.safari .theater .show-member .char svg { filter: none !important; }
+.safari .spots i { mix-blend-mode: normal; opacity: .6; }
+
+/* ===== Standing on the floor (positions come from layoutBand) ===== */
+.show-band { position: absolute; inset: 0; display: block; }
+.show-member { position: absolute; display: block; }
+.show-member .char { width: 100% !important; height: auto; aspect-ratio: 200 / 220; }
+.show-member::before { /* contact shadow under the feet + a soft pool of light */
+  content: ''; position: absolute; left: 14%; right: 14%; bottom: -1.5%; height: 9%; border-radius: 50%;
+  background: radial-gradient(ellipse, rgba(20, 8, 0, .55) 0 35%, rgba(255, 226, 160, .28) 55%, transparent 72%);
+}
+.show-member.back-row .char { filter: brightness(.92); }
+.floor { height: 40%; transform: perspective(700px) rotateX(30deg); }
+.backdrop { inset: 0 0 34% 0; }
+.drape { bottom: 30%; }
+@media (orientation: portrait) {
+  .floor { height: 56%; transform: perspective(900px) rotateX(24deg); }
+  .backdrop { inset: 0 0 50% 0; }
+  .drape { bottom: 46%; }
+}
+
+/* Piano & xylophone: hands/mallets go to the exact key or bar (offsets set per note in app.js) */
+.p-slide-l { transform: translateX(var(--hx-l, 0px)); }
+.p-slide-r { transform: translateX(var(--hx-r, 0px)); }
+.p-key, .p-bar { transition: fill .08s; }
+.p-key.lit, .p-bar.lit { fill: var(--lit) !important; }
+.p-bar.lit { filter: brightness(1.35); }
+.p-slide-l, .p-slide-r { transition: transform 60ms ease-out; }
+
+/* Video export (tools/video): a clean stage while recording (no buttons, no baton, no sparkles) */
+body.recording, body.recording * { cursor: none !important; }
+body.recording .stage-ctl, body.recording .sparkles, body.recording .show-time { visibility: hidden !important; }
+body.recording .curtain-nav, body.recording .curtain-extras, body.recording .curtain-info { display: none !important; }

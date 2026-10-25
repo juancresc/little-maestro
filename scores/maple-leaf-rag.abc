@@ -1,0 +1,97 @@
+% emoji: 🍁
+% category: Jazz
+% mood: happy, exciting
+% level: 3
+% tags: ragtime, joplin, piano, jazz, mutopia
+% voices: Right hand ; Left hand
+% about: Joplin's first big hit, from 1899. It sold so many copies that he became the King of Ragtime.
+% source-file: Public-domain MIDI from the Mutopia Project (mutopiaproject.org), converted to ABC.
+X:1
+T:Maple Leaf Rag
+C:Scott Joplin
+M:2/4
+L:1/16
+Q:1/4=100
+K:C
+V:1 clef=treble name="R.H."
+%%MIDI program 0
+z|z2 ^G[^dD] Gc [dD]2|G[^dD] G^A [d-D-]4|[^dD]z ^G[dD] Gc [dD]2| \
+G[^dD] G^A [dD]3z|
+[^dD]z ^GB [eE]z [dD]z|[^dD]z ^GB [eE]z [dD]z|z8|z2 ^GB gz gb|
+^g'[g'g]2[g'g]2[g'g]2[g'g]|[^g'g]2 ^d'f' c'd' [f'g]2|[^ge]2 ^a[be] ga [c'^d]2|^g[c'^d] g[^ad]2[gd]2z|
+[^gG]3[gG]2[gG]2[gG]|[^gG]2 ^d[fG] cd [fG]2|[^GE]2 ^A[BE] GA [c^D]2|^G[c^D] G[^AD]2[GD]2z|
+z2 ^G[^dD] Gc [dD]2|G[^dD] G^A [d-D-]4|[^dD]z ^G[dD] Gc [dD]2|G[^dD] G^A [dD]3z|
+[^dD]z ^GB [eE]z [dD]z|[^dD]z ^GB [eE]z [dD]z|z8|z2 ^GB gz gb|
+^g'[g'g]2[g'g]2[g'g]2[g'g]|[^g'g]2 ^d'f' c'd' [f'g]2|[^ge]2 ^a[be] ga [c'^d]2|^g[c'^d] g[^ad]2[gd]2z|
+[^gG]3[gG]2[gG]2[gG]|[^gG]2 ^d[fG] cd [fG]2|[^GE]2 ^A[BE] GA [c^D]2|^G[c^D] G[^AD]2[GD]2z|
+z2 g[^d'd] g^a [=d'd]2|g[^c'c] g^a [=c'c]2 ^d[aA]|^dz c[^gG] cd [fF]2|c[^gG] c^d [fF]2 c[f-F-]|
+[fF]z ^d[gG] ^A^c [fF]2|^d[gG] ^A^c [fF]2 c[f-F-]|[fF]z c[^gG] c^d [fF]2|c[^gG] c^d [fF]2 c[f-F-]|
+[fF]z g[^d'd] g^a [=d'd]2|g[^c'c] g^a [=c'c]2 ^d[aA]|^dz c[^gG] cd [fF]2|c[^gG]2[gG]2[=gG]2[^f-F-]|
+[^fF]z =FA cf cA|Fz F^A ^c[fF]2[c-A-F-]|[^c^AF][=c^GFD]2z [cGFD]z [A^C]2|^D[^GC]2[dD]2[dD]2[d-D-]|
+[^dD]z g[d'd] g^a [=d'd]2|g[^c'c] g^a [=c'c]2 ^d[aA]|^dz c[^gG] cd [fF]2|c[^gG] c^d [fF]2 c[f-F-]|
+[fF]z ^d[gG] ^A^c [fF]2|^d[gG] ^A^c [fF]2 c[f-F-]|[fF]z c[^gG] c^d [fF]2|c[^gG] c^d [fF]2 c[f-F-]|
+[fF]z g[^d'd] g^a [=d'd]2|g[^c'c] g^a [=c'c]2 ^d[aA]|^dz c[^gG] cd [fF]2|c[^gG]2[gG]2[=gG]2[^f-F-]|
+[^fF]z =FA cf cA|Fz F^A ^c[fF]2[c-A-F-]|[^c^AF][=c^GFD]2z [cGFD]z [A^C]2|^Dz ^Gc d[gG]2z|
+z2 ^G[^dD] Gc [dD]2|G[^dD] G^A [d-D-]4|[^dD]z ^G[dD] Gc [dD]2|G[^dD] G^A [dD]3z|
+[^dD]z ^GB [eE]z [dD]z|[^dD]z ^GB [eE]z [dD]z|z8|z2 ^GB gz gb|
+^g'[g'g]2[g'g]2[g'g]2[g'g]|[^g'g]2 ^d'f' c'd' [f'g]2|[^ge]2 ^a[be] ga [c'^d]2|^g[c'^d] g[^ad]2[gd]2z|
+[^gG]3[gG]2[gG]2[gG]|[^gG]2 ^d[fG] cd [fG]2|[^GE]2 ^A[BE] GA [c^D]2|^G[c^D] G[^AD]2[GD]2[g-G-]|
+[^gG]
+[g^dcG]3 [gdc^A]2 [dc]A-|^A[^g^dcG]3 [gdcA]2 [dc]A|[^dc]^G ^c^A cf Gc|f^A ^cf ^G2 fA|
+f[^g^dcG]3 [gdc^A]2 [dc]A-|^A[^g^dcG]3 [gdcA]2 [dc]A|[^dc]^G ^c^A cf Gc|f^A ^cf ^G2 f=A|
+[f^d][^af=dA]3 [afdc]2 [fd]c-|c[^afdA]3 [afdc]2 [fd]c|[fd]z ^d[^aA] d^f [c'c]2|^d[^aA] d^f [c'c]2 d[a-A-]|
+[^aA][^c'ec]2[c'ec]2[=c'ec]2[a-e-A-]|[^aeA][f^G] ^c^d [^fA]2 A[=f-G-]|[f^G][f=G] ^c^d [f^F]2 =c[dF]|[^cF]2 [^gG]2 f[gG] f[gG]|
+f[^g^dcG]3 [gdc^A]2 [dc]A-|^A[^g^dcG]3 [gdcA]2 [dc]A|[^dc]^G ^c^A cf Gc|f^A ^cf ^G2 fA|
+f[^g^dcG]3 [gdc^A]2 [dc]A-|^A[^g^dcG]3 [gdcA]2 [dc]A|[^dc]^G ^c^A cf Gc|f^A ^cf ^G2 f=A|
+[f^d][^af=dA]3 [afdc]2 [fd]c-|c[^afdA]3 [afdc]2 [fd]c|[fd]z ^d[^aA] d^f [c'c]2|^d[^aA] d^f [c'c]2 d[a-A-]|
+[^aA][^c'ec]2[c'ec]2[=c'ec]2[a-e-A-]|[^aeA][f^G] ^c^d [^fA]2 A[=f-G-]|[f^G][f=G] ^c^d [f^F]2 =c[dF]|[^cF]2 cf ^g[c'c]2z|
+z
+[^gG]2[fG]2[gG]2[f-G-]|[f^G][gf]2[^af] [c'f]2 ag|f^d f2 [c-^G-]4|[c^G]z ^d[fG] cd [fG]2|
+c[^dG]2f [^A-G-]4|[^AG]z ^c[fG] Ac [fG]2|[c^G]2 ^d[fG] cd [fG]2|[c^G]2 ^d[fG] cd [fG]2|
+^d[^gG]2[fG]2[gG]2[f-G-]|[f^G][gf]2[^af] [c'f]2 ag|f^g2f2^d g2|[c^G]2 ^d[fG] cd [fG]2|
+[^GF]2 ^A[GF]2[GE]2[AE]|[^G^D]2 ^A[cD] GA [cD]2|[^GD]2 ^A[cD] Gz [A^C]2|^D[^GC]2[dD]2[dD]2[d-D-]|
+[^dD][^gG]2[fG]2[gG]2[f-G-]|[f^G][gf]2[^af] [c'f]2 ag|f^d f2 [c-^G-]4|[c^G]z ^d[fG] cd [fG]2|
+c[^dG]2f [^A-G-]4|[^AG]z ^c[fG] Ac [fG]2|[c^G]2 ^d[fG] cd [fG]2|[c^G]2 ^d[fG] cd [fG]2|
+^d[^gG]2[fG]2[gG]2[f-G-]|[f^G][gf]2[^af] [c'f]2 ag|f^g2f2^d g2|[c^G]2 ^d[fG] cd [fG]2|
+[^GF]2 ^A[GF]2[GE]2[AE]|[^G^D]2 ^A[cD] GA [cD]2|[^GD]2 ^A[cD] Gz [A^C]2|^D[^GC]2[d^c=G]2[^gd=cG]2
+V:2 clef=bass name="L.H."
+%%MIDI program 0
+[^D,-D,,-]|[^D,D,,][^G,G,,]2[CG,D,]2[CG,D,]2[A,-A,,-]|[A,A,,][^A,A,,]2[^CG,^D,]2[CG,D,]2[D,-D,,-]|[^D,D,,][^G,G,,]2[CG,D,]2[CG,D,]2[A,-A,,-]| \
+[A,A,,][^A,A,,]2[^CG,^D,]2[CG,D,]2[D,-D,,-]|
+[^D,D,,][E,E,,]4[D,D,,]2[D,-D,,-]|[^D,D,,][E,E,,]4[D,D,,]2z|z^G,,,- [G,,G,,,]B,, G,G,,- [G,G,,]B,|^GG,2z2G2z|
+z[B^GFD]2[BGFD]2[BGFD]2[B-G-F-D-]|[B^GFD][cG^D]2[cGD]2[cGD]2[c-G-D-]|[c^G^D][BGE]2[BGE]2[cGD]2[c-G-D-]|[c^G^D][cGD]2[^c=GD]2[=c^G]2z|
+z[B,^G,F,D,]2[B,G,F,D,]2[B,G,F,D,]2[B,-G,-F,-D,-]|[B,^G,F,D,][CG,^D,]2[CG,D,]2[CG,D,]2[C-G,-D,-]|[C^G,^D,][B,G,E,]2[B,G,E,]2[CG,D,]2[C-G,-D,-]|[C^G,^D,][CG,D,]2[^C=G,D,]2[=C^G,]2[D,-D,,-]|
+[^D,D,,][^G,G,,]2[CG,D,]2[CG,D,]2[A,-A,,-]|[A,A,,][^A,A,,]2[^CG,^D,]2[CG,D,]2[D,-D,,-]|[^D,D,,][^G,G,,]2[CG,D,]2[CG,D,]2[A,-A,,-]|[A,A,,][^A,A,,]2[^CG,^D,]2[CG,D,]2[D,-D,,-]|
+[^D,D,,][E,E,,]4[D,D,,]2[D,-D,,-]|[^D,D,,][E,E,,]4[D,D,,]2z|z^G,,,- [G,,G,,,]B,, G,G,,- [G,G,,]B,|^GG,2z2G2z|
+z[B^GFD]2[BGFD]2[BGFD]2[B-G-F-D-]|[B^GFD][cG^D]2[cGD]2[cGD]2[c-G-D-]|[c^G^D][BGE]2[BGE]2[cGD]2[c-G-D-]|[c^G^D][cGD]2[^c=GD]2[=c^G]2z|
+z[B,^G,F,D,]2[B,G,F,D,]2[B,G,F,D,]2[B,-G,-F,-D,-]|[B,^G,F,D,][CG,^D,]2[CG,D,]2[CG,D,]2[C-G,-D,-]|[C^G,^D,][B,G,E,]2[B,G,E,]2[CG,D,]2[C-G,-D,-]|[C^G,^D,][CG,D,]2[^C=G,D,]2[=C^G,]2[A,-A,,-]|
+[A,A,,][^A,A,,]2[^CG,^D,]2[D,D,,]2[C-G,-D,-]|[^CG,^D,][^A,A,,]2[CG,D,]2[D,D,,]2[G,-G,,-]|[G,G,,][^G,G,,]2[CG,^D,]2[D,D,,]2[C-G,-D,-]|[C^G,^D,][G,G,,]2[CG,D,]2[G,G,,]2[A,-A,,-]|
+[A,A,,][^A,A,,]2[^CG,^D,]2[D,D,,]2[C-G,-D,-]|[^CG,^D,][^A,A,,]2[CG,D,]2[A,A,,]2[B,-B,,-]|[B,B,,][CC,]2[C^G,^D,]2[D,D,,]2[C-G,-D,-]|[C^G,^D,][G,G,,]2[CG,D,]2[G,G,,]2[A,-A,,-]|
+[A,A,,][^A,A,,]2[^CG,^D,]2[D,D,,]2[C-G,-D,-]|[^CG,^D,][^A,A,,]2[CG,D,]2[D,D,,]2[G,-G,,-]|[G,G,,][^G,G,,]2[CG,^D,]2[D,D,,]2[C-G,-D,-]|[C^G,^D,][G,G,,]2[G,G,,]2[=G,G,,]2[^F,-F,,-]|
+[^F,F,,][=F,F,,]2[F,F,,]2[A,A,,]2[A,-A,,-]|[A,A,,][^A,A,,]2[^CA,F,]2[CA,F,]2[C-A,-F,-]|[^C^A,F,][A,F,A,,]2[A,F,A,,]2[^D,D,,]2[G,-G,,-]|[G,G,,][^G,G,,]2[CG,^D,]2[CG,D,]2[A,-A,,-]|
+[A,A,,][^A,A,,]2[^CG,^D,]2[D,D,,]2[C-G,-D,-]|[^CG,^D,][^A,A,,]2[CG,D,]2[D,D,,]2[G,-G,,-]|[G,G,,][^G,G,,]2[CG,^D,]2[D,D,,]2[C-G,-D,-]|[C^G,^D,][G,G,,]2[CG,D,]2[G,G,,]2[A,-A,,-]|
+[A,A,,][^A,A,,]2[^CG,^D,]2[D,D,,]2[C-G,-D,-]|[^CG,^D,][^A,A,,]2[CG,D,]2[A,A,,]2[B,-B,,-]|[B,B,,][CC,]2[C^G,^D,]2[D,D,,]2[C-G,-D,-]|[C^G,^D,][G,G,,]2[CG,D,]2[G,G,,]2[A,-A,,-]|
+[A,A,,][^A,A,,]2[^CG,^D,]2[D,D,,]2[C-G,-D,-]|[^CG,^D,][^A,A,,]2[CG,D,]2[D,D,,]2[G,-G,,-]|[G,G,,][^G,G,,]2[CG,^D,]2[D,D,,]2[C-G,-D,-]|[C^G,^D,][G,G,,]2[G,G,,]2[=G,G,,]2[^F,-F,,-]|
+[^F,F,,][=F,F,,]2[F,F,,]2[A,A,,]2[A,-A,,-]|[A,A,,][^A,A,,]2[^CA,F,]2[CA,F,]2[C-A,-F,-]|[^C^A,F,][A,F,A,,]2[A,F,A,,]2[^D,D,,]2[G,-G,,-]|[G,G,,][^G,G,,]2[^DCG,]2[DCG,]2[D,-D,,-]|
+[^D,D,,][^G,G,,]2[CG,D,]2[CG,D,]2[A,-A,,-]|[A,A,,][^A,A,,]2[^CG,^D,]2[CG,D,]2[D,-D,,-]|[^D,D,,][^G,G,,]2[CG,D,]2[CG,D,]2[A,-A,,-]|[A,A,,][^A,A,,]2[^CG,^D,]2[CG,D,]2[D,-D,,-]|
+[^D,D,,][E,E,,]4[D,D,,]2[D,-D,,-]|[^D,D,,][E,E,,]4[D,D,,]2z|z^G,,,- [G,,G,,,]B,, G,G,,- [G,G,,]B,|^GG,2z2G2z|
+z[B^GFD]2[BGFD]2[BGFD]2[B-G-F-D-]|[B^GFD][cG^D]2[cGD]2[cGD]2[c-G-D-]|[c^G^D][BGE]2[BGE]2[cGD]2[c-G-D-]|[c^G^D][cGD]2[^c=GD]2[=c^G]2z|
+z[B,^G,F,D,]2[B,G,F,D,]2[B,G,F,D,]2[B,-G,-F,-D,-]|[B,^G,F,D,][CG,^D,]2[CG,D,]2[CG,D,]2[C-G,-D,-]|[C^G,^D,][B,G,E,]2[B,G,E,]2[CG,D,]2[C-G,-D,-]|[C^G,^D,][CG,D,]2[^C=G,D,]2[=C^G,]2z|
+z
+[^D,D,,]2[^FC^G,]2[F,F,,]2[F-C-G,-]|[^FC^G,][=F,F,,]2[^FCG,]2[^D,D,,]2[C,-C,,-]|[C,C,,][^C,C,,]2[FC^G,]2[G,G,,]2[F-C-G,-]|[F^C^G,][F,F,,]2[FCG,]2[C,C,,]2[D,-D,,-]|
+[D,D,,][^D,D,,]2[^FC^G,]2[F,F,,]2[F-C-G,-]|[^FC^G,][=F,F,,]2[^FCG,]2[^D,D,,]2[C,-C,,-]|[C,C,,][^C,C,,]2[FC^G,]2[G,G,,]2[F-C-G,-]|[F^C^G,][F,F,,]2[FCG,]2[C,C,,]2[=C,-C,,-]|
+[C,C,,][^A,,A,,,]2[^GDA,]2[D,D,,]2[G-D-A,-]|[^GD^A,][F,F,,]2[GDA,]2[A,A,,]2[G-D-A,-]|[^GD^A,][^D,D,,]2[^FDA,]2[F,F,,]2[F-D-A,-]|[^F^D^A,][D,D,,]2[FDA,]2[F,F,,]2[F-D-A,-]|
+[^F^D^A,]G, A,2 ^CE CA,|G,[^G,G,,]2[F^CG,]2^A,,2[D-A,-G,-]|[D^A,^G,][^CA,^D,]2[CA,D,]2[=CG,]2[C-G,-]|[C^G,][^CC,]2[FCG,]2[FCG,]2[D,-D,,-]|
+[D,D,,][^D,D,,]2[^FC^G,]2[F,F,,]2[F-C-G,-]|[^FC^G,][=F,F,,]2[^FCG,]2[^D,D,,]2[C,-C,,-]|[C,C,,][^C,C,,]2[FC^G,]2[G,G,,]2[F-C-G,-]|[F^C^G,][F,F,,]2[FCG,]2[C,C,,]2[D,-D,,-]|
+[D,D,,][^D,D,,]2[^FC^G,]2[F,F,,]2[F-C-G,-]|[^FC^G,][=F,F,,]2[^FCG,]2[^D,D,,]2[C,-C,,-]|[C,C,,][^C,C,,]2[FC^G,]2[G,G,,]2[F-C-G,-]|[F^C^G,][F,F,,]2[FCG,]2[C,C,,]2[=C,-C,,-]|
+[C,C,,][^A,,A,,,]2[^GDA,]2[D,D,,]2[G-D-A,-]|[^GD^A,][F,F,,]2[GDA,]2[A,A,,]2[G-D-A,-]|[^GD^A,][^D,D,,]2[^FDA,]2[F,F,,]2[F-D-A,-]|[^F^D^A,][D,D,,]2[FDA,]2[F,F,,]2[F-D-A,-]|
+[^F^D^A,]G, A,2 ^CE CA,|G,[^G,G,,]2[F^CG,]2^A,,2[D-A,-G,-]|[D^A,^G,][^CA,^D,]2[CA,D,]2[=CG,]2[C-G,-]|[C^G,][^CC,]2[G,G,,]2[C,C,,]2[=C-C,-]|
+[CC,]
+[^CC,]2[FC^G,]2[FCG,]2[=C-C,-]|[CC,][^CC,]2[FC^G,]2[^A,A,,]2[B,-B,,-]|[B,B,,][CC,]2[^DC^G,]2[DCG,]2[D,-D,,-]|[^D,D,,][^G,G,,]2[CG,D,]2[D,D,,]2[A,-A,,-]|
+[A,A,,][^A,A,,]2[^CG,^D,]2[D,D,,]2[=A,-A,,-]|[A,A,,][^A,A,,]2[^CG,^D,]2[D,D,,]2[G,-G,,-]|[G,G,,][^G,G,,]2[CG,^D,]2[D,D,,]2[C-G,-D,-]|[C^G,^D,][G,G,,]2[CG,D,]2[^A,A,,]2[C-C,-]|
+[CC,][^CC,]2[FC^G,]2[FCG,]2[=C-C,-]|[CC,][^CC,]2[FC^G,]2[^A,A,,]2[B,-B,,-]|[B,B,,][CC,]2[^DC^G,]2[DCG,]2[D,-D,,-]|[^D,D,,][^G,G,,]2[CG,D,]2[D,D,,]2[C-G,-D,-]|
+[C^G,^D,][^C,C,,]2[C,C,,]2[^A,,A,,,]2[=D,-D,,-]|[D,D,,][^D,D,,]2[C^G,D,]2[D,D,,]2[E,-E,,-]|[E,E,,][F,F,,]2[F,F,,]2[G,G,,]2[G,-G,,-]|[G,G,,][^G,G,,]2[CG,^D,]2[^A,A,,]2[C-C,-]|
+[CC,][^CC,]2[FC^G,]2[FCG,]2[=C-C,-]|[CC,][^CC,]2[FC^G,]2[^A,A,,]2[B,-B,,-]|[B,B,,][CC,]2[^DC^G,]2[DCG,]2[D,-D,,-]|[^D,D,,][^G,G,,]2[CG,D,]2[D,D,,]2[A,-A,,-]|
+[A,A,,][^A,A,,]2[^CG,^D,]2[D,D,,]2[=A,-A,,-]|[A,A,,][^A,A,,]2[^CG,^D,]2[D,D,,]2[G,-G,,-]|[G,G,,][^G,G,,]2[CG,^D,]2[D,D,,]2[C-G,-D,-]|[C^G,^D,][G,G,,]2[CG,D,]2[^A,A,,]2[C-C,-]|
+[CC,][^CC,]2[FC^G,]2[FCG,]2[=C-C,-]|[CC,][^CC,]2[FC^G,]2[^A,A,,]2[B,-B,,-]|[B,B,,][CC,]2[^DC^G,]2[DCG,]2[D,-D,,-]|[^D,D,,][^G,G,,]2[CG,D,]2[D,D,,]2[C-G,-D,-]|
+[C^G,^D,][^C,C,,]2[C,C,,]2[^A,,A,,,]2[=D,-D,,-]|[D,D,,][^D,D,,]2[C^G,D,]2[D,D,,]2[E,-E,,-]|[E,E,,][F,F,,]2[F,F,,]2[G,G,,]2[G,-G,,-]|[G,G,,][^G,G,,]2[^D,D,,]2[G,,G,,,]2

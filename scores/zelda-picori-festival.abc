@@ -1,0 +1,85 @@
+% emoji: 🎪
+% category: Video Game
+% mood: happy, dance
+% level: 2
+% tags: zelda, minish cap, game boy advance, gba, nintendo, festival, midi
+% about: Hyrule throws a big party for the tiny Picori. Time to dance! From The Legend of Zelda: The Minish Cap (Game Boy Advance).
+% source-file: Fan MIDI by Tyler Prevost from VGMusic.com (Minish_Cap_-_Picori_Festival.mid), converted to ABC.
+X:1
+T:Zelda: Picori Festival
+C:Mitsuhiko Takano
+M: 4/4
+L: 1/8
+Q:1/4=50
+K:D
+V:1 clef=treble
+%%MIDI program 75
+d/2a/2a/2>g/2 [ba]/2c'/2a| \
+g/2a/2f/2g/2 e/2f/2d d/2a/2a/2>g/2 [ba]/2c'/2a| \
+gf/2>e/2 [d-c]/2d3/2 d/2a/2a/2>g/2 [ba]/2c'/2a| \
+g/2a/2f/2g/2 e/2f/2d d/2a/2a/2>g/2 [ba]/2c'/2a| \
+gf/2>e/2 [d-c]/2d3/2 z4|
+z8| \
+z3 (3G/2A/2B/2 [dc]/2a/2a/2>g/2 [ba]/2c'/2a| \
+g/2a/2f/2g/2 e/2f/2d d/2a/2a/2>g/2 [ba]/2c'/2a| \
+gf/2>e/2 [d-c]/2d3/2 d/2a/2a/2>g/2 [ba]/2c'/2a|
+g/2a/2f/2g/2 e/2f/2d d/2a/2a/2>g/2 [ba]/2c'/2a| \
+gf/2>e/2 [d-c]/2d3/2 z4| \
+z8| \
+z3 (3G/2A/2B/2
+V:2 clef=treble
+%%MIDI program 74
+z4| \
+z8| \
+z3 (3d/2e/2f/2 [a-g]/2a/2d a/2a/2d| \
+bb c/2c/2d ad a/2a/2d| \
+Bc f/2f/2d z4|
+z8| \
+z8| \
+z8| \
+z3 (3d/2e/2f/2 [a-g]/2a/2d a/2a/2d|
+bb c/2c/2d ad a/2a/2d| \
+Bc f/2f/2d
+V:3 clef=treble
+%%MIDI program 71
+z4| \
+z8| \
+z8| \
+z8| \
+z4 dd/2>e/2 [gf]/2f/2e/2d/2|
+c/2>c/2[c-B]/2c/2 c/2>c/2[c-B]/2c/2 dd/2>e/2 [gf]/2f/2e/2d/2| \
+ef/2f/2 bz4z| \
+z8| \
+z8|
+z8| \
+z4 dd/2>e/2 [gf]/2f/2e/2d/2| \
+c/2>c/2[c-B]/2c/2 c/2>c/2[c-B]/2c/2 dd/2>e/2 [gf]/2f/2e/2d/2| \
+ef/2f/2 b
+V:4 clef=bass
+%%MIDI program 6
+D,,/2[DA,A,,]/2A,,,/2[DA,A,,]/2 D,,/2[DA,A,,]/2A,,,/2[DA,A,,]/2| \
+E,,/2[EB,B,,]/2E,,/2[EB,B,,]/2 [EA,A,,]/2[EA,A,,]/2[A,A,,D,,] D,,/2[DA,A,,]/2A,,,/2[DA,A,,]/2 D,,/2[DA,A,,]/2A,,,/2[DA,A,,]/2| \
+[EB,B,,]/2z/2[EA,A,,]/2z/2 [A,A,,D,,]/2[A,A,,D,,]/2[A,A,,D,,] D,,/2[DA,A,,]/2A,,,/2[DA,A,,]/2 D,,/2[DA,A,,]/2A,,,/2[DA,A,,]/2| \
+E,,/2[EB,B,,]/2E,,/2[EB,B,,]/2 [EA,A,,]/2[EA,A,,]/2[A,A,,D,,] D,,/2[DA,A,,]/2A,,,/2[DA,A,,]/2 D,,/2[DA,A,,]/2A,,,/2[DA,A,,]/2| \
+[EB,B,,]/2z/2[EA,A,,]/2z/2 [A,A,,D,,]/2[A,A,,D,,]/2[A,A,,D,,] z/2[DA,A,,]/2z/2[DA,A,,]/2 z/2[DB,A,,]/2z/2[DB,A,,]/2|
+z/2[ECA,,]/2z/2[ECA,,]/2 z/2[ECA,,]/2z/2[ECA,,]/2 z/2[DA,A,,]/2z/2[DA,A,,]/2 z/2[DB,A,,]/2z/2[DB,A,,]/2| \
+[EB,B,,]/2z/2[CA,A,,]/2z/2 [DA,A,,]/2[DA,A,,]/2[DA,A,,] D,,/2[DA,A,,]/2A,,,/2[DA,A,,]/2 D,,/2[DA,A,,]/2A,,,/2[DA,A,,]/2| \
+E,,/2[EB,B,,]/2E,,/2[EB,B,,]/2 [EA,A,,]/2[EA,A,,]/2[A,A,,D,,] D,,/2[DA,A,,]/2A,,,/2[DA,A,,]/2 D,,/2[DA,A,,]/2A,,,/2[DA,A,,]/2| \
+[EB,B,,]/2z/2[EA,A,,]/2z/2 [A,A,,D,,]/2[A,A,,D,,]/2[A,A,,D,,] D,,/2[DA,A,,]/2A,,,/2[DA,A,,]/2 D,,/2[DA,A,,]/2A,,,/2[DA,A,,]/2|
+E,,/2[EB,B,,]/2E,,/2[EB,B,,]/2 [EA,A,,]/2[EA,A,,]/2[A,A,,D,,] D,,/2[DA,A,,]/2A,,,/2[DA,A,,]/2 D,,/2[DA,A,,]/2A,,,/2[DA,A,,]/2| \
+[EB,B,,]/2z/2[EA,A,,]/2z/2 [A,A,,D,,]/2[A,A,,D,,]/2[A,A,,D,,] z/2[DA,A,,]/2z/2[DA,A,,]/2 z/2[DB,A,,]/2z/2[DB,A,,]/2| \
+z/2[ECA,,]/2z/2[ECA,,]/2 z/2[ECA,,]/2z/2[ECA,,]/2 z/2[DA,A,,]/2z/2[DA,A,,]/2 z/2[DB,A,,]/2z/2[DB,A,,]/2| \
+[EB,B,,]/2z/2[CA,A,,]/2z/2 [DA,A,,]/2[DA,A,,]/2[DA,A,,]
+V:5 clef=perc
+%%MIDI channel 10
+z/2F,/2z/2F,/2 z/2F,/2z/2z/2| \
+F,/2F,/2z/2F,/2 F,/2F,/2F,/2zF,/2z/2F,/2 z/2F,/2z/2z/2| \
+F,/2z/2F,/2z/2 F,/2F,/2F,/2zF,/2z/2F,/2 z/2F,/2z/2z/2| \
+F,/2F,/2z/2F,/2 F,/2F,/2F,/2zF,/2z/2F,/2 z/2F,/2z/2z/2| \
+F,/2z/2F,/2z/2 F,/2F,/2F,/2z4z/2|
+z8| \
+z4 z/2F,/2z/2F,/2 z/2F,/2z/2z/2| \
+F,/2F,/2z/2F,/2 F,/2F,/2F,/2zF,/2z/2F,/2 z/2F,/2z/2z/2| \
+F,/2z/2F,/2z/2 F,/2F,/2F,/2zF,/2z/2F,/2 z/2F,/2z/2z/2|
+F,/2F,/2z/2F,/2 F,/2F,/2F,/2zF,/2z/2F,/2 z/2F,/2z/2z/2| \
+F,/2z/2F,/2z/2 F,/2F,/2>F,/2

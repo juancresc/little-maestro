@@ -1,0 +1,30 @@
+% emoji: 🌟
+% category: Jazz
+% mood: happy, cool
+% level: 1
+% tags: swing, mozart, star, band, remix
+% voices: 🦇 Bat · Sax ; 🧟 Mummy · Trumpet
+% swing: 66
+% gchord: fcfc
+% chordprog: 0
+% bassprog: 32
+% drums: on
+% drum: d2ddd2dd 51 42 51 51 42 51 100 90 70 100 90 70
+% about: The same little star — but now it swings! Jazz musicians love to take a famous tune and dress it up with fancy chords.
+X:1
+T:Twinkle Swing
+C:Mozart's tune, jazzed up
+M:4/4
+L:1/8
+Q:1/4=126
+K:C
+V:1 clef=treble
+%%MIDI program 65
+"C6"C2 C2 G2 G2|"Fmaj7"A2 A2 "C6"G3 z|"Dm7"F2 F2 "Em7"E2 E2|"Dm7"D2 "G7"D2 "C6"C3 z|
+"Em7"G2 G2 "A7"F2 F2|"Dm7"E2 E2 "G7"D3 z|"Em7"G2 G2 "A7"F2 F2|"Dm7"E2 E2 "G7"D3 z|
+"C6"C2 C2 G2 G2|"Fmaj7"A2 A2 "Em7"G3 z|"Dm7"F2 F2 "G7"E2 E2|"Dm7"D2 "G7"D2 "C6"[CEGA]4|]
+V:2 clef=treble
+%%MIDI program 56
+z8|z6 ec|z8|z6 ce|
+z8|z6 Bd|z8|z6 dB|
+z8|z6 eg|z8|z4 [ce]4|]

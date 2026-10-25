@@ -1,0 +1,110 @@
+% emoji: 🌙
+% category: Classical
+% mood: calm, dreamy
+% level: 2
+% tags: satie, piano, calm, lullaby, mutopia
+% about: A slow, floaty piano piece. Satie was a funny man who only ate white food and owned seven identical suits!
+% source-file: Public-domain MIDI from the Mutopia Project (mutopiaproject.org) (gymnopedie_1.mid), converted to ABC.
+X:1
+T:Gymnopédie No. 1
+C:Erik Satie
+M: 3/4
+L: 1/8
+Q:1/4=60
+K:G
+V:1 clef=treble
+z2 [FDB,]4| \
+z2 [F^CA,]4| \
+z2 [FDB,]4| \
+z2 [F^CA,]4|
+z2 [fF-D-B,-]2 [aFDB,]2| \
+g2 [fF-^C-A,-]2 [cFCA,]2| \
+B2 [^cF-D-B,-]2 [dFDB,]2| \
+A2- [AF^CA,]4|
+F2 [F-DB,]4| \
+F2 [F-^CA,]4| \
+F2 [F-DB,]4| \
+F2 [F^CA,]4|
+z2 [fF-D-B,-]2 [aFDB,]2| \
+g2 [fF-^C-A,-]2 [cFCA,]2| \
+B2 [^cF-D-B,-]2 [dFDB,]2| \
+A2- [AF^CA,]4|
+^c2- [cFCA,]4| \
+f2- [fFDB,]4| \
+E6-| \
+E6-|
+E6| \
+A2 B2 c2| \
+e2 d2 B2| \
+d2 c2 B2|
+d6-| \
+d4 d2| \
+e2 =f2 g2| \
+a2 c2 d2|
+e2 d2 B2| \
+d6-| \
+d4 d2| \
+g2- [gGEB,]4|
+f2- [fF^CA,]4| \
+B2 [AF-D-B,-]2 [BFDB,]2| \
+^c2 [dA-E-C-]2 [eAEC]2| \
+^c2 [dA-F-C-A,-]2 [eAFCA,]2|
+F2- [F-DA,]2 [GFDB,]2| \
+[cAEC]6| \
+[dAFD]6| \
+g2- [gGEB,]4|
+=f2- [fAFDA,]4| \
+B2 [c=F-C-A,-]2 [fFCA,]2| \
+e2 [dA-E-C-]2 [cAEC]2| \
+e2 [dA-=F-C-A,-]2 [cAFCA,]2|
+=F2- [F-DA,]2 [GFDB,]2| \
+[cAEC]6| \
+[dA=FD]6|
+V:2 clef=bass
+G,,6| \
+D,,6| \
+G,,6| \
+D,,6|
+G,,6| \
+D,,6| \
+G,,6| \
+D,,6|
+G,,6| \
+D,,6| \
+G,,6| \
+D,,6|
+G,,6| \
+D,,6| \
+G,,6| \
+D,,6|
+F,,6| \
+B,,,6| \
+E,,2- [B,G,E,,]4| \
+E,,2- [GDB,E,,]4|
+D,,2- [DA,=F,D,,]4| \
+A,,,2- [ECA,A,,,]4| \
+D,,2- [EB,G,D,,]4| \
+D,,2- [EB,G,D,D,,]4|
+D,,2- [DA,E,C,D,,]4| \
+D,,2- [DA,F,C,D,,]4| \
+D,,2- [=FCA,D,,]4| \
+D,,2- [ECA,D,,]4|
+D,,2- [EB,G,D,D,,]4| \
+D,,2- [DA,E,C,D,,]4| \
+D,,2- [DA,F,C,D,,]4| \
+E,,6|
+F,,6| \
+B,,,6| \
+E,,6| \
+E,,6|
+E,,2- [B,,E,,-]2 [E,E,,]2| \
+[G,A,,]6| \
+[D,A,,D,,]6| \
+E,,6|
+E,,6| \
+E,,6| \
+E,,6| \
+E,,6|
+E,,2- [B,,E,,-]2 [E,E,,]2| \
+[G,A,,]6| \
+[D,A,,D,,]6|

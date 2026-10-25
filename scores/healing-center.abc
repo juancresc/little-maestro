@@ -1,0 +1,23 @@
+% emoji: 💖
+% category: Video Game
+% mood: happy, calm
+% level: 1
+% tags: 8-bit, chiptune, game boy, cozy, town, original
+% instrument: 80
+% voices: 🍬 Candy · 8-bit lead
+% gchord: fcfc
+% chordprog: 80
+% bassprog: 38
+% drums: on
+% about: A cozy song for the place where tired heroes rest and get better. In old adventure games, a friendly little tune like this means you are safe!
+X:1
+T:Healing Center
+C:Little Maestro original (8-bit)
+M:4/4
+L:1/8
+Q:1/4=120
+K:C
+|:"C"e2 g2 c'2 g2|"F"a2 g f e2 c2|"Dm"d2 f2 a2 g f|"G7"e2 d2 G4|
+"C"e2 g2 c'2 b c'|"Am"a2 e2 c2 e2|"Dm"f e d c "G7"B c d B|"C"c6 z2:|
+|:"F"a2 c'2 a2 f2|"C"g2 e2 c4|"Dm"f2 a2 f2 d2|"G"B2 d2 g4|
+"F"c' b a g "Em"g f e d|"Am"e d c B "D7"A2 ^F2|"Dm"F A d f "G7"e d B d|1 "C"c6 z2:|2 "C"c2 e2 g2 c'2|]

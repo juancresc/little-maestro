@@ -1,0 +1,669 @@
+% emoji: 🏡
+% category: Video Game
+% mood: calm, happy
+% level: 2
+% tags: pokemon, game boy advance, gba, 8-bit, ruby & sapphire, midi
+% about: The little home town where the adventure begins. It gently sways, like a rocking chair. From Pokémon Ruby & Sapphire (Game Boy Advance).
+% source-file: Fan MIDI from VGMusic.com (PkmRS_Littleroot.mid), converted to ABC.
+X:1
+T:Littleroot Town
+C:Go Ichinose, Junichi Masuda & Morikazu Aoki
+M: 3/8
+L: 1/16
+Q:1/4=110
+K:F
+V:1 clef=bass
+%%MIDI program 32
+E,,z E,,4| \
+F,,6| \
+F,,z C,z F,,2-| \
+F,,2 G,,z A,,2-|
+A,,4 A,,z| \
+_D,z A,,4| \
+G,,z D,,4-| \
+D,,2 A,,z _D,z|
+A,,4 G,,z| \
+C,,6| \
+A,,z =B,,z F,,2| \
+A,,2 G,,2 F,,2-|
+F,,4 C,,z| \
+A,,z A,,4| \
+C,z G,,4-| \
+G,,2 D,,z G,,z|
+G,,4 D,z| \
+C,6| \
+C,z G,z C,2| \
+B,,2 G,,2 E,,2-|
+E,,4 E,,z| \
+C,,z G,,2 F,2| \
+G,,2 F,,4-| \
+F,,2 F,,z C,z|
+F,,4 G,,z| \
+A,,6| \
+A,,z _D,z A,,2-| \
+A,,2 G,,z D,,2-|
+D,,4 A,,z| \
+_D,z A,,4| \
+G,,z C,,4-| \
+C,,2 A,,z =B,,z|
+F,,2 D,,2 E,,2| \
+F,,6| \
+C,,z B,,z B,,2-| \
+B,,2 _G,,z =G,,2-|
+G,,4 G,,z| \
+D,z G,,4| \
+B,,z C,4-| \
+C,2 C,z G,z|
+C,2 B,,2 G,,2| \
+E,,6| \
+E,,z C,,z C,2| \
+Cz B,,2 C,2-|
+C,4 C,z| \
+_D,z D,4| \
+B,,z A,,4-| \
+A,,2 D,z B,,z|
+F,,4 A,,z| \
+B,,6| \
+G,,z E,,z G,,2-| \
+G,,2 D,z C,2-|
+C,4 A,,z| \
+B,,z B,,4| \
+G,,z A,,4-| \
+A,,2 A,,z _D,z|
+A,,4 _D,z| \
+F,,6| \
+D,z =B,,z B,,2-| \
+=B,,2 G,,z _B,,2-|
+B,,4 G,,z| \
+=B,,z B,,4| \
+G,,z C,4-| \
+C,2 F,z C,z|
+C,4 G,,z| \
+F,,6| \
+F,,z C,z F,,2-| \
+F,,2 G,,z A,,2-|
+A,,4 A,,z| \
+_D,z A,,4| \
+G,,z D,,4-| \
+D,,2 A,,z _D,z|
+A,,4 G,,z| \
+C,,6| \
+A,,z =B,,z F,,2| \
+A,,2 G,,2 F,,2-|
+F,,4 C,,z| \
+A,,z A,,4| \
+C,z G,,4-| \
+G,,2 D,,z G,,z|
+G,,4 D,z| \
+C,6| \
+C,z G,z C,2| \
+B,,2 G,,2 E,,2-|
+E,,4 E,,z| \
+C,,z G,,2 F,2| \
+G,,2 F,,4-| \
+F,,2 F,,z C,z|
+F,,4 G,,z| \
+A,,6| \
+A,,z _D,z A,,2-| \
+A,,2 G,,z D,,2-|
+D,,4 A,,z| \
+_D,z A,,4| \
+G,,z C,,4-| \
+C,,2 A,,z =B,,z|
+F,,2 D,,2 E,,2| \
+F,,6| \
+C,,z B,,z B,,2-| \
+B,,2 _G,,z =G,,2-|
+G,,4 G,,z| \
+D,z G,,4| \
+B,,z C,4-| \
+C,2 C,z G,z|
+C,2 B,,2 G,,2| \
+E,,6| \
+E,,z C,,z C,2| \
+Cz B,,2 C,2-|
+C,4 C,z| \
+_D,z D,4| \
+B,,z A,,4-| \
+A,,2 D,z B,,z|
+F,,4 A,,z| \
+B,,6| \
+G,,z E,,z G,,2-| \
+G,,2 D,z C,2-|
+C,4 A,,z| \
+B,,z B,,4| \
+G,,z A,,4-| \
+A,,2 A,,z _D,z|
+A,,4 _D,z| \
+F,,6| \
+D,z =B,,z B,,2-| \
+=B,,2 G,,z _B,,2-|
+B,,4 G,,z| \
+=B,,z B,,4| \
+G,,z C,4-| \
+C,2 F,z C,z|
+C,4 G,,
+V:2 clef=treble
+%%MIDI program 73
+c2 f2 g2| \
+g/2a4-a3/2| \
+g2 a2 g2| \
+a2 b2 c'2-|
+c'4 d'2| \
+a2 z2 a2| \
+_d'2 =d'2 z2| \
+e'4 d'2|
+z2 a2 g2| \
+f2 e2 f2| \
+a2 a/2d'3-d'/2| \
+d2 e2 f2-|
+f4- fz| \
+c'2 bz b2| \
+a2 f4-| \
+f4 a<d'|
+az a2 g2| \
+f6-| \
+f6| \
+e2 d2 e2-|
+e4 f2| \
+g2 c2 c'2| \
+b2 g/2a3-a/2-| \
+a2 g2 a2|
+g2 a2 b2| \
+z2 d'/2c'3-c'/2| \
+d'2 a2 g2| \
+a2 _d'2 =d'2|
+z2 e'2 z2| \
+f'2 z2 a2| \
+g2 f2 e2| \
+f2 a2 c'/2d'3/2-|
+d'2 d2 e2| \
+f6-| \
+f2 c'2 bz| \
+b2 a2 f2-|
+f6| \
+d'2 az a2| \
+g2 f4-| \
+f6-|
+f2 e2 f2| \
+g6| \
+a2 b4| \
+a2 b2 c'2-|
+c'6| \
+_d'2 b2 a2| \
+g2 fz f2-| \
+f2 e2 d2|
+z2 f2 a2| \
+g6-| \
+g4 e<f| \
+d2 f2 ez|
+e4 f2| \
+g4 a2| \
+b2 c'4-| \
+c'6|
+a2 _d'2 e'2| \
+g'2 f'2 e'2| \
+f'2 d'4| \
+f'2 a'2 g'2-|
+g'6-| \
+g'2 e'<f' d'2| \
+f'2 e'z e'2-| \
+e'2 f'2 g'2-|
+g'2 b2 g2| \
+g/2a4-a3/2| \
+g2 a2 g2| \
+a2 b2 c'2-|
+c'4 d'2| \
+a2 z2 a2| \
+_d'2 =d'2 z2| \
+e'4 d'2|
+z2 a2 g2| \
+f2 e2 f2| \
+a2 a/2d'3-d'/2| \
+d2 e2 f2-|
+f4- fz| \
+c'2 bz b2| \
+a2 f4-| \
+f4 a<d'|
+az a2 g2| \
+f6-| \
+f6| \
+e2 d2 e2-|
+e4 f2| \
+g2 c2 c'2| \
+b2 g/2a3-a/2-| \
+a2 g2 a2|
+g2 a2 b2| \
+z2 d'/2c'3-c'/2| \
+d'2 a2 g2| \
+a2 _d'2 =d'2|
+z2 e'2 z2| \
+f'2 z2 a2| \
+g2 f2 e2| \
+f2 a2 c'/2d'3/2-|
+d'2 d2 e2| \
+f6-| \
+f2 c'2 bz| \
+b2 a2 f2-|
+f6| \
+d'2 az a2| \
+g2 f4-| \
+f6-|
+f2 e2 f2| \
+g6| \
+a2 b4| \
+a2 b2 c'2-|
+c'6| \
+_d'2 b2 a2| \
+g2 fz f2-| \
+f2 e2 d2|
+z2 f2 a2| \
+g6-| \
+g4 e<f| \
+d2 f2 ez|
+e4 f2| \
+g4 a2| \
+b2 c'4-| \
+c'6|
+a2 _d'2 e'2| \
+g'2 f'2 e'2| \
+f'2 d'4| \
+f'2 a'2 g'2-|
+g'6-| \
+g'2 e'<f' d'2| \
+f'2 e'z e'2-| \
+e'2 f'2 g'2-|
+g'2 b2 g2|
+V:3 clef=treble
+%%MIDI program 80
+c2 f2 g2| \
+g/2a4-a3/2| \
+g2 a2 g2| \
+a2 b2 c'2-|
+c'4 d'2| \
+a2 z2 a2| \
+_d'2 =d'2 z2| \
+e'4 d'2|
+z2 a2 g2| \
+f2 e2 f2| \
+a2 a/2d'3-d'/2| \
+d2 e2 f2-|
+f4- fz| \
+c'2 bz b2| \
+a2 f4-| \
+f4 a<d'|
+az a2 g2| \
+f6-| \
+f6| \
+e2 d2 e2-|
+e4 f2| \
+g2 z4| \
+z2 F,3/2z/2 C3/2z/2| \
+A3/2z/2 C3/2z/2 F,3/2z/2|
+C3/2z/2 A3/2z/2 c3/2z/2| \
+A,3/2z/2 E3/2z/2 c3/2z/2| \
+E3/2z/2 G,3/2z/2 _D3/2z/2| \
+A3/2z/2 G3/2z/2 D3/2z/2|
+A3/2z/2 f3/2z/2 A3/2z/2| \
+_D3/2z/2 A3/2z/2 f3/2z/2| \
+A3/2z/2 C3/2z/2 A3/2z/2| \
+f3/2z/2 A3/2z/2 f3/2z/2|
+d3/2z/2 A3/2z/2 G3/2z/2| \
+B,3/2z/2 F3/2z/2 d3/2z/2| \
+F3/2z/2 B,3/2z/2 F3/2z/2| \
+d3/2z/2 f3/2z/2 G,3/2z/2|
+D3/2z/2 d3/2z/2 D3/2z/2| \
+G,3/2z/2 D3/2z/2 d3/2z/2| \
+g3/2z/2 C3/2z/2 G3/2z/2| \
+f3/2z/2 G3/2z/2 C3/2z/2|
+G3/2z/2 f3/2z/2 G3/2z/2| \
+C3/2z/2 G3/2z/2 e3/2z/2| \
+G3/2z/2 C3/2z/2 G3/2z/2| \
+e3/2z/2 G3/2z/2 A,3/2z/2|
+E3/2z/2 c3/2z/2 E3/2z/2| \
+A,3/2z/2 E3/2z/2 _d3/2z/2| \
+E3/2z/2 D3/2z/2 A3/2z/2| \
+f3/2z/2 A3/2z/2 =B,3/2z/2|
+F3/2z/2 d3/2z/2 F3/2z/2| \
+B,3/2z/2 F3/2z/2 d3/2z/2| \
+F3/2z/2 G,3/2z/2 D3/2z/2| \
+B3/2z/2 D3/2z/2 C3/2z/2|
+F3/2z/2 c3/2z/2 d3/2z/2| \
+C3/2z/2 G3/2z/2 e3/2z/2| \
+G3/2z/2 A,3/2z/2 E3/2z/2| \
+A3/2z/2 E3/2z/2 A,3/2z/2|
+E3/2z/2 _d3/2z/2 e3/2z/2| \
+D3/2z/2 A3/2z/2 f3/2z/2| \
+A3/2z/2 =B,3/2z/2 F3/2z/2| \
+d3/2z/2 F3/2z/2 B,3/2z/2|
+F3/2z/2 d3/2z/2 F3/2z/2| \
+=B,3/2z/2 F3/2z/2 d3/2z/2| \
+f3/2z/2 C3/2z/2 G3/2z/2| \
+f3/2z/2 G3/2z/2 C3/2z/2|
+G3/2z/2 e3/2z/2 g3/2z/2| \
+g/2a4-a3/2| \
+g2 a2 g2| \
+a2 b2 c'2-|
+c'4 d'2| \
+a2 z2 a2| \
+_d'2 =d'2 z2| \
+e'4 d'2|
+z2 a2 g2| \
+f2 e2 f2| \
+a2 a/2d'3-d'/2| \
+d2 e2 f2-|
+f4- fz| \
+c'2 bz b2| \
+a2 f4-| \
+f4 a<d'|
+az a2 g2| \
+f6-| \
+f6| \
+e2 d2 e2-|
+e4 f2| \
+g2 z4| \
+z2 F,3/2z/2 C3/2z/2| \
+A3/2z/2 C3/2z/2 F,3/2z/2|
+C3/2z/2 A3/2z/2 c3/2z/2| \
+A,3/2z/2 E3/2z/2 c3/2z/2| \
+E3/2z/2 G,3/2z/2 _D3/2z/2| \
+A3/2z/2 G3/2z/2 D3/2z/2|
+A3/2z/2 f3/2z/2 A3/2z/2| \
+_D3/2z/2 A3/2z/2 f3/2z/2| \
+A3/2z/2 C3/2z/2 A3/2z/2| \
+f3/2z/2 A3/2z/2 f3/2z/2|
+d3/2z/2 A3/2z/2 G3/2z/2| \
+B,3/2z/2 F3/2z/2 d3/2z/2| \
+F3/2z/2 B,3/2z/2 F3/2z/2| \
+d3/2z/2 f3/2z/2 G,3/2z/2|
+D3/2z/2 d3/2z/2 D3/2z/2| \
+G,3/2z/2 D3/2z/2 d3/2z/2| \
+g3/2z/2 C3/2z/2 G3/2z/2| \
+f3/2z/2 G3/2z/2 C3/2z/2|
+G3/2z/2 f3/2z/2 G3/2z/2| \
+C3/2z/2 G3/2z/2 e3/2z/2| \
+G3/2z/2 C3/2z/2 G3/2z/2| \
+e3/2z/2 G3/2z/2 A,3/2z/2|
+E3/2z/2 c3/2z/2 E3/2z/2| \
+A,3/2z/2 E3/2z/2 _d3/2z/2| \
+E3/2z/2 D3/2z/2 A3/2z/2| \
+f3/2z/2 A3/2z/2 =B,3/2z/2|
+F3/2z/2 d3/2z/2 F3/2z/2| \
+B,3/2z/2 F3/2z/2 d3/2z/2| \
+F3/2z/2 G,3/2z/2 D3/2z/2| \
+B3/2z/2 D3/2z/2 C3/2z/2|
+F3/2z/2 c3/2z/2 d3/2z/2| \
+C3/2z/2 G3/2z/2 e3/2z/2| \
+G3/2z/2 A,3/2z/2 E3/2z/2| \
+A3/2z/2 E3/2z/2 A,3/2z/2|
+E3/2z/2 _d3/2z/2 e3/2z/2| \
+D3/2z/2 A3/2z/2 f3/2z/2| \
+A3/2z/2 =B,3/2z/2 F3/2z/2| \
+d3/2z/2 F3/2z/2 B,3/2z/2|
+F3/2z/2 d3/2z/2 F3/2z/2| \
+=B,3/2z/2 F3/2z/2 d3/2z/2| \
+f3/2z/2 C3/2z/2 G3/2z/2| \
+f3/2z/2 G3/2z/2 C3/2z/2|
+G3/2z/2 e3/2z/2 g3/2
+V:4 clef=bass
+%%MIDI program 38
+E,,z E,,4| \
+F,,6| \
+F,,z C,z F,,2-| \
+F,,2 G,,z A,,2-|
+A,,4 A,,z| \
+_D,z A,,4| \
+G,,z D,,4-| \
+D,,2 A,,z _D,z|
+A,,4 G,,z| \
+C,,6| \
+A,,z =B,,z F,,2| \
+A,,2 G,,2 F,,2-|
+F,,4 C,,z| \
+A,,z A,,4| \
+C,z G,,4-| \
+G,,2 D,,z G,,z|
+G,,4 D,z| \
+C,6| \
+C,z G,z C,2| \
+B,,2 G,,2 E,,2-|
+E,,4 E,,z| \
+C,,z G,,2 F,2| \
+G,,2 F,,4-| \
+F,,2 F,,z C,z|
+F,,4 G,,z| \
+A,,6| \
+A,,z _D,z A,,2-| \
+A,,2 G,,z D,,2-|
+D,,4 A,,z| \
+_D,z A,,4| \
+G,,z C,,4-| \
+C,,2 A,,z =B,,z|
+F,,2 D,,2 E,,2| \
+F,,6| \
+C,,z B,,z B,,2-| \
+B,,2 _G,,z =G,,2-|
+G,,4 G,,z| \
+D,z G,,4| \
+B,,z C,4-| \
+C,2 C,z G,z|
+C,2 B,,2 G,,2| \
+E,,6| \
+E,,z C,,z C,2| \
+Cz B,,2 C,2-|
+C,4 C,z| \
+_D,z D,4| \
+B,,z A,,4-| \
+A,,2 D,z B,,z|
+F,,4 A,,z| \
+B,,6| \
+G,,z E,,z G,,2-| \
+G,,2 D,z C,2-|
+C,4 A,,z| \
+B,,z B,,4| \
+G,,z A,,4-| \
+A,,2 A,,z _D,z|
+A,,4 _D,z| \
+F,,6| \
+D,z =B,,z B,,2-| \
+=B,,2 G,,z _B,,2-|
+B,,4 G,,z| \
+=B,,z B,,4| \
+G,,z C,4-| \
+C,2 F,z C,z|
+C,4 G,,z| \
+F,,6| \
+F,,z C,z F,,2-| \
+F,,2 G,,z A,,2-|
+A,,4 A,,z| \
+_D,z A,,4| \
+G,,z D,,4-| \
+D,,2 A,,z _D,z|
+A,,4 G,,z| \
+C,,6| \
+A,,z =B,,z F,,2| \
+A,,2 G,,2 F,,2-|
+F,,4 C,,z| \
+A,,z A,,4| \
+C,z G,,4-| \
+G,,2 D,,z G,,z|
+G,,4 D,z| \
+C,6| \
+C,z G,z C,2| \
+B,,2 G,,2 E,,2-|
+E,,4 E,,z| \
+C,,z G,,2 F,2| \
+G,,2 F,,4-| \
+F,,2 F,,z C,z|
+F,,4 G,,z| \
+A,,6| \
+A,,z _D,z A,,2-| \
+A,,2 G,,z D,,2-|
+D,,4 A,,z| \
+_D,z A,,4| \
+G,,z C,,4-| \
+C,,2 A,,z =B,,z|
+F,,2 D,,2 E,,2| \
+F,,6| \
+C,,z B,,z B,,2-| \
+B,,2 _G,,z =G,,2-|
+G,,4 G,,z| \
+D,z G,,4| \
+B,,z C,4-| \
+C,2 C,z G,z|
+C,2 B,,2 G,,2| \
+E,,6| \
+E,,z C,,z C,2| \
+Cz B,,2 C,2-|
+C,4 C,z| \
+_D,z D,4| \
+B,,z A,,4-| \
+A,,2 D,z B,,z|
+F,,4 A,,z| \
+B,,6| \
+G,,z E,,z G,,2-| \
+G,,2 D,z C,2-|
+C,4 A,,z| \
+B,,z B,,4| \
+G,,z A,,4-| \
+A,,2 A,,z _D,z|
+A,,4 _D,z| \
+F,,6| \
+D,z =B,,z B,,2-| \
+=B,,2 G,,z _B,,2-|
+B,,4 G,,z| \
+=B,,z B,,4| \
+G,,z C,4-| \
+C,2 F,z C,z|
+C,4 G,,
+V:5 clef=perc
+%%MIDI channel 10
+z6| \
+z6| \
+z6| \
+z6|
+z6| \
+z6| \
+z6| \
+z6|
+z6| \
+z6| \
+z6| \
+z6|
+z6| \
+z6| \
+z6| \
+z6|
+z6| \
+z6| \
+z6| \
+z6|
+z6| \
+z6| \
+z2 _A,,z _G,,z| \
+_G,z G,,z _A,,z|
+_G,,z G,z G,,z| \
+_A,,z _G,,z G,z| \
+_G,,z _A,,z G,,z| \
+_G,z G,,z _A,,z|
+_G,,z G,z G,,z| \
+_A,,z _G,,z G,z| \
+_G,,z _A,,z G,,z| \
+_G,z G,,z _A,,z|
+_G,,z G,z G,,z| \
+_A,,z _G,,z G,z| \
+_G,,z _A,,z G,,z| \
+_G,z G,,z _A,,z|
+_G,,z G,z G,,z| \
+_A,,z _G,,z G,z| \
+_G,,z _A,,z G,,z| \
+_G,z G,,z _A,,z|
+_G,,z G,z G,,z| \
+_A,,z _G,,z G,z| \
+_G,,z _A,,z G,,z| \
+_G,z G,,z _A,,z|
+_G,,z G,z G,,z| \
+_A,,z _G,,z G,z| \
+_G,,z _A,,z G,,z| \
+_G,z G,,z _A,,z|
+_G,,z G,z G,,z| \
+_A,,z _G,,z G,z| \
+_G,,z _A,,z G,,z| \
+_G,z G,,z _A,,z|
+_G,,z G,z G,,z| \
+_A,,z _G,,z G,z| \
+_G,,z _A,,z G,,z| \
+_G,z G,,z _A,,z|
+_G,,z G,z G,,z| \
+_A,,z _G,,z G,z| \
+_G,,z _A,,z G,,z| \
+_G,z G,,z _A,,z|
+_G,,z G,z G,,z| \
+_A,,z _G,,z G,z| \
+_G,,z _A,,z G,,z| \
+_G,z G,,z _A,,z|
+_G,,z G,z G,,z| \
+z6| \
+z6| \
+z6|
+z6| \
+z6| \
+z6| \
+z6|
+z6| \
+z6| \
+z6| \
+z6|
+z6| \
+z6| \
+z6| \
+z6|
+z6| \
+z6| \
+z6| \
+z6|
+z6| \
+z6| \
+z2 _A,,z _G,,z| \
+_G,z G,,z _A,,z|
+_G,,z G,z G,,z| \
+_A,,z _G,,z G,z| \
+_G,,z _A,,z G,,z| \
+_G,z G,,z _A,,z|
+_G,,z G,z G,,z| \
+_A,,z _G,,z G,z| \
+_G,,z _A,,z G,,z| \
+_G,z G,,z _A,,z|
+_G,,z G,z G,,z| \
+_A,,z _G,,z G,z| \
+_G,,z _A,,z G,,z| \
+_G,z G,,z _A,,z|
+_G,,z G,z G,,z| \
+_A,,z _G,,z G,z| \
+_G,,z _A,,z G,,z| \
+_G,z G,,z _A,,z|
+_G,,z G,z G,,z| \
+_A,,z _G,,z G,z| \
+_G,,z _A,,z G,,z| \
+_G,z G,,z _A,,z|
+_G,,z G,z G,,z| \
+_A,,z _G,,z G,z| \
+_G,,z _A,,z G,,z| \
+_G,z G,,z _A,,z|
+_G,,z G,z G,,z| \
+_A,,z _G,,z G,z| \
+_G,,z _A,,z G,,z| \
+_G,z G,,z _A,,z|
+_G,,z G,z G,,z| \
+_A,,z _G,,z G,z| \
+_G,,z _A,,z G,,z| \
+_G,z G,,z _A,,z|
+_G,,z G,z G,,z| \
+_A,,z _G,,z G,z| \
+_G,,z _A,,z G,,z| \
+_G,z G,,z _A,,z|
+_G,,z G,z G,,z| \
+_A,,z _G,,z G,z| \
+_G,,z _A,,z G,,z| \
+_G,z G,,z _A,,z|
+_G,,z G,z G,,

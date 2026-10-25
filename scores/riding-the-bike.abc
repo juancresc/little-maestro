@@ -1,0 +1,188 @@
+% emoji: 🚲
+% category: Video Game
+% mood: happy, fast
+% level: 2
+% tags: pokemon, game boy advance, gba, 8-bit, ruby & sapphire, midi
+% about: Zoom! This song plays when you jump on your bike and race down the road. From Pokémon Ruby & Sapphire (Game Boy Advance).
+% source-file: Fan MIDI from VGMusic.com (PkmRS_Bike.mid), converted to ABC.
+X:1
+T:Riding the Bike
+C:Go Ichinose, Junichi Masuda & Morikazu Aoki
+M: 4/4
+L: 1/8
+Q:1/4=68
+K:D
+V:1 clef=treble
+%%MIDI program 61
+ (3A,/2G,/2A,/2[CB,]/2[ED]/2 [GF]/2[GF]/2[BA]/2[dc]/2 [fe]/2z/2g/2z/2 a2| \
+z/2f/2g/2a/2>d'/2a/2g/2f/2 e3-e/2z/2| \
+z2 z/2f/2[ag]/2g/2 [fe]/2z/2f/2z/2 g2| \
+z/2e/2f/2g/2>c'/2b/2c'/2e'/2 a3-a/2z/2|
+z2  (3A/2G/2A/2[fe]/2[^g=g]/2 [af]/2z/2g/2z/2 a2| \
+z/2f/2g/2a/2>d'/2a/2g/2f/2 e3-e/2z/2| \
+z4 e/2z/2f/2z/2 g2| \
+z/2e/2f/2g/2>c'/2b/2c'/2e'/2 f'3-f'/2z/2|
+z3g/2a/2 bc' d'a'-| \
+a'2 z/2z/2z/2z/2 c'/2>a/2[c'b]/2a/2 [c'b]/2c'/2[e'-d']/2e'/2| \
+ (3e'/2f'/2e'/2d'2 (3G/2F/2G/2 [B-A]/2B/2c db-| \
+b2 a3/2g/2 a/2>f/2[ag]/2f/2 [ag]/2=c'/2b/2a/2|
+a/2z/2b/2a/2 g/2f[dB]/2  (3d/2c/2d/2[ae]/2 (3d/2c/2d/2[ae]/2 (3a/2g/2f/2| \
+[ed]/2[dc]/2[be]/2 (3d/2c/2d/2[be]/2 (3c'/2b/2a/2 [a-^g]/2a2-a/2=g/2a/2| \
+ (3A,/2G,/2A,/2[CB,]/2[ED]/2 [GF]/2[GF]/2[BA]/2[dc]/2 [fe]/2z/2g/2z/2 a2| \
+z/2f/2g/2a/2>d'/2a/2g/2f/2 e3-e/2z/2|
+z2 z/2f/2[ag]/2g/2 [fe]/2z/2f/2z/2 g2| \
+z/2e/2f/2g/2>c'/2b/2c'/2e'/2 a3-a/2z/2| \
+z2  (3A/2G/2A/2[fe]/2[^g=g]/2 [af]/2z/2g/2z/2 a2| \
+z/2f/2g/2a/2>d'/2a/2g/2f/2 e3-e/2z/2|
+z4 e/2z/2f/2z/2 g2| \
+z/2e/2f/2g/2>c'/2b/2c'/2e'/2 f'3-f'/2z/2| \
+z3g/2a/2 bc' d'a'-| \
+a'2 z/2z/2z/2z/2 c'/2>a/2[c'b]/2a/2 [c'b]/2c'/2[e'-d']/2e'/2|
+ (3e'/2f'/2e'/2d'2 (3G/2F/2G/2 [B-A]/2B/2c db-| \
+b2 a3/2g/2 a/2>f/2[ag]/2f/2 [ag]/2=c'/2b/2a/2| \
+a/2z/2b/2a/2 g/2f[dB]/2  (3d/2c/2d/2[ae]/2 (3d/2c/2d/2[ae]/2 (3a/2g/2f/2| \
+[ed]/2[dc]/2[be]/2 (3d/2c/2d/2[be]/2 (3c'/2b/2a/2 [a-^g]/2a2-a/2=g/2a/2|
+ (3A,/2G,/2A,/2[CB,]/2[ED]/2 [GF]/2[GF]/2[BA]/2[dc]/2
+V:2 clef=treble
+%%MIDI program 80
+z4 F/2AF/2 d/2>f'/2[a'g']/2f'/2| \
+[a'g']/2AGFA/2 G/2>=C/2[g-=F]/2gC/2[^f-=F]/2^f/2-| \
+f/2=C/2[d=F]/2^c/2 [AA]/2G/2^F/2A/2 E/2cA/2 E/2>c'/2b/2z/2| \
+a'/2AGEG/2 F/2>A/2[f-d]/2fA/2[e-d]/2e/2-|
+e/2F/2[dA]/2A/2 [F-F]/2F=F/2 E/2z3A,/2| \
+D,,4 e''2 ^d''2| \
+G,,z/2B,,/2 B,,<G,, A,,3/2zD,,/2G,,/2B,,/2| \
+D,,3-D,,/2z/2 d''2 c''2|
+=c''2 z
+d/2e/2 ga be'-| \
+e'2 z/2z/2z/2z/2 a/2>f/2[ag]/2f/2 [ag]/2a/2[c'-b]/2c'/2| \
+ (3c'/2d'/2c'/2b2z d3^d| \
+e3^d/2=d/2 c3d|
+^d3/2e/2 [f-=f]/2^f3/2  (3b/2b/2b/2[bb]/2b/2 z/2b/2z/2b/2| \
+[bb]/2[bb]/2[bb]/2b/2 z/2b/2>a/2[ba]/2 [e-e]/2e3-e/2| \
+e/2z3z/2 
+F/2AF/2 d/2>f'/2[a'g']/2f'/2| \
+[a'g']/2AGFA/2 G/2>=C/2[g-=F]/2gC/2[^f-=F]/2^f/2-|
+f/2=C/2[d=F]/2^c/2 [AA]/2G/2^F/2A/2 E/2cA/2 E/2>c'/2b/2z/2| \
+a'/2AGEG/2 F/2>A/2[f-d]/2fA/2[e-d]/2e/2-| \
+e/2F/2[dA]/2A/2 [F-F]/2F=F/2 E/2z3A,/2| \
+D,,4 e''2 ^d''2|
+G,,z/2B,,/2 B,,<G,, A,,3/2zD,,/2G,,/2B,,/2| \
+D,,3-D,,/2z/2 d''2 c''2| \
+=c''2 z
+d/2e/2 ga be'-| \
+e'2 z/2z/2z/2z/2 a/2>f/2[ag]/2f/2 [ag]/2a/2[c'-b]/2c'/2|
+ (3c'/2d'/2c'/2b2z d3^d| \
+e3^d/2=d/2 c3d| \
+^d3/2e/2 [f-=f]/2^f3/2  (3b/2b/2b/2[bb]/2b/2 z/2b/2z/2b/2| \
+[bb]/2[bb]/2[bb]/2b/2 z/2b/2>a/2[ba]/2 [e-e]/2e3-e/2|
+V:3 clef=treble
+%%MIDI program 25
+z4 F,/2DA,/2 F/2>
+d'/2[f'e']/2d'/2| \
+[f'e']/2
+DCB,D/2 
+G/2>G/2[g-B]/2gG/2[f-B]/2f/2-| \
+f/2G/2[dB]/2c/2 [AG]/2F/2E/2G/2 
+A,/2EC/2 A,/2>
+c'/2b/2z/2| \
+a'/2
+ECA,E/2 
+F/2>F/2[f-A]/2fF/2[e-A]/2e/2-|
+e/2F/2[dA]/2A/2 
+[FA,-]/2A,B,/2 C/2z3A,/2| \
+D,4 z4| \
+G,z/2B,,/2 B,<G, A,3/2zD,/2G,/2B,,/2| \
+C,3-C,/2z4z/2|
+z3
+g'/2a'/2 b'c'' d''a''-| \
+a''2 z/2z/2z/2z/2 c''/2>a'/2[c''b']/2a'/2 [c''b']/2c''/2[e''-d'']/2e''/2| \
+ (3e''/2f''/2e''/2d''2z G3A/2B/2| \
+c3B/2^A/2 =A3G/2A/2|
+FA/2>B/2 [^d-c]/2d3/2  (3g/2g/2g/2[gg]/2g/2 z/2g/2z/2g/2| \
+[^g=g]/2[^gg]/2[gg]/2g/2 z/2g/2>e/2[fe]/2 [d-B]/2d3-d/2| \
+d/2z3z/2 
+F,/2DA,/2 F/2>
+d'/2[f'e']/2d'/2| \
+[f'e']/2
+DCB,D/2 
+G/2>G/2[g-B]/2gG/2[f-B]/2f/2-|
+f/2G/2[dB]/2c/2 [AG]/2F/2E/2G/2 
+A,/2EC/2 A,/2>
+c'/2b/2z/2| \
+a'/2
+ECA,E/2 
+F/2>F/2[f-A]/2fF/2[e-A]/2e/2-| \
+e/2F/2[dA]/2A/2 
+[FA,-]/2A,B,/2 C/2z3A,/2| \
+D,4 z4|
+G,z/2B,,/2 B,<G, A,3/2zD,/2G,/2B,,/2| \
+C,3-C,/2z4z/2| \
+z3
+g'/2a'/2 b'c'' d''a''-| \
+a''2 z/2z/2z/2z/2 c''/2>a'/2[c''b']/2a'/2 [c''b']/2c''/2[e''-d'']/2e''/2|
+ (3e''/2f''/2e''/2d''2z G3A/2B/2| \
+c3B/2^A/2 =A3G/2A/2| \
+FA/2>B/2 [^d-c]/2d3/2  (3g/2g/2g/2[gg]/2g/2 z/2g/2z/2g/2| \
+[^g=g]/2[^gg]/2[gg]/2g/2 z/2g/2>e/2[fe]/2 [d-B]/2d3-d/2|
+V:4 clef=bass
+%%MIDI program 84
+z4 D,/2z/2A,,/2z/2 D,/2z/2A,,/2z/2| \
+D,/2z/2A,,/2z/2 D,/2C,/2D,/2^D,/2 E,/2z/2B,,/2z/2 E,/2z/2B,,/2z/2| \
+E,/2z/2B,,/2z/2 E,/2^D,/2E,/2^G,/2 A,/2z/2E,/2z/2 A,/2z/2E,/2z/2| \
+A,/2z/2E,/2z/2 A,/2G,/2F,/2E,/2 D,/2z/2A,,/2z/2 D,/2z/2A,,/2z/2|
+D,/2z/2A,,/2z/2 C,/2D,/2E,/2C,/2 z4| \
+z8| \
+z8| \
+z8|
+z4 G,,/2zG,,/2 D,,/2G,,G,,/2| \
+G,,/2zG,,/2 D,,/2G,,E,,/2 F,,/2zF,,/2 C,,/2F,,A,,/2| \
+B,,/2zB,,/2 F,,/2B,,^A,,/2 G,,/2zG,,/2 D,,/2G,,G,,/2| \
+G,,/2zG,,/2 D,,/2G,,E,,/2 F,,/2zF,,/2 C,,/2F,,A,,/2|
+B,,/2zB,,/2 F,,/2B,,^A,,/2 G,,/2G,,/2G,,/2G,,/2 G,,/2G,,/2G,,/2G,,/2| \
+^G,,/2G,,/2G,,/2G,,/2 G,,/2G,,/2G,,/2G,,/2 A,,/2z/2A,,/2z/2 A,,/2z/2A,,/2z/2| \
+A,,/2z/2A,,/2z/2 A,,/2z/2A,,/2z/2 D,/2z/2A,,/2z/2 D,/2z/2A,,/2z/2| \
+D,/2z/2A,,/2z/2 D,/2C,/2D,/2^D,/2 E,/2z/2B,,/2z/2 E,/2z/2B,,/2z/2|
+E,/2z/2B,,/2z/2 E,/2^D,/2E,/2^G,/2 A,/2z/2E,/2z/2 A,/2z/2E,/2z/2| \
+A,/2z/2E,/2z/2 A,/2G,/2F,/2E,/2 D,/2z/2A,,/2z/2 D,/2z/2A,,/2z/2| \
+D,/2z/2A,,/2z/2 C,/2D,/2E,/2C,/2 z4| \
+z8|
+z8| \
+z8| \
+z4 G,,/2zG,,/2 D,,/2G,,G,,/2| \
+G,,/2zG,,/2 D,,/2G,,E,,/2 F,,/2zF,,/2 C,,/2F,,A,,/2|
+B,,/2zB,,/2 F,,/2B,,^A,,/2 G,,/2zG,,/2 D,,/2G,,G,,/2| \
+G,,/2zG,,/2 D,,/2G,,E,,/2 F,,/2zF,,/2 C,,/2F,,A,,/2| \
+B,,/2zB,,/2 F,,/2B,,^A,,/2 G,,/2G,,/2G,,/2G,,/2 G,,/2G,,/2G,,/2G,,/2| \
+^G,,/2G,,/2G,,/2G,,/2 G,,/2G,,/2G,,/2G,,/2 A,,/2z/2A,,/2z/2 A,,/2z/2A,,/2z/2|
+A,,/2z/2A,,/2z/2 A,,/2z/2A,,/2
+V:5 clef=perc
+%%MIDI channel 10
+z4 z/2F,/2z/2F,/2 z/2F,/2z/2F,/2| \
+z/2F,/2z/2F,/2 z/2F,/2z/2F,/2 z/2F,/2z/2F,/2 z/2F,/2z/2F,/2| \
+z/2F,/2z/2F,/2>F,/2[F,F,]/2[F,F,]/2F,/2<F,/2F,/2z/2F,/2 z/2F,/2z/2F,/2| \
+z/2F,/2z/2F,/2 z/2F,/2z/2F,/2 z/2F,/2z/2F,/2 z/2F,/2z/2F,/2|
+z/2F,/2z/2F,/2>F,/2[F,F,]/2[F,F,]/2F,/2 [F,C,]/2z3[G,,=C,,]/2| \
+=C,,/2z6z3/2| \
+[G,,=C,,]/2z[G,,C,,]/2 [A,,C,,]/2[G,,C,,]/2z [G,,C,,C,,C,,]/2[C,,C,,C,,C,,]/2C,,/2zC,,/2C,,/2[G,,C,,]/2| \
+=C,,/2z6z3/2|
+z8| \
+z8| \
+z8| \
+z8|
+z4 z/2F,/2z/2F,/2 z/2F,/2z/2F,/2| \
+z/2[F,F,]/2z/2F,/2 z/2F,/2z/2F,/2 z4| \
+z4 z/2F,/2z/2F,/2 z/2F,/2z/2F,/2| \
+z/2F,/2z/2F,/2 z/2F,/2z/2F,/2 z/2F,/2z/2F,/2 z/2F,/2z/2F,/2|
+z/2F,/2z/2F,/2>F,/2[F,F,]/2[F,F,]/2F,/2<F,/2F,/2z/2F,/2 z/2F,/2z/2F,/2| \
+z/2F,/2z/2F,/2 z/2F,/2z/2F,/2 z/2F,/2z/2F,/2 z/2F,/2z/2F,/2| \
+z/2F,/2z/2F,/2>F,/2[F,F,]/2[F,F,]/2F,/2 [F,C,]/2z3[G,,=C,,]/2| \
+=C,,/2z6z3/2|
+[G,,=C,,]/2z[G,,C,,]/2 [A,,C,,]/2[G,,C,,]/2z [G,,C,,C,,C,,]/2[C,,C,,C,,C,,]/2C,,/2zC,,/2C,,/2[G,,C,,]/2| \
+=C,,/2z6z3/2| \
+z8| \
+z8|
+z8| \
+z8| \
+z4 z/2F,/2z/2F,/2 z/2F,/2z/2F,/2| \
+z/2[F,F,]/2z/2F,/2 z/2F,/2z/2F,/2

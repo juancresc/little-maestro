@@ -1,0 +1,32 @@
+% emoji: 🐈‍⬛
+% category: Jazz
+% mood: cool, happy
+% level: 2
+% tags: swing, band, original, sax, halloween
+% voices: 🐈 Cat · Sax ; 🧟 Mummy · Trumpet
+% swing: 66
+% gchord: fcfc
+% chordprog: 0
+% bassprog: 32
+% drums: on
+% drum: d2ddd2dd 51 42 51 51 42 51 100 90 70 100 90 70
+% about: Midnight the cat swings on the sax while Mummy answers with short trumpet "hits". Can you hear the chords going around: F, D7, Gm7, C7?
+X:1
+T:Midnight Cat Swing
+C:Little Maestro original
+M:4/4
+L:1/8
+Q:1/4=144
+K:F
+V:1 clef=treble
+%%MIDI program 66
+|:"F6"z c A F G A c2|"D7"^F A c d- d4|"Gm7"z d B G A B d2|"C7"c e g b- b4|
+"F6"a2 g f d f a2|"D7"^f2 e d c A c2|"Gm7"G B d f- f2 e d|"C7"c8|
+"F6"z c A F G A c2|"D7"^F A c d- d4|"Gm7"z d B G A B d2|"C7"c e g b- b4|
+"F6"a2 g f d f a2|"D7"^f2 e d c A c2|"Gm7"G B d g "C7"e c B G|1 "F6"F8:|2 "F6"[FAcd]8|]
+V:2 clef=treble
+%%MIDI program 56
+|:!p!z2 [Ac]2 z2 [Ac]2|z2 [^Fc]2 z2 [^Fc]2|z2 [Bd]2 z2 [Bd]2|z2 [Be]2 z2 [Be]2|
+z2 [Ac]2 z2 [Ac]2|z2 [^Fc]2 z2 [^Fc]2|z2 [Bd]2 z2 [Bd]2|z2 [Be]2 z2 [Be]2|
+z2 [Ac]2 z2 [Ac]2|z2 [^Fc]2 z2 [^Fc]2|z2 [Bd]2 z2 [Bd]2|z2 [Be]2 z2 [Be]2|
+z2 [Ac]2 z2 [Ac]2|z2 [^Fc]2 z2 [^Fc]2|z2 [Bd]2 z2 [Be]2|1 z2 [Ac]2 z2 [Ac]2:|2 [Acf]8|]

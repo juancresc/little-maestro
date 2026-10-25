@@ -1,0 +1,106 @@
+% emoji: 🍊
+% category: Video Game
+% mood: happy, adventure
+% level: 2
+% tags: kirby, game boy advance, gba, nintendo, ocean, midi
+% about: Kirby floats over an orange sea at sunset. From Kirby: Nightmare in Dream Land (Game Boy Advance).
+% source-file: Fan MIDI from VGMusic.com (kirbynmid-orangeocean.mid), converted to ABC.
+X:1
+T:Kirby: Orange Ocean
+C:Jun Ishikawa & Hirokazu Ando
+M: 4/4
+L: 1/8
+Q:1/4=28
+K:F#
+V:1 clef=treble
+z4| \
+z4 z3/2
+%%MIDI program 56
+z/2 z/2z/2z/2[A=G]/2| \
+zz/2z/2 z/2z/2z/2[=GD]/2 z3/2z/2 z/2z/2z/2[AG]/2| \
+zz/2z/2 z/2z/2[=gd]/2z3/2g/2z/2 z/2z/2z/2A/2-| \
+A/2z/2c/2z/2 z/2z/2a z/2z/2=g/2z/2 z/2z/2z/2A/2-|
+A/2z/2z/2z/2 z/2z/2f' z/2z/2z/2z/2 z/2[A=G]/2z| \
+z/2z/2z/2z/2 z/2[=GD]/2z3/2z/2z/2z/2 z/2[AG]/2z| \
+z/2z/2z/2z/2 z/2[=gd]/2z3/2g/2z/2z/2 z/2z/2A| \
+z/2c/2z/2z/2 z/2az/2 =g/2z/2z/2z/2 z/2Az/2|
+zz/2z/2 f'z z/2z/2z/2z/2 [A=G]/2zz/2| \
+z/2z/2z/2z/2 [=GD]/2z3/2 z/2z/2z/2z/2 [AG]/2zz/2| \
+z/2z/2z/2[=gd]/2 z3/2g/2 z/2z/2z/2z/2 A>c| \
+z/2z/2z/2az/2z/2=g/2 z/2z/2z/2z/2 Az/2z/2|
+z/2z/2z/2f'z/2z/2z/2 z/2z/2[A=G]/2z3/2z/2z/2| \
+z/2z/2[=GD]/2
+V:2 clef=treble
+z4| \
+z8| \
+z8| \
+z4 z3/2
+%%MIDI program 56
+=g/2 z/2z/2z/2z/2| \
+A>c z/2z/2z/2az/2z/2=g/2 z/2z/2z/2z/2|
+Az z/2z/2f' z4| \
+z8| \
+z4 z/2
+=g/2z/2z/2 z/2z/2A| \
+z/2c/2z/2z/2 z/2az/2 z/2=g/2z/2z/2 z/2z/2A|
+z/2z/2z/2z/2 z/2f'z4z/2| \
+z8| \
+z4 
+=g/2z/2z/2z/2 z/2Az/2| \
+c/2z/2z/2z/2 az/2z/2 =g/2z/2z/2z/2 Az/2z/2|
+z/2z/2z/2f'
+V:3 clef=treble
+z4| \
+z6 z3/2
+%%MIDI program 92
+A,/2-| \
+A,/2-[=DA,][CG,][=cGF][A=G^D]2[G,-D,-]2[A,-G,-D,-]/2| \
+[A,-=G,-D,]/2[=DA,G,][C^G,][=cGF][^dA=G]/2 z3/2[G-D-C-]3/2[GF-D=D-CA,-]/2[F-D-A,-]/2| \
+[F=DA,][FCA,] [=cF^C][A^DC]2[=GD=C]2[F-=D-A,-]|
+[F=DA,][^D=CG,]2[FDA,] [F=DA,]/2z2z/2
+A,-| \
+[=DA,][CG,] [=cGF][A-=G-^D-]3/2[AGDG,-D,-]/2[G,-D,-]3/2[A,-G,-D,][=D-A,-G,-]/2| \
+[=DA,=G,]/2[C^G,][=cGF][^dA=G]/2z3/2[GDC]2[F-=D-A,-]3/2| \
+[F=DA,]/2[FCA,][=cF^C][A^DC]2[=GD=C]2[F-=D-A,-]3/2|
+[F=DA,]/2[^D=CG,]2[FDA,][F=DA,]/2 z2 
+A,-[DA,]| \
+[CG,][=cGF] [A=GD]2 [G,-D,-]2 [A,-G,-D,][=DA,G,]| \
+[CG,][=cGF] [dA=G]/2z3/2 [GDC]2 [F=DA,]2| \
+[FCA,][=cF^C] [ADC]2 [=G-D-=C-]3/2[GF-D=D-CA,-]/2 [FDA,]3/2[^D-C-^G,-]/2|
+[D=CG,]3/2[FDA,][F=DA,]/2z2z/2
+A,-[DA,][^C-G,-]/2| \
+[CG,]/2[=cGF][A=GD]2
+V:4 clef=treble
+z4| \
+z8| \
+z8| \
+z4 z3/2
+%%MIDI program 40
+[=g=c]2[f-A-]/2| \
+[fA]3/2[fG]2[gA]2[=g=c]2[f-A-]/2|
+[fA]3/2[d-G-]3/2[d-dA-G]/2[dA]/2 [=dA]/2z3z/2| \
+z8| \
+z4 z/2[=g=c]2[f-A-]3/2| \
+[fA]/2[fG]2[gA]2[=g=c]2[f-A-]3/2|
+[fA]/2[dG]2[dA][=dA]/2 z4| \
+z8| \
+z4 [=g=c]2 [fA]2| \
+[fG]2 [gA]2 [=g-=c-]3/2[gf-cA-]/2 [fA]3/2[d-^G-]/2|
+[dG]3/2[dA][=dA]/2z/2
+V:5 clef=perc
+%%MIDI channel 10
+z2 z/2z/2z/2z/2| \
+z/2z/2z/2z/2 z/2z/2z/2z/2 z/2z/2z/2z/2 z/2z/2z/2z/2| \
+z/2z/2z/2z/2 z/2z/2z/2z/2 z/2z/2z/2z/2 z/2z/2z/2z/2| \
+z/2z/2z/2z/2 z/2z/2z/2z/2 z/2z/2z/2z/2 z/2z/2z/2z/2| \
+z/2z/2z/2z/2 z/2z/2z/2z/2 z/2z/2z/2z/2 z/2z/2z/2z/2|
+z/2z/2z/2z/2 z/2z/2z/2z/2 z/2z/2z/2z/2 z/2z/2z/2z/2| \
+z/2z/2z/2z/2 z/2z/2z/2z/2 z/2z/2z/2z/2 z/2z/2z/2z/2| \
+z/2z/2z/2z/2 z/2z/2z/2z/2 z/2z/2z/2z/2 z/2z/2z/2z/2| \
+z/2z/2z/2z/2 z/2z/2z/2z/2 z/2z/2z/2z/2 z/2z/2z/2z/2|
+z/2z/2z/2z/2 z/2z/2z/2z/2 z/2z/2z/2z/2 z/2z/2z/2z/2| \
+z/2z/2z/2z/2 z/2z/2z/2z/2 z/2z/2z/2z/2 z/2z/2z/2z/2| \
+z/2z/2z/2z/2 z/2z/2z/2z/2 z/2z/2z/2z/2 z/2z/2z/2z/2| \
+z/2z/2z/2z/2 z/2z/2z/2z/2 z/2z/2z/2z/2 z/2z/2z/2z/2|
+z/2z/2z/2z/2 z/2z/2z/2z/2 z/2z/2z/2z/2 z/2z/2z/2z/2| \
+z/2z/2z/2z/2 z/2z/2z/2z/2 z/2z/2z/2z/2

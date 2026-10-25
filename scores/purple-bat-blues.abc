@@ -1,0 +1,30 @@
+% emoji: 🦇
+% category: Jazz
+% mood: spooky, cool
+% level: 2
+% tags: blues, 12-bar, swing, halloween, band, original
+% voices: 🦇 Bat · Sax ; 🧟 Mummy · Muted trumpet
+% swing: 66
+% gchord: fcfc
+% chordprog: 0
+% bassprog: 32
+% drums: on
+% drum: d2ddd2dd 51 42 51 51 42 51 100 90 70 100 90 70
+% about: A brand-new 12-bar blues for our purple bat band. Count the bars: 4 on C, 2 on F, 2 on C, then G, F, C and around again!
+X:1
+T:Purple Bat Blues
+C:Little Maestro original
+M:4/4
+L:1/8
+Q:1/4=120
+K:C
+V:1 clef=treble
+%%MIDI program 65
+|:"C7"z G_Bc- c2 _BG|"C7"_EF=E C- C4|"C7"z G_Bc- c2 _BG|"C7"_EF=EG _B4|
+"F7"z F_Ac- c2 _AF|"F7"_EF_AF- F4|"C7"z G_Bc- c2 _BG|"C7"_EF=EC- C4|
+"G7"z GBd- d2 BG|"F7"z FAc- c2 AF|"C7"_EF=EC _B,C2 z|1 "G7"z DFG- G2 z2:|2 "C7"C8|]
+V:2 clef=treble
+%%MIDI program 59
+|:!p!z3 [E_B]-[E_B]4|z3 [E_B]-[E_B]4|z3 [E_B]-[E_B]4|z3 [E_B]-[E_B]4|
+z3 [_EA]-[_EA]4|z3 [_EA]-[_EA]4|z3 [E_B]-[E_B]4|z3 [E_B]-[E_B]4|
+z3 [FB]-[FB]4|z3 [_EA]-[_EA]4|z3 [E_B]-[E_B]4|1 z3 [FB]-[FB]4:|2 [E_B]8|]

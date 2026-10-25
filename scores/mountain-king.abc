@@ -1,0 +1,24 @@
+% emoji: 👹
+% category: Classical
+% mood: spooky, exciting
+% level: 2
+% tags: grieg, peer gynt, trolls, halloween, faster
+% voices: Sneaky melody ; Tiptoe bass
+% about: Peer Gynt sneaks into the troll king's hall... the music gets faster and FASTER until the trolls chase him out!
+X:1
+T:In the Hall of the Mountain King
+C:Edvard Grieg — Peer Gynt
+M:4/4
+L:1/8
+Q:1/4=100
+K:Bm
+V:1 clef=treble
+%%MIDI program 70
+B,CDE FDF2|^ECE2 =ECE2|B,CDE FDFB|AFDF A4|B,CDE FDF2|^ECE2 =ECE2|B,CDE FDFB|AFDF A4|
+[Q:1/4=135]B,CDE FDF2|^ECE2 =ECE2|B,CDE FDFB|AFDF A4|B,CDE FDF2|^ECE2 =ECE2|B,CDE FDFB|AFDF A4|
+[Q:1/4=175]B,CDE FDF2|^ECE2 =ECE2|B,CDE FDFB|AFDF A4|B,CDE FDF2|^ECE2 =ECE2|B,CDE FDFB|AFDF A4|[B,DF]8|]
+V:2 clef=bass
+%%MIDI program 45
+B,,2z2 B,,2z2|F,,2z2 F,,2z2|B,,2z2 B,,2z2|F,,2z2 F,,2z2|B,,2z2 B,,2z2|F,,2z2 F,,2z2|B,,2z2 B,,2z2|F,,2z2 F,,2z2|
+B,,2z2 B,,2z2|F,,2z2 F,,2z2|B,,2z2 B,,2z2|F,,2z2 F,,2z2|B,,2z2 B,,2z2|F,,2z2 F,,2z2|B,,2z2 B,,2z2|F,,2z2 F,,2z2|
+B,,2z2 B,,2z2|F,,2z2 F,,2z2|B,,2z2 B,,2z2|F,,2z2 F,,2z2|B,,2z2 B,,2z2|F,,2z2 F,,2z2|B,,2z2 B,,2z2|F,,2z2 F,,2z2|B,,8|]

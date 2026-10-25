@@ -1,0 +1,38 @@
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Node (tools/video)
+node_modules/
+
+# SQLite index rebuilt from scores/ (app/maestro.db)
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Rendered YouTube videos (.mp4 + .txt), fetched with ./fastdeploy.sh video get
+videos/
+
+# Scores backups made by ./fastdeploy.sh undeploy
+backups/
+
+# Deploy tooling (personal server setup), kept local
+fastdeploy.sh
+docker-compose.deploy.yml
+
+# Secrets and logs
+.env
+.env.*
+*.log

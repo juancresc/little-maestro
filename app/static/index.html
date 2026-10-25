@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Little Maestro</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🦇</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;600;800&family=Patrick+Hand&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/abcjs@6.4.4/abcjs-audio.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Hand-drawn "boiling line" filters for the show stage -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <pattern id="cs-stripes" patternUnits="userSpaceOnUse" width="26" height="26" patternTransform="rotate(40)">
+      <rect width="13" height="26" fill="#2b2235"/><rect x="13" width="13" height="26" fill="#f6c02c"/>
+    </pattern>
+    <filter id="boil-0"><feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="1"/><feDisplacementMap in="SourceGraphic" scale="3.5"/></filter>
+    <filter id="boil-1"><feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="7"/><feDisplacementMap in="SourceGraphic" scale="3.5"/></filter>
+    <filter id="boil-2"><feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="13"/><feDisplacementMap in="SourceGraphic" scale="3.5"/></filter>
+  </svg>
+
+  <header class="top">
+    <div class="brand">
+      <span class="logo">🦇</span>
+      <div>
+        <h1>Little Maestro</h1>
+        <p>Sheet music for small hands &amp; a spooky-cute jazz band</p>
+      </div>
+    </div>
+    <nav class="tabs" role="tablist">
+      <button class="tab" role="tab" data-tab="show">🎭 Theater</button>
+      <button class="tab" role="tab" data-tab="music">🎼 Music</button>
+    </nav>
+    <div class="top-actions">
+      <label class="volume" title="Volume">
+        <span class="volume-icon" aria-hidden="true">🔉</span>
+        <input type="range" class="volume-input" min="0" max="100" step="5" aria-label="Volume">
+      </label>
+    </div>
+  </header>
+
+  <!-- ===== SHOW: just the band, full screen, with a curtain ===== -->
+  <section class="view" id="view-show">
+    <div class="theater" id="theater">
+      <div class="backdrop" aria-hidden="true"></div>
+      <div class="spots" aria-hidden="true"><i></i><i></i><i></i></div>
+      <div class="deco" aria-hidden="true"><span>♪</span><span>♫</span><span>♩</span><span>♬</span><span>♪</span><span>♫</span></div>
+      <div class="floor" aria-hidden="true"></div>
+      <div class="drape drape-l" aria-hidden="true"></div>
+      <div class="drape drape-r" aria-hidden="true"></div>
+      <div class="show-band" id="show-band"></div>
+      <div class="footlights" aria-hidden="true"></div>
+      <div class="show-time" id="show-time"></div>
+      <div class="stage-ctl">
+        <button id="stage-music" title="More music: sheet music, all songs and the band" aria-label="More music">🎼<span>Music</span></button>
+        <button id="stage-next" title="Next song" aria-label="Next song">⏭<span>Next</span></button>
+        <button id="stage-fs" title="Full screen" aria-label="Full screen">⛶</button>
+      </div>
+      <div class="sparkles" id="sparkles" aria-hidden="true"></div>
+      <div class="peek-cat" id="peek-cat" aria-hidden="true">
+        <svg viewBox="0 0 120 100">
+          <path class="cat-tail" d="M104 100 C 118 80, 96 62, 112 40" fill="none" stroke="#1c1622" stroke-width="9" stroke-linecap="round"/>
+          <g class="cat-ear-l"><path d="M28 40 L30 6 L56 26 Z" fill="#1c1622"/><path d="M33 30 L34 15 L46 25 Z" fill="#f4a3b8"/></g>
+          <g class="cat-ear-r"><path d="M92 40 L90 6 L64 26 Z" fill="#1c1622"/><path d="M87 30 L86 15 L74 25 Z" fill="#f4a3b8"/></g>
+          <ellipse cx="60" cy="52" rx="38" ry="32" fill="#1c1622"/>
+          <ellipse cx="52" cy="34" rx="14" ry="6" fill="#fff" opacity=".08"/>
+          <g class="cat-eyes">
+            <ellipse cx="45" cy="50" rx="9" ry="11" fill="#c6f25a"/>
+            <ellipse cx="75" cy="50" rx="9" ry="11" fill="#c6f25a"/>
+            <ellipse cx="46" cy="51" rx="3" ry="8" fill="#111"/>
+            <ellipse cx="76" cy="51" rx="3" ry="8" fill="#111"/>
+            <circle cx="42" cy="45" r="2.6" fill="#fff"/>
+            <circle cx="72" cy="45" r="2.6" fill="#fff"/>
+          </g>
+          <ellipse cx="34" cy="64" rx="6" ry="3.5" fill="#f4a3b8" opacity=".45"/>
+          <ellipse cx="86" cy="64" rx="6" ry="3.5" fill="#f4a3b8" opacity=".45"/>
+          <path d="M56 61 h8 l-4 5 z" fill="#f4a3b8"/>
+          <path d="M60 66 q-4 6 -9 2 M60 66 q4 6 9 2" fill="none" stroke="#8a7f96" stroke-width="1.8" stroke-linecap="round"/>
+          <path d="M30 60 L8 56 M30 65 L8 67 M90 60 L112 56 M90 65 L112 67" stroke="#8a7f96" stroke-width="1.6" stroke-linecap="round"/>
+          <g fill="#1c1622"><ellipse cx="38" cy="90" rx="13" ry="10"/><ellipse cx="82" cy="90" rx="13" ry="10"/></g>
+          <path d="M34 86 v6 M40 86 v6 M78 86 v6 M84 86 v6" stroke="#3a3044" stroke-width="1.6" stroke-linecap="round"/>
+        </svg>
+      </div>
+
+      <div class="curtain" id="curtain">
+        <div class="curtain-card">
+          <div class="marquee">✨ Little Maestro presents ✨</div>
+          <div class="curtain-emoji" id="show-emoji">🎼</div>
+          <h2 id="show-title">Pick a song!</h2>
+          <p class="curtain-composer" id="show-composer"></p>
+          <div class="curtain-nav">
+            <button class="round" id="prev" aria-label="Previous song">◀</button>
+            <button class="curtain-play play-btn" id="curtain-play" disabled aria-label="Play">▶</button>
+            <button class="round" id="next" aria-label="Next song">▶</button>
+          </div>
+          <p class="curtain-info" id="curtain-info"></p>
+          <div class="curtain-extras">
+            <button class="chip jazz-btn" disabled aria-pressed="false">🎷 Jazz it up!</button>
+            <button class="chip autoplay-btn" aria-pressed="true">⏭ Autoplay</button>
+            <label class="volume"><span class="volume-icon" aria-hidden="true">🔉</span><input type="range" class="volume-input" min="0" max="100" step="5" aria-label="Volume"></label>
+            <button class="chip" id="to-music">🎼 Sheet music &amp; band</button>
+          </div>
+        </div>
+      </div>
+      <div class="valance" aria-hidden="true"></div>
+    </div>
+  </section>
+
+  <!-- ===== MUSIC: library, sheet, mixer ===== -->
+  <div class="view layout" id="view-music" hidden>
+    <aside class="library">
+      <input type="search" id="search" placeholder="Search: Mozart, sleepy, jazz…" autocomplete="off">
+      <div class="facet">
+        <h3>Category</h3>
+        <div class="chips" id="categories"></div>
+      </div>
+      <div class="facet">
+        <h3>Mood</h3>
+        <div class="chips" id="moods"></div>
+      </div>
+      <div class="facet">
+        <h3>Level</h3>
+        <div class="chips" id="levels"></div>
+      </div>
+      <label class="switch band-only"><input type="checkbox" id="band-only"> <span>🎺 Band pieces only</span></label>
+      <p class="count" id="count"></p>
+      <ul class="cards" id="cards"></ul>
+      <section class="more">
+        <h3>🌍 More music</h3>
+        <form class="import" id="import-form">
+          <input type="url" id="import-url" placeholder="Paste a link to a tune…" required>
+          <button class="btn primary">📥 Import</button>
+        </form>
+        <p class="import-status" id="import-status">Works with tune links from thesession.org and any page or file with ABC notation.</p>
+        <ul class="links">
+          <li><a href="https://thesession.org/tunes" target="_blank" rel="noopener">🎻 The Session</a><span>Thousands of folk tunes. Copy a tune's link and import it here.</span></li>
+          <li><a href="https://abcnotation.com/search" target="_blank" rel="noopener">🔎 abcnotation.com</a><span>Search more than 600,000 tunes, including nursery songs and carols. Paste the ABC into ✏️ Write a song.</span></li>
+          <li><a href="https://www.mutopiaproject.org/cgibin/make-table.cgi?Instrument=Piano" target="_blank" rel="noopener">🎹 Mutopia Project</a><span>Free classical piano sheet music to print.</span></li>
+          <li><a href="https://imslp.org/wiki/Category:For_children" target="_blank" rel="noopener">📚 IMSLP: music for children</a><span>Classical pieces written for children (PDF scores).</span></li>
+          <li><a href="https://musopen.org/music/" target="_blank" rel="noopener">🎧 Musopen</a><span>Free recordings of classical music to listen along.</span></li>
+        </ul>
+      </section>
+    </aside>
+
+    <main class="player">
+      <section class="now" id="now">
+        <div class="now-emoji" id="now-emoji">🎼</div>
+        <div class="now-text">
+          <div class="now-meta"><span class="pill" id="now-category"></span><span id="now-level"></span></div>
+          <h2 id="now-title">Pick a song!</h2>
+          <p class="composer" id="now-composer"></p>
+          <p class="about" id="now-about">Choose a piece from the library and press the big play button.</p>
+        </div>
+        <button class="to-theater" id="to-theater" title="Watch the band play this song full screen">🎭<span>Go to the theater</span></button>
+      </section>
+
+      <section class="transport">
+        <button class="play play-btn" disabled aria-label="Play">▶</button>
+        <div id="audio" class="audio"></div>
+        <span class="music-time" id="music-time"></span>
+        <button class="btn ghost autoplay-btn" aria-pressed="true">⏭ Autoplay</button>
+        <button class="btn jazz jazz-btn" disabled aria-pressed="false" title="Swing rhythm, walking bass and drums">🎷 Jazz it up!</button>
+      </section>
+
+      <section class="stage" id="stage" aria-label="The band"></section>
+      <div class="invites" id="stage-invites"></div>
+
+      <div id="music-sheet">
+        <section class="paper-wrap" id="paper-wrap">
+          <div id="paper" class="paper"></div>
+        </section>
+      </div>
+
+      <section class="keys-wrap">
+        <div class="keys-head">
+          <div class="note-name" id="note-name">&nbsp;</div>
+          <label class="switch" title="Show note names as Do Re Mi"><input type="checkbox" id="solfege"> <span>Do Re Mi</span></label>
+          <button class="btn ghost" id="open-compose">✏️ Write a song</button>
+        </div>
+        <div class="keys" id="keys"></div>
+      </section>
+    </main>
+  </div>
+
+  <dialog id="picker">
+    <form method="dialog" class="compose-head">
+      <h2 id="picker-title">Who plays?</h2>
+      <button class="btn ghost" aria-label="Close">✕</button>
+    </form>
+    <h3 class="pick-h">Pick a friend</h3>
+    <div class="pick-chars" id="pick-chars"></div>
+    <h3 class="pick-h" id="pick-inst-h">Pick an instrument</h3>
+    <div class="pick-insts" id="pick-insts"></div>
+    <div class="compose-actions">
+      <button class="btn ghost" id="pick-mute"></button>
+      <button class="btn ghost" id="pick-home">👋 Send home</button>
+      <span class="grow"></span>
+      <form method="dialog"><button class="btn primary">Done</button></form>
+    </div>
+  </dialog>
+
+  <dialog id="compose">
+    <form method="dialog" class="compose-head">
+      <h2>✏️ Write your own song</h2>
+      <button class="btn ghost" aria-label="Close">✕</button>
+    </form>
+    <p class="hint">Songs are written in <a href="https://abcnotation.com/learn" target="_blank" rel="noopener">ABC notation</a>.
+      Letters are notes (<code>C D E</code> low, <code>c d e</code> high), numbers make them longer, <code>|</code> is a bar line,
+      <code>"C"</code> adds a chord for Pumpkin Jack. Find thousands more tunes at abcnotation.com.</p>
+    <div class="compose-grid">
+      <textarea id="compose-abc" spellcheck="false"></textarea>
+      <div id="compose-preview" class="paper small"></div>
+    </div>
+    <div class="compose-actions">
+      <label>Category <input id="compose-category" list="category-list" value="My Songs"></label>
+      <datalist id="category-list"></datalist>
+      <label>Emoji <input id="compose-emoji" value="🎵" maxlength="4" size="3"></label>
+      <span class="grow" id="compose-status"></span>
+      <button class="btn ghost" id="compose-try">▶ Try it</button>
+      <button class="btn primary" id="compose-save">💾 Save to library</button>
+    </div>
+  </dialog>
+
+  <script src="https://cdn.jsdelivr.net/npm/abcjs@6.4.4/dist/abcjs-basic-min.js"></script>
+  <script src="characters.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

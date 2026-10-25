@@ -1,0 +1,21 @@
+% emoji: 💌
+% category: Classical
+% mood: calm
+% level: 3
+% tags: beethoven, piano, romantic
+% about: Beethoven wrote this little piece for someone special — nobody is quite sure who "Elise" was!
+% voices: Right hand ; Left hand
+X:1
+T:Für Elise
+T:(opening)
+C:Ludwig van Beethoven
+M:3/8
+L:1/16
+Q:1/8=130
+K:Am
+V:1 clef=treble
+%%MIDI program 0
+e^d|:e^deB=dc|A2 z CEA|B2 z E^GB|c2 z Ee^d|e^deB=dc|A2 z CEA|B2 z EcB|1 A2 z2 e^d:|2 A6|]
+V:2 clef=bass
+%%MIDI program 0
+z2|:z6|A,,E,A, z3|E,,E,^G, z3|A,,E,A, z3|z6|A,,E,A, z3|E,,E,^G, z3|1 A,,E,A, z3:|2 [A,,E,A,]6|]
