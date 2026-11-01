@@ -2,7 +2,7 @@ services:
   maestro:
     build: ./app
     ports:
-      - "8080:8000"
+      - "8086:8000"
     volumes:
       # Drop any .abc file in ./scores and it shows up in the library.
       - ./scores:/data/scores
@@ -11,7 +11,7 @@ services:
     restart: unless-stopped
 
   # The YouTube video job (tools/video). Not started with the app: run it when you want videos,
-  #   docker compose run --rm video --list | --all | <song-id …>
+  #   docker compose run --rm video --list | --all [--jobs 3] | <song-id …>
   video:
     build: ./tools/video
     profiles: ["tools"]
@@ -21,5 +21,5 @@ services:
       OUT_DIR: /videos
     volumes:
       - ./videos:/videos
-    shm_size: 1gb
-    mem_limit: 1500m
+    shm_size: 2gb
+    mem_limit: 4g

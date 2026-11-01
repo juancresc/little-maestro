@@ -36,3 +36,5 @@ docker-compose.deploy.yml
 .env
 .env.*
 *.log
+
+channel-art/

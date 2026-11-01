@@ -46,8 +46,23 @@ In multi-voice tunes, put a `%%MIDI program N` line right after each `V:` line. 
 You can find thousands more tunes at abcnotation.com and in the folk and classical collections on IMSLP and Mutopia.
 
 ## YouTube videos
-Each song can become a 1080p video of the theater show: the curtain rises with the song's title, the band plays the whole song (with its repeats), bows, and the curtain comes down. The buttons, the baton and the sheet music don't appear. The videos are made by a background job on the server. A headless Chrome plays the show for real, so **each song takes about as long as its show** (1½–2 minutes for most, longer for long pieces). Nothing in the app starts it: use the command line.
+Each song can become a **4K, 60 fps** video of the theater show: the curtain rises with the song's title, the band plays the whole song (with its repeats), bows, and the curtain comes down. The buttons, the baton and the sheet music don't appear. Nothing in the app starts it: use the command line.
 
+The show is rendered, not filmed: a headless Chrome opens the song with its clock frozen, moves it forward exactly one frame at a time and takes a picture of each frame, drawn at 2× for 4K. No frame is ever dropped and the sound (mixed afterwards from the same notes) lines up with every frame. Uploading in 4K also makes YouTube use its better encoder, so the video looks sharper even for people watching in 1080p.
+
+**On your Mac (fastest).** The app must be running (`docker compose up -d`). The Mac's GPU draws the frames and its hardware encoder makes the MP4, with 6 songs at a time: about 2½ hours for every song, roughly the length of the shows themselves.
+```bash
+cd tools/video && npm install && npx playwright install chromium   # once
+node export.mjs --list                    # the songs you can render (their ids)
+node export.mjs twinkle canon-in-d        # some songs → ./videos
+node export.mjs --all                     # every song
+
+# for YouTube: keep the Mac awake and link the real app in the descriptions
+caffeinate -i node export.mjs --public-url https://littlemaestro.crescente.com.ar --all
+```
+Options: `--res 2160|1440|1080` (picture height, default 2160), `--fps 60|30` (default 60) and `--jobs <n>` (songs at once, default 6 on a Mac). 1440p or 30 fps take about half the time.
+
+**On the server**, as a background job:
 ```bash
 ./fastdeploy.sh video list                    # the songs you can render (their ids)
 ./fastdeploy.sh video make twinkle canon-in-d # start the job for some songs…
@@ -55,19 +70,17 @@ Each song can become a 1080p video of the theater show: the curtain rises with t
 ./fastdeploy.sh video status                  # progress, and the videos ready on the server
 ./fastdeploy.sh video get                     # download the finished videos into ./videos
 ```
+- The server has no GPU, so everything is done by the CPU, one song at a time: at 4K60 a song takes about 20× its show. Add `--res 1080 --fps 30` to `make` for quicker videos.
 - The job keeps running if you close the terminal. Only one runs at a time.
 - Add `--on=<subdomain>` to use another deployed app, e.g. `./fastdeploy.sh video list --on=music`.
+- Videos stay on the server in `~/apps/<subdomain>/videos/`. `deploy` never touches or uploads them.
+- The first `make` or `list` builds the job's image (Chrome + ffmpeg, about 2 GB), which takes a few minutes. After that it starts right away. It uses up to 4 GB of memory while it runs.
+
+The same Docker job also runs on your computer, just as slowly as on the server (Docker on a Mac can't use the GPU): `docker compose run --rm video --list | --all | <song-id …>` → `./videos`.
+
+For every video:
 - Each video is named after the song (YouTube uses the file name as the title). A `.txt` next to it has the YouTube title and a description that explains Little Maestro, lists who plays in the song and links to the song in the app.
 - The band is each song's default band (choices saved in a browser don't apply).
-- Videos stay on the server in `~/apps/<subdomain>/videos/`. `deploy` never touches or uploads them.
-- The first `make` or `list` builds the job's image (Chrome + ffmpeg, about 2 GB), which takes a few minutes. After that it starts right away. It uses up to 1.5 GB of memory while it runs.
-
-**On your computer** (the app must be running):
-```bash
-docker compose run --rm video --list          # same options: --list | --all | <song-id …>
-docker compose run --rm video twinkle         # → ./videos
-```
-or without Docker: `cd tools/video && npm install && npx playwright install chromium-headless-shell && node export.mjs --list`.
 
 Games and TV themes are copyrighted, so YouTube will flag those videos. Classical pieces and Little Maestro originals are safe.
 
